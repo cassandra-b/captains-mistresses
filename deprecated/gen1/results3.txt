@@ -1,0 +1,2679 @@
+evaluation function: utilSortTromp
+blank value: None
+a  1  value: 50.
+b 10k value: 50.
+c 30k value: 0.
+d 50k value: 50.
+e 65k value: -50.
+
+
+evaluation function: utilLines
+blank value: 10.
+a  1  value: 19.5
+b 10k value: 10.
+c 30k value: -8.5
+d 50k value: 77.
+e 65k value: -30.
+
+
+evaluation function: utilDots
+blank value: 10.
+a  1  value: 20.
+b 10k value: 13.
+c 30k value: -7.5
+d 50k value: 68.5
+e 65k value: -23.
+
+
+evaluation function: utilHeightLines
+blank value: 10.
+a  1  value: 20.1785714286
+b 10k value: 7.96875
+c 30k value: -5.88392857143
+d 50k value: 74.4285714286
+e 65k value: -25.8214285714
+
+
+evaluation function: utilHeightDots
+blank value: 10.
+a  1  value: 20.6768984488
+b 10k value: 9.38020833333
+c 30k value: -5.49692460317
+d 50k value: 67.071875
+e 65k value: -19.4138392857
+
+
+evaluation function: utilWeightLines
+blank value: 10.
+a  1  value: 18.625
+b 10k value: 10.75
+c 30k value: -6.125
+d 50k value: 73.75
+e 65k value: -21.375
+
+
+evaluation function: utilWeightDots
+blank value: 10.
+a  1  value: 18.95
+b 10k value: 12.375
+c 30k value: -5.7125
+d 50k value: 65.9125
+e 65k value: -15.5
+
+
+evaluation function: utilHWLines
+blank value: 10.
+a  1  value: 21.7053571429
+b 10k value: 8.6953125
+c 30k value: -7.34709821429
+d 50k value: 81.1482142857
+e 65k value: -21.3946428571
+
+
+evaluation function: utilHWDots
+blank value: 10.
+a  1  value: 22.2523633658
+b 10k value: 10.2274131944
+c 30k value: -7.05196676587
+d 50k value: 72.6101736111
+e 65k value: -15.1589012897
+
+
+evaluation function: utilCowardLines
+blank value: 0.
+a  1  value: 9.5
+b 10k value: -9.25
+c 30k value: -32.25
+d 50k value: 67.
+e 65k value: -69.
+
+
+evaluation function: utilCowardDots
+blank value: 0.
+a  1  value: 8.25
+b 10k value: -7.75
+c 30k value: -32.5
+d 50k value: 55.75
+e 65k value: -60.5
+
+
+Testing for Greedy search using utilLines heuristic vs. RandomPlayer:
+Game #01 time: 0.00209900 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #02 time: 0.00369000 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,o,x,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #03 time: 0.00209900 
+outcome: x,o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #04 time: 0.00423200 
+outcome: o,x,o,o,o,o,x,o,x,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #05 time: 0.00206000 
+outcome: o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #06 time: 0.00850300 
+outcome: x,o,o,o,x,x,x,x,o,b,b,b,o,o,o,x,o,x,o,o,o,x,o,o,x,x,o,x,o,x,x,x,x,b,b,b,x,x,o,x,o,o,loss
+Game #07 time: 0.00466600 
+outcome: o,o,x,x,o,b,x,x,o,o,o,b,x,o,o,o,x,x,o,o,x,o,b,b,x,o,x,x,b,b,x,x,x,o,b,b,b,b,b,b,b,b,loss
+Game #08 time: 0.00105800 
+outcome: o,o,o,o,b,b,x,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #09 time: 0.00280200 
+outcome: o,o,x,b,b,b,x,x,o,o,b,b,o,x,o,o,o,b,x,o,b,b,b,b,x,x,o,x,x,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #10 time: 0.00107800 
+outcome: o,o,o,o,b,b,x,x,b,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #11 time: 0.00083700 
+outcome: o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #12 time: 0.00103500 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #13 time: 0.00126900 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,x,x,b,b,b,o,x,b,b,b,b,loss
+Game #14 time: 0.00293400 
+outcome: o,o,x,x,x,o,x,x,o,o,o,x,x,o,o,b,b,b,o,o,o,b,b,b,x,o,o,o,x,o,x,x,o,x,x,x,x,x,b,b,b,b,loss
+Game #15 time: 0.00106600 
+outcome: o,x,b,b,b,b,b,b,b,b,b,b,x,o,x,x,x,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #16 time: 0.00069000 
+outcome: o,o,o,o,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #17 time: 0.00070300 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #18 time: 0.00065500 
+outcome: o,x,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #19 time: 0.00058500 
+outcome: o,x,x,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #20 time: 0.00073700 
+outcome: o,x,b,b,b,b,x,o,o,o,o,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #21 time: 0.00077600 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,o,x,x,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #22 time: 0.00074500 
+outcome: x,o,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #23 time: 0.00061500 
+outcome: x,o,o,o,o,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #24 time: 0.00057900 
+outcome: x,o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #25 time: 0.00073500 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #26 time: 0.00064200 
+outcome: o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,x,x,x,o,b,b,b,b,b,b,b,b,loss
+Game #27 time: 0.00206700 
+outcome: o,o,o,x,x,o,x,o,o,o,o,b,x,x,o,x,x,x,o,x,b,b,b,b,x,o,o,o,x,x,x,x,o,o,x,o,x,o,x,b,b,b,loss
+Game #28 time: 0.00052900 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #29 time: 0.00084100 
+outcome: x,o,b,b,b,b,o,o,o,x,b,b,o,b,b,b,b,b,x,o,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #30 time: 0.00065100 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,o,x,x,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+average time: 0.00169927 
+Greedy search using utilLines heuristic first-player win-rate: 2-28-0
+
+Testing for RandomPlayer vs. Greedy search using utilLines heuristic:
+Game #01 time: 0.00051400 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,o,o,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #02 time: 0.00176800 
+outcome: x,x,x,o,o,x,o,o,x,o,x,o,o,b,b,b,b,b,x,o,x,x,x,o,o,x,o,o,x,x,x,o,x,o,b,b,o,b,b,b,b,b,loss
+Game #03 time: 0.00045300 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #04 time: 0.00059200 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #05 time: 0.00046100 
+outcome: x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #06 time: 0.00044500 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #07 time: 0.00180300 
+outcome: x,o,o,x,o,o,o,o,x,x,b,b,x,o,x,x,x,o,x,x,o,x,x,o,x,o,b,b,b,b,o,o,o,x,x,o,o,o,x,x,x,b,win
+Game #08 time: 0.00040400 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #09 time: 0.00040700 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #10 time: 0.00094200 
+outcome: x,x,x,o,o,b,o,o,x,x,x,x,b,b,b,b,b,b,o,x,o,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #11 time: 0.00194700 
+outcome: x,x,o,o,x,o,o,o,o,x,b,b,o,x,x,x,o,x,o,x,o,x,x,o,x,o,x,o,x,b,o,o,x,x,x,b,o,o,x,x,o,b,win
+Game #12 time: 0.00038000 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #13 time: 0.00060400 
+outcome: x,x,o,o,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,x,x,x,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #14 time: 0.00179600 
+outcome: x,o,x,b,b,b,x,x,x,o,x,x,o,o,x,x,o,o,x,o,x,o,x,o,o,o,b,b,b,b,o,x,x,x,o,x,o,o,x,o,o,x,win
+Game #15 time: 0.00039200 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #16 time: 0.00048900 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,win
+Game #17 time: 0.00050500 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #18 time: 0.00037700 
+outcome: x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #19 time: 0.00037800 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #20 time: 0.00038700 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #21 time: 0.00038300 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,win
+Game #22 time: 0.00038100 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #23 time: 0.00040200 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #24 time: 0.00038100 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #25 time: 0.00038000 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #26 time: 0.00205600 
+outcome: x,x,x,o,o,x,o,x,x,x,o,x,o,o,x,b,b,b,x,o,x,o,x,x,o,o,x,o,b,b,o,x,o,x,x,o,o,o,x,o,o,x,win
+Game #27 time: 0.00040400 
+outcome: x,o,o,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #28 time: 0.00063900 
+outcome: x,x,x,o,b,b,o,x,o,b,b,b,o,x,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #29 time: 0.00170000 
+outcome: x,o,o,b,b,b,o,o,x,x,x,o,x,o,o,x,b,b,x,x,x,o,x,x,x,x,x,b,b,b,o,o,o,b,b,b,o,o,o,x,o,x,win
+Game #30 time: 0.00037800 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,o,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+average time: 0.00073827 
+Greedy search using utilLines heuristic second-player win-rate: 1-29-0
+
+
+Testing for Greedy search using utilDots heuristic vs. RandomPlayer:
+Game #01 time: 0.00045600 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #02 time: 0.00127900 
+outcome: x,o,b,b,b,b,x,o,o,o,x,x,x,o,o,o,x,b,o,o,x,x,x,o,b,b,b,b,b,b,x,x,o,x,b,b,o,b,b,b,b,b,loss
+Game #03 time: 0.00167000 
+outcome: o,o,b,b,b,b,x,o,o,o,x,b,x,o,x,x,o,o,o,o,o,x,x,x,x,x,o,x,b,b,x,x,x,o,o,o,x,o,x,b,b,b,loss
+Game #04 time: 0.00045200 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #05 time: 0.00178100 
+outcome: x,o,o,o,b,b,x,o,x,x,o,o,x,b,b,b,b,b,o,o,o,x,o,x,x,o,x,o,o,x,x,o,o,x,o,x,x,x,x,x,b,b,win
+Game #06 time: 0.00044500 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #07 time: 0.00168400 
+outcome: x,x,x,o,o,b,x,x,x,o,o,b,o,o,o,x,o,x,x,o,x,o,o,x,x,o,o,x,b,b,x,x,x,b,b,b,o,o,o,b,b,b,loss
+Game #08 time: 0.00174400 
+outcome: x,o,b,b,b,b,x,x,o,x,o,x,x,o,o,o,x,o,o,x,o,x,o,o,x,x,b,b,b,b,x,x,o,x,o,x,o,o,x,o,o,x,loss
+Game #09 time: 0.00183500 
+outcome: x,o,o,x,o,x,x,x,o,b,b,b,x,o,o,o,x,o,o,o,o,x,o,o,x,o,o,x,x,o,x,x,x,b,b,b,x,x,x,o,o,x,loss
+Game #10 time: 0.00148400 
+outcome: x,x,x,o,b,b,x,x,b,b,b,b,x,o,x,o,o,b,o,o,o,x,o,b,x,o,x,o,x,o,x,b,b,b,b,b,x,o,b,b,b,b,win
+Game #11 time: 0.00156900 
+outcome: x,x,x,b,b,b,x,x,o,o,x,x,x,o,o,o,x,o,o,o,o,x,x,o,x,o,x,b,b,b,x,b,b,b,b,b,x,o,o,o,b,b,win
+Game #12 time: 0.00046000 
+outcome: b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #13 time: 0.00043800 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #14 time: 0.00044900 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #15 time: 0.00043900 
+outcome: x,x,x,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #16 time: 0.00054900 
+outcome: x,b,b,b,b,b,b,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,o,o,x,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,loss
+Game #17 time: 0.00045900 
+outcome: x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #18 time: 0.00171000 
+outcome: x,x,o,x,o,b,x,x,x,x,b,b,x,o,o,o,x,b,o,o,o,x,x,o,x,x,b,b,b,b,x,o,o,o,b,b,x,x,o,o,o,b,win
+Game #19 time: 0.00147100 
+outcome: x,x,o,b,b,b,x,x,o,x,b,b,x,o,o,x,x,x,o,o,o,x,o,x,o,o,x,o,b,b,x,b,b,b,b,b,x,o,o,o,b,b,loss
+Game #20 time: 0.00169800 
+outcome: x,x,x,o,b,b,x,o,o,o,x,x,x,o,x,x,x,o,o,o,o,x,o,x,x,x,b,b,b,b,x,o,o,o,b,b,x,o,o,o,b,b,loss
+Game #21 time: 0.00044100 
+outcome: x,x,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #22 time: 0.00151100 
+outcome: o,b,b,b,b,b,x,o,x,x,o,x,b,b,b,b,b,b,o,o,o,x,x,x,x,o,x,o,x,o,x,o,o,o,x,b,x,x,o,o,b,b,loss
+Game #23 time: 0.00044000 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #24 time: 0.00186000 
+outcome: x,o,x,o,x,o,x,o,x,x,o,o,x,x,o,b,b,b,o,o,x,o,x,o,x,o,x,o,o,o,x,x,o,o,o,x,x,x,x,b,b,b,loss
+Game #25 time: 0.00043500 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,x,x,b,b,b,loss
+Game #26 time: 0.00051400 
+outcome: x,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,o,x,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #27 time: 0.00056800 
+outcome: x,x,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,o,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #28 time: 0.00170700 
+outcome: x,o,b,b,b,b,x,o,o,o,x,o,x,o,x,x,x,o,o,o,o,x,o,x,x,x,b,b,b,b,x,o,x,x,o,x,x,o,o,o,b,b,loss
+Game #29 time: 0.00056400 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,x,x,o,x,b,b,b,b,b,b,b,b,loss
+Game #30 time: 0.00127100 
+outcome: x,x,x,o,o,b,b,b,b,b,b,b,x,b,b,b,b,b,o,o,x,o,o,b,x,o,o,o,b,b,x,o,o,x,b,b,x,x,x,x,b,b,win
+average time: 0.00104610 
+Greedy search using utilDots heuristic first-player win-rate: 6-24-0
+
+Testing for RandomPlayer vs. Greedy search using utilDots heuristic:
+Game #01 time: 0.00038500 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #02 time: 0.00038800 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #03 time: 0.00040300 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,win
+Game #04 time: 0.00060000 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,x,b,b,b,x,x,o,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,win
+Game #05 time: 0.00039500 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #06 time: 0.00038800 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,win
+Game #07 time: 0.00171400 
+outcome: o,x,x,x,o,o,o,x,b,b,b,b,o,x,x,x,o,x,x,x,o,o,x,o,x,o,o,b,b,b,o,x,x,x,b,b,o,o,o,x,o,x,win
+Game #08 time: 0.00039500 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #09 time: 0.00038100 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #10 time: 0.00177400 
+outcome: o,x,x,o,x,o,o,o,o,x,b,b,o,x,x,o,x,x,x,x,x,o,o,o,o,o,o,x,o,x,o,x,x,x,b,b,x,o,x,b,b,b,win
+Game #11 time: 0.00039600 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #12 time: 0.00038400 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #13 time: 0.00038200 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #14 time: 0.00175200 
+outcome: x,x,x,b,b,b,o,o,o,b,b,b,o,x,o,o,x,o,x,x,o,x,o,x,o,x,x,x,o,x,o,o,o,o,b,b,x,o,o,x,x,x,loss
+Game #15 time: 0.00038600 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #16 time: 0.00051700 
+outcome: o,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #17 time: 0.00192800 
+outcome: x,o,x,x,o,x,o,x,o,o,o,x,o,x,x,x,o,o,x,x,x,o,x,x,o,o,x,x,x,o,o,o,o,x,o,x,o,o,x,b,b,b,win
+Game #18 time: 0.00038200 
+outcome: o,o,o,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #19 time: 0.00040400 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #20 time: 0.00177100 
+outcome: o,x,b,b,b,b,o,x,o,o,o,x,o,x,x,x,o,o,x,x,o,x,x,x,o,b,b,b,b,b,o,x,o,x,o,o,o,x,x,x,o,x,win
+Game #21 time: 0.00177100 
+outcome: o,x,o,x,x,b,o,o,o,o,b,b,o,x,x,x,o,b,x,x,x,o,x,x,o,x,x,x,o,x,o,o,o,x,b,b,o,o,b,b,b,b,loss
+Game #22 time: 0.00038800 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,o,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #23 time: 0.00186800 
+outcome: o,o,x,x,o,x,o,x,x,b,b,b,o,x,x,x,o,o,x,x,x,o,o,x,o,o,x,x,x,o,o,o,b,b,b,b,o,o,x,x,o,x,win
+Game #24 time: 0.00043200 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #25 time: 0.00052700 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,o,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,win
+Game #26 time: 0.00042300 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,win
+Game #27 time: 0.00043400 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #28 time: 0.00040400 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #29 time: 0.00039900 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,win
+Game #30 time: 0.00041100 
+outcome: o,o,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+average time: 0.00073940 
+Greedy search using utilDots heuristic second-player win-rate: 2-28-0
+
+
+Testing for Greedy search using utilHeightLines heuristic vs. RandomPlayer:
+Game #01 time: 0.00166000 
+outcome: o,x,x,o,x,o,b,b,b,b,b,b,o,x,x,o,x,o,x,o,o,x,x,o,x,x,o,o,o,x,x,x,x,o,b,b,o,x,o,o,o,x,loss
+Game #02 time: 0.00069300 
+outcome: o,o,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,o,o,o,o,b,o,x,x,x,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #03 time: 0.00050100 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #04 time: 0.00171800 
+outcome: o,x,x,o,o,o,x,o,x,x,o,b,o,x,o,o,o,b,x,o,o,x,o,x,x,x,o,x,o,x,o,x,b,b,b,b,x,x,o,x,o,x,loss
+Game #05 time: 0.00039100 
+outcome: o,x,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #06 time: 0.00079100 
+outcome: o,x,x,b,b,b,o,o,o,x,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #07 time: 0.00101100 
+outcome: x,o,x,o,x,b,o,o,x,x,b,b,b,b,b,b,b,b,o,x,o,x,x,b,x,o,o,o,o,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #08 time: 0.00068700 
+outcome: o,o,o,x,x,b,b,b,b,b,b,b,x,x,o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #09 time: 0.00044700 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #10 time: 0.00050600 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #11 time: 0.00072200 
+outcome: o,x,o,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,o,o,o,b,b,x,x,x,b,b,b,x,b,b,b,b,b,loss
+Game #12 time: 0.00048500 
+outcome: o,x,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #13 time: 0.00038700 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #14 time: 0.00039500 
+outcome: o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #15 time: 0.00038700 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #16 time: 0.00049300 
+outcome: o,x,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,loss
+Game #17 time: 0.00041300 
+outcome: o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #18 time: 0.00038800 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #19 time: 0.00038600 
+outcome: o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #20 time: 0.00058900 
+outcome: o,o,x,x,b,b,x,o,b,b,b,b,x,o,b,b,b,b,o,o,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #21 time: 0.00048400 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #22 time: 0.00165900 
+outcome: o,o,o,x,o,x,x,o,x,o,b,b,x,x,o,x,x,x,o,o,o,x,o,o,x,x,o,o,x,x,x,x,b,b,b,b,x,o,o,o,x,o,loss
+Game #23 time: 0.00049300 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #24 time: 0.00132000 
+outcome: o,x,x,x,o,x,x,o,o,o,b,b,x,x,o,x,x,x,o,o,o,x,o,b,o,o,b,b,b,b,o,x,o,x,b,b,x,b,b,b,b,b,loss
+Game #25 time: 0.00039700 
+outcome: x,o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #26 time: 0.00039500 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #27 time: 0.00145200 
+outcome: o,o,o,x,x,x,x,x,o,b,b,b,x,o,x,o,o,b,x,x,o,o,o,x,o,x,o,o,o,x,x,x,o,b,b,b,x,b,b,b,b,b,loss
+Game #28 time: 0.00050500 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,x,x,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #29 time: 0.00048600 
+outcome: x,o,b,b,b,b,x,x,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #30 time: 0.00049700 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,x,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+average time: 0.00069127 
+Greedy search using utilHeightLines heuristic first-player win-rate: 0-30-0
+
+Testing for RandomPlayer vs. Greedy search using utilHeightLines heuristic:
+Game #01 time: 0.00034000 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #02 time: 0.00033600 
+outcome: x,x,x,x,b,b,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #03 time: 0.00035300 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,win
+Game #04 time: 0.00033500 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #05 time: 0.00033800 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #06 time: 0.00033500 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #07 time: 0.00034800 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #08 time: 0.00033700 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #09 time: 0.00035400 
+outcome: x,o,o,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #10 time: 0.00041200 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #11 time: 0.00033700 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #12 time: 0.00157100 
+outcome: x,x,o,o,x,o,o,x,x,x,o,x,o,o,b,b,b,b,o,x,o,x,x,x,x,x,x,o,x,o,o,o,o,x,o,o,o,x,b,b,b,b,loss
+Game #13 time: 0.00174100 
+outcome: x,x,x,o,o,o,o,x,o,x,x,o,o,x,x,x,o,x,o,o,o,x,b,b,x,x,x,o,x,x,o,o,x,o,o,x,o,o,x,o,x,b,win
+Game #14 time: 0.00035000 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #15 time: 0.00158900 
+outcome: x,o,o,o,x,o,x,o,o,x,o,x,x,x,x,x,b,b,o,b,b,b,b,b,x,o,x,x,o,x,x,x,x,o,o,x,o,o,o,x,o,o,win
+Game #16 time: 0.00053500 
+outcome: x,b,b,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,o,o,b,b,b,b,win
+Game #17 time: 0.00033500 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,win
+Game #18 time: 0.00034500 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #19 time: 0.00033900 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #20 time: 0.00065600 
+outcome: x,o,b,b,b,b,x,x,x,x,b,b,x,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,o,o,o,x,b,b,b,b,b,b,b,b,win
+Game #21 time: 0.00033300 
+outcome: x,b,b,b,b,b,x,o,o,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #22 time: 0.00033300 
+outcome: x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #23 time: 0.00106200 
+outcome: x,o,o,o,x,b,x,x,o,x,b,b,x,o,x,o,b,b,o,b,b,b,b,b,x,o,b,b,b,b,x,x,b,b,b,b,o,o,o,x,b,b,loss
+Game #24 time: 0.00033800 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #25 time: 0.00035400 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #26 time: 0.00033700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,b,b,b,b,b,b,b,b,b,win
+Game #27 time: 0.00043500 
+outcome: x,o,o,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #28 time: 0.00034200 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #29 time: 0.00173400 
+outcome: x,o,o,o,x,o,x,x,x,o,b,b,x,x,x,o,x,x,o,x,o,x,b,b,x,o,x,o,x,b,x,o,o,o,x,x,o,o,o,x,o,o,win
+Game #30 time: 0.00035600 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+average time: 0.00056367 
+Greedy search using utilHeightLines heuristic second-player win-rate: 2-28-0
+
+
+Testing for Greedy search using utilHeightDots heuristic vs. RandomPlayer:
+Game #01 time: 0.00043100 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #02 time: 0.00166900 
+outcome: x,x,o,o,b,b,o,x,x,o,x,o,x,x,b,b,b,b,x,x,o,o,x,o,x,o,o,o,x,o,o,x,x,o,o,x,x,x,o,b,b,b,win
+Game #03 time: 0.00047700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #04 time: 0.00097200 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,o,x,o,b,b,o,o,o,x,b,b,x,o,x,o,x,b,x,x,x,o,b,b,loss
+Game #05 time: 0.00051500 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #06 time: 0.00041300 
+outcome: x,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #07 time: 0.00043400 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #08 time: 0.00040900 
+outcome: x,x,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,loss
+Game #09 time: 0.00074500 
+outcome: x,x,x,o,b,b,x,o,o,o,b,b,x,o,x,b,b,b,o,o,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #10 time: 0.00040700 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,x,b,b,b,loss
+Game #11 time: 0.00041200 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #12 time: 0.00043000 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,x,x,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #13 time: 0.00083900 
+outcome: x,x,b,b,b,b,x,o,b,b,b,b,o,o,b,b,b,b,x,o,x,o,b,b,o,o,x,x,b,b,b,b,b,b,b,b,x,o,b,b,b,b,loss
+Game #14 time: 0.00042500 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #15 time: 0.00117000 
+outcome: x,x,x,x,b,b,x,o,o,x,x,b,x,o,x,o,o,b,o,o,o,b,b,b,x,b,b,b,b,b,x,o,o,o,x,b,b,b,b,b,b,b,win
+Game #16 time: 0.00052100 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,x,o,x,b,b,b,o,o,x,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,loss
+Game #17 time: 0.00041700 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #18 time: 0.00163400 
+outcome: x,x,x,o,b,b,x,o,o,o,x,o,o,o,o,x,o,x,o,o,o,x,x,x,x,b,b,b,b,b,x,x,o,o,x,x,x,x,o,o,o,b,loss
+Game #19 time: 0.00040700 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #20 time: 0.00061400 
+outcome: b,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,o,o,o,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #21 time: 0.00052200 
+outcome: x,b,b,b,b,b,x,o,b,b,b,b,o,o,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #22 time: 0.00040900 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #23 time: 0.00043000 
+outcome: x,x,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #24 time: 0.00041300 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #25 time: 0.00051900 
+outcome: x,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,o,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #26 time: 0.00042000 
+outcome: b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,loss
+Game #27 time: 0.00041100 
+outcome: x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #28 time: 0.00051200 
+outcome: b,b,b,b,b,b,x,x,b,b,b,b,x,o,x,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #29 time: 0.00153000 
+outcome: x,o,o,x,b,b,x,x,o,o,x,o,x,o,x,o,x,o,o,o,o,o,b,b,x,o,x,o,x,o,x,x,b,b,b,b,x,x,x,o,b,b,loss
+Game #30 time: 0.00048000 
+outcome: x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+average time: 0.00063290 
+Greedy search using utilHeightDots heuristic first-player win-rate: 2-28-0
+
+Testing for RandomPlayer vs. Greedy search using utilHeightDots heuristic:
+Game #01 time: 0.00035700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #02 time: 0.00046700 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #03 time: 0.00037500 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,win
+Game #04 time: 0.00035900 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #05 time: 0.00151100 
+outcome: o,o,o,x,o,b,o,o,o,o,b,b,o,x,x,b,b,b,x,x,x,b,b,b,x,x,o,o,x,x,x,o,x,x,o,x,o,o,x,b,b,b,loss
+Game #06 time: 0.00037400 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,win
+Game #07 time: 0.00070400 
+outcome: o,o,o,o,b,b,o,b,b,b,b,b,x,x,x,b,b,b,x,x,b,b,b,b,x,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,loss
+Game #08 time: 0.00045600 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,win
+Game #09 time: 0.00126800 
+outcome: o,x,b,b,b,b,x,o,x,o,x,b,x,x,x,b,b,b,x,o,x,x,x,o,o,o,o,o,b,b,o,x,b,b,b,b,o,o,o,x,b,b,loss
+Game #10 time: 0.00036000 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,o,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #11 time: 0.00146400 
+outcome: o,o,o,x,x,o,o,x,x,x,b,b,x,o,o,o,x,o,x,o,o,x,x,o,x,x,x,o,b,b,b,b,b,b,b,b,x,o,o,x,o,x,loss
+Game #12 time: 0.00151700 
+outcome: o,x,x,b,b,b,x,o,x,o,x,o,x,o,x,x,o,o,x,x,x,o,o,x,o,o,b,b,b,b,x,o,x,o,x,x,o,o,o,x,b,b,win
+Game #13 time: 0.00055100 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,x,b,b,b,b,o,b,b,b,b,b,x,o,b,b,b,b,o,o,b,b,b,b,win
+Game #14 time: 0.00073700 
+outcome: o,o,o,x,b,b,o,b,b,b,b,b,x,x,x,x,b,b,x,o,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,win
+Game #15 time: 0.00036300 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #16 time: 0.00038600 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #17 time: 0.00035700 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #18 time: 0.00164200 
+outcome: o,o,o,x,o,o,x,o,o,o,x,x,x,x,x,o,x,x,x,o,o,o,x,x,x,b,b,b,b,b,x,x,x,o,o,x,o,o,o,x,o,x,win
+Game #19 time: 0.00078800 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,x,x,o,o,b,b,o,x,x,o,b,b,o,x,x,x,x,b,b,b,b,b,b,b,win
+Game #20 time: 0.00036000 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #21 time: 0.00189700 
+outcome: o,o,o,x,x,o,o,x,x,x,b,b,o,o,x,o,o,o,x,x,x,o,x,x,x,x,o,x,x,o,x,x,x,o,x,o,o,o,x,o,o,b,win
+Game #22 time: 0.00035500 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #23 time: 0.00035600 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #24 time: 0.00036400 
+outcome: o,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #25 time: 0.00035300 
+outcome: o,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #26 time: 0.00035400 
+outcome: o,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #27 time: 0.00162700 
+outcome: o,x,o,o,x,x,o,x,o,x,x,b,o,b,b,b,b,b,x,x,x,o,x,x,o,x,o,x,x,o,o,x,x,x,o,o,o,o,o,o,b,b,loss
+Game #28 time: 0.00036100 
+outcome: b,b,b,b,b,b,o,o,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #29 time: 0.00035600 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #30 time: 0.00035400 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,o,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+average time: 0.00069243 
+Greedy search using utilHeightDots heuristic second-player win-rate: 5-25-0
+
+
+Testing for Greedy search using utilWeightLines heuristic vs. RandomPlayer:
+Game #01 time: 0.00103400 
+outcome: o,x,b,b,b,b,x,x,o,b,b,b,x,x,o,o,b,b,o,o,o,x,o,b,x,o,x,b,b,b,x,x,o,b,b,b,x,b,b,b,b,b,win
+Game #02 time: 0.00163700 
+outcome: o,x,o,o,o,o,x,x,x,b,b,b,o,x,o,o,o,x,x,o,o,x,x,o,x,x,o,x,x,o,x,b,b,b,b,b,o,x,b,b,b,b,loss
+Game #03 time: 0.00038600 
+outcome: o,x,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #04 time: 0.00044900 
+outcome: x,o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #05 time: 0.00095300 
+outcome: o,x,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,x,o,x,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #06 time: 0.00251200 
+outcome: o,x,x,o,o,o,x,x,x,o,b,b,x,x,o,o,o,x,x,o,x,o,x,x,o,x,o,o,x,x,x,x,o,b,b,b,o,o,o,b,b,b,loss
+Game #07 time: 0.00082000 
+outcome: o,x,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #08 time: 0.00196700 
+outcome: o,o,x,x,o,o,x,o,o,o,x,o,x,x,x,b,b,b,x,o,x,o,o,x,o,o,x,o,x,o,x,x,x,o,x,b,x,x,o,b,b,b,win
+Game #09 time: 0.00039500 
+outcome: x,o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #10 time: 0.00167900 
+outcome: o,x,o,o,o,b,x,o,x,o,b,b,x,x,o,x,o,x,o,o,o,x,o,b,x,x,o,x,o,x,x,o,x,o,x,o,x,x,o,x,b,b,loss
+Game #11 time: 0.00058700 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,x,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #12 time: 0.00041600 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #13 time: 0.00062400 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,x,o,x,b,b,x,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #14 time: 0.00084400 
+outcome: o,b,b,b,b,b,x,x,b,b,b,b,o,b,b,b,b,b,x,o,o,x,o,b,x,x,o,o,b,b,x,x,o,b,b,b,x,b,b,b,b,b,win
+Game #15 time: 0.00155000 
+outcome: o,x,o,x,o,o,x,o,b,b,b,b,x,x,o,o,o,x,o,o,o,x,o,o,x,o,x,b,b,b,x,x,o,x,x,x,x,x,o,x,b,b,win
+Game #16 time: 0.00173300 
+outcome: o,x,o,x,x,x,x,o,x,o,x,o,x,x,o,x,o,x,o,o,o,x,o,x,x,x,o,o,o,x,x,o,x,b,b,b,x,o,o,o,o,b,loss
+Game #17 time: 0.00049300 
+outcome: o,x,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #18 time: 0.00039000 
+outcome: o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #19 time: 0.00176500 
+outcome: x,o,o,x,x,x,o,x,o,o,o,o,x,o,o,o,x,x,o,x,b,b,b,b,x,o,o,o,b,b,x,x,x,o,o,o,x,x,x,o,x,x,loss
+Game #20 time: 0.00177400 
+outcome: o,o,x,b,b,b,x,o,o,x,o,x,x,o,o,o,x,o,o,x,o,x,b,b,x,x,x,o,o,x,x,o,o,o,x,o,x,x,x,o,x,x,win
+Game #21 time: 0.00063600 
+outcome: o,x,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,o,x,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #22 time: 0.00039200 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #23 time: 0.00050000 
+outcome: o,x,x,b,b,b,x,o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #24 time: 0.00155300 
+outcome: o,o,o,o,b,b,x,x,x,o,b,b,x,x,o,o,o,x,o,o,o,x,o,x,x,x,o,x,o,x,x,x,x,o,b,b,x,o,x,o,b,b,loss
+Game #25 time: 0.00178300 
+outcome: o,x,x,o,o,o,x,x,o,x,x,x,o,x,x,o,o,o,o,o,x,x,o,x,x,x,o,o,o,x,o,o,x,o,b,b,x,o,x,x,o,x,loss
+Game #26 time: 0.00058600 
+outcome: x,o,x,o,x,x,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #27 time: 0.00049600 
+outcome: o,o,o,o,b,b,x,x,o,x,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #28 time: 0.00045900 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #29 time: 0.00041200 
+outcome: o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #30 time: 0.00123700 
+outcome: x,o,x,o,x,x,o,b,b,b,b,b,x,o,x,o,o,b,o,x,o,o,o,b,x,o,o,b,b,b,x,b,b,b,b,b,x,x,x,x,b,b,win
+average time: 0.00100207 
+Greedy search using utilWeightLines heuristic first-player win-rate: 6-24-0
+
+Testing for RandomPlayer vs. Greedy search using utilWeightLines heuristic:
+Game #01 time: 0.00053900 
+outcome: x,o,b,b,b,b,x,o,b,b,b,b,x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,win
+Game #02 time: 0.00044300 
+outcome: x,x,x,x,b,b,o,x,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #03 time: 0.00035600 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #04 time: 0.00165300 
+outcome: x,x,x,o,x,b,o,x,o,o,x,o,o,o,x,o,x,o,x,x,x,o,b,b,o,x,o,x,x,x,o,o,o,x,x,o,o,b,b,b,b,b,loss
+Game #05 time: 0.00034300 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #06 time: 0.00034300 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #07 time: 0.00075400 
+outcome: x,o,b,b,b,b,x,x,x,o,o,b,b,b,b,b,b,b,o,o,x,x,x,x,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #08 time: 0.00034200 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #09 time: 0.00036200 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #10 time: 0.00034100 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #11 time: 0.00034100 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #12 time: 0.00034900 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #13 time: 0.00036500 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #14 time: 0.00034200 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #15 time: 0.00034200 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #16 time: 0.00046700 
+outcome: x,x,x,x,b,b,o,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #17 time: 0.00043700 
+outcome: x,x,o,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,b,b,b,b,b,b,b,b,b,win
+Game #18 time: 0.00117000 
+outcome: x,x,o,o,o,x,o,x,b,b,b,b,x,x,o,x,x,b,o,x,o,o,x,b,b,b,b,b,b,b,o,x,o,x,o,b,b,b,b,b,b,b,win
+Game #19 time: 0.00034400 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #20 time: 0.00169900 
+outcome: x,x,o,o,o,x,o,x,x,x,b,b,o,x,x,x,o,x,x,o,x,o,b,b,o,x,o,x,o,x,o,o,o,x,b,b,o,o,o,x,o,x,loss
+Game #21 time: 0.00034900 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #22 time: 0.00086000 
+outcome: x,x,x,o,b,b,o,x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,o,x,o,o,b,b,b,b,b,b,b,win
+Game #23 time: 0.00055100 
+outcome: x,x,o,b,b,b,x,x,x,x,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #24 time: 0.00033700 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #25 time: 0.00040700 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,o,b,b,b,win
+Game #26 time: 0.00038800 
+outcome: x,x,x,x,b,b,o,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #27 time: 0.00044900 
+outcome: x,o,o,b,b,b,x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #28 time: 0.00047500 
+outcome: x,x,o,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #29 time: 0.00079600 
+outcome: x,o,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,o,x,x,x,o,b,o,o,x,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,loss
+Game #30 time: 0.00033800 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+average time: 0.00054273 
+Greedy search using utilWeightLines heuristic second-player win-rate: 3-27-0
+
+
+Testing for Greedy search using utilWeightDots heuristic vs. RandomPlayer:
+Game #01 time: 0.00172300 
+outcome: x,o,x,o,x,x,x,o,o,o,x,o,x,o,b,b,b,b,o,o,o,x,x,x,x,o,x,o,x,o,o,o,x,x,o,o,x,x,o,x,o,x,loss
+Game #02 time: 0.00041500 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #03 time: 0.00054900 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,o,x,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,loss
+Game #04 time: 0.00129000 
+outcome: x,x,x,o,b,b,o,o,o,b,b,b,x,o,x,o,b,b,o,o,o,x,b,b,x,x,o,x,x,x,x,x,o,o,o,b,b,b,b,b,b,b,loss
+Game #05 time: 0.00044000 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #06 time: 0.00040800 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #07 time: 0.00041100 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #08 time: 0.00053100 
+outcome: x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,o,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #09 time: 0.00052500 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,o,x,b,b,b,b,b,b,b,b,b,x,x,x,b,b,b,b,b,b,b,b,b,loss
+Game #10 time: 0.00041300 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #11 time: 0.00105400 
+outcome: b,b,b,b,b,b,x,o,o,o,x,b,x,o,b,b,b,b,o,o,x,x,x,o,x,o,x,x,o,b,b,b,b,b,b,b,x,o,b,b,b,b,loss
+Game #12 time: 0.00111800 
+outcome: o,b,b,b,b,b,o,x,o,x,x,b,o,b,b,b,b,b,o,o,x,o,x,b,x,o,x,x,o,x,o,x,o,b,b,b,x,b,b,b,b,b,loss
+Game #13 time: 0.00110600 
+outcome: x,b,b,b,b,b,x,x,x,x,b,b,x,x,o,o,x,b,o,o,o,x,o,b,o,x,o,o,o,b,b,b,b,b,b,b,x,b,b,b,b,b,win
+Game #14 time: 0.00096300 
+outcome: x,b,b,b,b,b,x,x,o,b,b,b,x,o,x,o,b,b,o,o,o,x,b,b,x,o,b,b,b,b,x,x,x,o,o,b,b,b,b,b,b,b,win
+Game #15 time: 0.00041200 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #16 time: 0.00149700 
+outcome: x,b,b,b,b,b,x,x,o,x,o,b,x,x,o,b,b,b,o,o,o,x,o,b,x,o,o,o,x,o,x,o,x,o,o,x,x,x,x,o,b,b,loss
+Game #17 time: 0.00074900 
+outcome: x,o,b,b,b,b,x,o,b,b,b,b,o,o,o,x,b,b,x,o,x,b,b,b,x,o,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #18 time: 0.00108100 
+outcome: x,x,x,x,b,b,o,x,b,b,b,b,o,x,x,b,b,b,o,o,x,o,b,b,x,o,o,o,b,b,x,o,b,b,b,b,b,b,b,b,b,b,win
+Game #19 time: 0.00054200 
+outcome: x,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,o,x,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,loss
+Game #20 time: 0.00041100 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #21 time: 0.00174700 
+outcome: x,x,o,o,o,x,x,x,x,o,b,b,x,o,o,o,x,o,o,o,o,x,x,x,x,o,o,x,o,x,x,x,x,o,x,o,x,o,o,o,b,b,loss
+Game #22 time: 0.00042800 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #23 time: 0.00041400 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #24 time: 0.00041100 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,x,x,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #25 time: 0.00094700 
+outcome: x,o,b,b,b,b,x,o,b,b,b,b,o,o,x,b,b,b,x,o,o,x,x,b,o,x,o,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,loss
+Game #26 time: 0.00040300 
+outcome: x,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #27 time: 0.00064800 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,o,o,o,o,b,b,o,x,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #28 time: 0.00040900 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #29 time: 0.00041400 
+outcome: x,b,b,b,b,b,b,b,b,b,b,b,x,o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #30 time: 0.00042300 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+average time: 0.00072940 
+Greedy search using utilWeightDots heuristic first-player win-rate: 3-27-0
+
+Testing for RandomPlayer vs. Greedy search using utilWeightDots heuristic:
+Game #01 time: 0.00037600 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #02 time: 0.00035800 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,o,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #03 time: 0.00037800 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #04 time: 0.00035200 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #05 time: 0.00035800 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,win
+Game #06 time: 0.00035500 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,win
+Game #07 time: 0.00036900 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #08 time: 0.00034700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #09 time: 0.00046300 
+outcome: o,b,b,b,b,b,o,o,b,b,b,b,x,b,b,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #10 time: 0.00037800 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #11 time: 0.00035000 
+outcome: b,b,b,b,b,b,o,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #12 time: 0.00034800 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #13 time: 0.00037900 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #14 time: 0.00035600 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,x,x,x,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #15 time: 0.00035700 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #16 time: 0.00038300 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #17 time: 0.00036100 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #18 time: 0.00035300 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #19 time: 0.00036000 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #20 time: 0.00040300 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,win
+Game #21 time: 0.00038700 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #22 time: 0.00039500 
+outcome: x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #23 time: 0.00038600 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,win
+Game #24 time: 0.00036900 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #25 time: 0.00035600 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #26 time: 0.00036400 
+outcome: b,b,b,b,b,b,o,o,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #27 time: 0.00035900 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,o,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #28 time: 0.00157700 
+outcome: o,o,b,b,b,b,x,o,x,x,o,x,x,x,x,o,x,x,x,o,x,o,o,x,o,x,o,o,x,b,o,x,o,b,b,b,o,o,o,x,o,x,loss
+Game #29 time: 0.00136800 
+outcome: o,x,b,b,b,b,o,o,b,b,b,b,o,x,x,o,o,x,x,x,o,o,o,x,o,x,x,x,o,x,o,o,x,b,b,b,o,x,x,x,b,b,win
+Game #30 time: 0.00035400 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+average time: 0.00044330 
+Greedy search using utilWeightDots heuristic second-player win-rate: 1-29-0
+
+
+Testing for Greedy search using utilHWLines heuristic vs. RandomPlayer:
+Game #01 time: 0.00166500 
+outcome: o,x,o,x,o,o,x,o,o,o,x,o,x,x,o,b,b,b,x,x,o,x,x,o,o,o,o,x,x,x,x,x,o,o,o,x,x,o,x,b,b,b,loss
+Game #02 time: 0.00081300 
+outcome: x,o,x,o,b,b,x,x,o,o,b,b,o,o,x,o,b,b,o,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #03 time: 0.00094500 
+outcome: o,x,x,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,o,x,o,b,b,o,x,o,o,o,o,x,x,b,b,b,b,x,x,b,b,b,b,loss
+Game #04 time: 0.00136100 
+outcome: o,x,o,b,b,b,b,b,b,b,b,b,x,o,o,b,b,b,x,o,o,x,x,x,o,o,o,x,o,x,x,x,o,o,o,x,x,x,x,o,b,b,loss
+Game #05 time: 0.00092400 
+outcome: o,b,b,b,b,b,x,x,o,x,b,b,x,o,o,x,b,b,o,x,o,x,b,b,o,o,o,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #06 time: 0.00040800 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #07 time: 0.00168400 
+outcome: o,x,o,x,o,b,x,x,o,o,o,x,x,o,o,o,b,b,o,o,x,o,x,o,x,o,x,x,x,o,x,x,o,b,b,b,x,o,x,x,x,o,loss
+Game #08 time: 0.00061500 
+outcome: o,o,o,o,b,b,x,x,o,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #09 time: 0.00038900 
+outcome: o,x,x,x,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #10 time: 0.00048800 
+outcome: o,x,b,b,b,b,x,x,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #11 time: 0.00086400 
+outcome: o,x,x,b,b,b,x,x,x,x,b,b,o,o,x,o,b,b,x,o,o,b,b,b,x,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #12 time: 0.00076500 
+outcome: o,x,o,o,o,o,b,b,b,b,b,b,x,o,x,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #13 time: 0.00126300 
+outcome: x,o,x,x,x,b,o,o,x,x,x,b,x,x,b,b,b,b,x,o,o,o,x,b,x,o,o,o,b,b,o,o,o,b,b,b,x,b,b,b,b,b,win
+Game #14 time: 0.00060700 
+outcome: o,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,o,x,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #15 time: 0.00141800 
+outcome: o,x,o,b,b,b,x,x,o,b,b,b,x,x,o,x,x,b,x,o,o,x,x,o,o,o,o,x,o,x,b,b,b,b,b,b,x,o,o,o,x,b,loss
+Game #16 time: 0.00123000 
+outcome: x,o,o,x,o,x,x,b,b,b,b,b,o,x,x,o,o,b,x,o,b,b,b,b,x,x,o,x,o,b,x,o,x,o,b,b,o,b,b,b,b,b,loss
+Game #17 time: 0.00081500 
+outcome: o,o,x,b,b,b,x,o,x,x,b,b,x,o,o,o,o,b,o,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #18 time: 0.00069400 
+outcome: o,o,o,o,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,x,x,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #19 time: 0.00039700 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #20 time: 0.00040000 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #21 time: 0.00070000 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,x,x,o,b,b,b,x,x,b,b,b,b,o,x,x,b,b,b,b,b,b,b,b,b,loss
+Game #22 time: 0.00071400 
+outcome: x,o,o,o,o,b,x,x,o,b,b,b,o,x,o,x,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #23 time: 0.00048900 
+outcome: o,x,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #24 time: 0.00039300 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,x,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #25 time: 0.00039700 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,x,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #26 time: 0.00049100 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #27 time: 0.00073100 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,o,x,b,b,b,b,x,o,x,x,b,b,x,x,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,loss
+Game #28 time: 0.00169700 
+outcome: o,x,x,x,o,o,x,x,o,b,b,b,x,o,o,o,x,x,o,x,o,o,o,x,x,x,o,o,o,x,x,o,x,b,b,b,x,x,o,o,o,x,loss
+Game #29 time: 0.00165200 
+outcome: x,o,x,o,x,o,x,x,o,b,b,b,x,o,o,o,x,x,o,o,x,o,x,o,x,o,x,o,o,x,x,x,o,x,o,x,o,o,x,b,b,b,loss
+Game #30 time: 0.00072100 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,x,o,x,o,b,b,x,x,o,x,b,b,x,o,b,b,b,b,o,b,b,b,b,b,loss
+average time: 0.00085767 
+Greedy search using utilHWLines heuristic first-player win-rate: 2-28-0
+
+Testing for RandomPlayer vs. Greedy search using utilHWLines heuristic:
+Game #01 time: 0.00033900 
+outcome: x,o,b,b,b,b,x,o,o,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #02 time: 0.00115700 
+outcome: x,o,o,o,o,b,x,o,o,x,b,b,o,b,b,b,b,b,o,x,x,x,b,b,x,x,x,b,b,b,o,x,x,b,b,b,o,o,b,b,b,b,loss
+Game #03 time: 0.00033800 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,win
+Game #04 time: 0.00033700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #05 time: 0.00045000 
+outcome: x,x,x,x,b,b,o,x,o,o,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #06 time: 0.00035500 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,win
+Game #07 time: 0.00035300 
+outcome: x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #08 time: 0.00035700 
+outcome: x,o,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #09 time: 0.00175100 
+outcome: x,x,o,o,x,o,o,x,o,o,x,x,o,x,x,x,o,o,o,o,x,b,b,b,x,x,x,o,x,o,o,o,x,o,x,x,o,o,x,x,o,x,win
+Game #10 time: 0.00082700 
+outcome: x,o,o,o,o,b,x,b,b,b,b,b,x,x,b,b,b,b,o,x,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,o,o,o,b,b,b,loss
+Game #11 time: 0.00033700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,win
+Game #12 time: 0.00033500 
+outcome: x,o,o,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #13 time: 0.00033700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #14 time: 0.00042200 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #15 time: 0.00034800 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #16 time: 0.00043800 
+outcome: x,o,o,b,b,b,x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #17 time: 0.00036500 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #18 time: 0.00113200 
+outcome: x,b,b,b,b,b,x,o,x,b,b,b,o,x,x,x,b,b,x,o,x,x,x,b,o,o,o,b,b,b,o,o,o,x,b,b,o,o,b,b,b,b,loss
+Game #19 time: 0.00083800 
+outcome: x,o,b,b,b,b,x,b,b,b,b,b,x,o,o,x,b,b,o,o,x,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,o,o,o,x,b,b,win
+Game #20 time: 0.00102800 
+outcome: x,x,o,b,b,b,x,x,o,x,b,b,o,x,x,x,o,o,b,b,b,b,b,b,x,x,b,b,b,b,o,o,o,o,b,b,o,b,b,b,b,b,loss
+Game #21 time: 0.00033500 
+outcome: x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #22 time: 0.00044700 
+outcome: x,x,x,x,b,b,o,x,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #23 time: 0.00033900 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #24 time: 0.00157400 
+outcome: x,o,o,o,x,b,x,o,x,o,x,b,o,o,x,x,o,o,x,x,x,o,x,x,x,o,o,b,b,b,o,o,x,x,b,b,o,o,x,b,b,b,loss
+Game #25 time: 0.00033400 
+outcome: x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #26 time: 0.00168900 
+outcome: x,o,o,x,x,o,x,x,o,x,o,o,o,o,x,b,b,b,o,x,o,x,x,b,x,x,o,x,x,o,o,x,o,x,o,x,o,o,x,b,b,b,win
+Game #27 time: 0.00033700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #28 time: 0.00057100 
+outcome: x,o,b,b,b,b,x,o,b,b,b,b,x,x,x,x,b,b,o,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #29 time: 0.00040500 
+outcome: x,o,o,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #30 time: 0.00043700 
+outcome: x,o,b,b,b,b,x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+average time: 0.00061040 
+Greedy search using utilHWLines heuristic second-player win-rate: 5-25-0
+
+
+Testing for Greedy search using utilHWDots heuristic vs. RandomPlayer:
+Game #01 time: 0.00056600 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,o,x,b,b,b,o,o,x,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,loss
+Game #02 time: 0.00167800 
+outcome: o,x,o,x,o,x,x,o,b,b,b,b,x,x,o,x,o,x,x,o,o,o,x,o,o,x,o,o,o,b,x,b,b,b,b,b,x,x,o,x,o,x,loss
+Game #03 time: 0.00042400 
+outcome: x,x,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #04 time: 0.00157600 
+outcome: x,x,o,o,b,b,x,x,o,o,x,o,o,o,o,b,b,b,o,o,x,x,x,o,x,o,o,o,x,o,x,b,b,b,b,b,x,x,x,o,x,x,loss
+Game #05 time: 0.00110100 
+outcome: x,b,b,b,b,b,x,x,o,b,b,b,x,o,o,o,b,b,o,o,o,x,b,b,x,o,x,x,b,b,o,x,o,x,b,b,b,b,b,b,b,b,loss
+Game #06 time: 0.00137600 
+outcome: b,b,b,b,b,b,o,o,o,o,b,b,x,o,x,x,x,o,x,o,o,x,x,x,o,x,o,b,b,b,x,o,o,o,x,b,x,x,b,b,b,b,loss
+Game #07 time: 0.00042900 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #08 time: 0.00171000 
+outcome: x,o,o,o,x,x,x,x,b,b,b,b,o,o,x,o,o,x,x,o,x,o,o,x,x,o,o,o,x,x,x,x,x,x,b,b,o,x,o,o,o,b,win
+Game #09 time: 0.00043200 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #10 time: 0.00041800 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #11 time: 0.00043700 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,x,x,b,b,b,b,b,b,b,b,b,loss
+Game #12 time: 0.00064100 
+outcome: b,b,b,b,b,b,o,x,b,b,b,b,x,o,o,b,b,b,x,x,o,b,b,b,o,x,x,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #13 time: 0.00045300 
+outcome: b,b,b,b,b,b,x,x,x,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #14 time: 0.00042600 
+outcome: x,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,loss
+Game #15 time: 0.00043300 
+outcome: x,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #16 time: 0.00158600 
+outcome: x,o,x,o,o,b,o,o,o,x,o,x,x,o,b,b,b,b,x,o,x,x,o,x,o,o,o,x,b,b,x,o,x,o,x,x,x,x,o,b,b,b,loss
+Game #17 time: 0.00077800 
+outcome: x,x,b,b,b,b,b,b,b,b,b,b,o,o,o,x,b,b,x,o,x,b,b,b,o,o,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,loss
+Game #18 time: 0.00121300 
+outcome: x,x,x,o,b,b,x,x,b,b,b,b,o,o,o,o,b,b,x,o,x,o,x,b,x,o,x,o,o,b,o,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #19 time: 0.00042400 
+outcome: x,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #20 time: 0.00082100 
+outcome: x,b,b,b,b,b,x,o,o,b,b,b,x,o,o,b,b,b,o,o,o,b,b,b,x,b,b,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,win
+Game #21 time: 0.00043500 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #22 time: 0.00125500 
+outcome: x,b,b,b,b,b,o,o,b,b,b,b,x,o,o,x,x,x,x,x,o,o,o,x,o,x,o,x,o,o,x,o,x,b,b,b,b,b,b,b,b,b,loss
+Game #23 time: 0.00056600 
+outcome: b,b,b,b,b,b,x,x,b,b,b,b,x,o,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #24 time: 0.00097800 
+outcome: b,b,b,b,b,b,x,x,x,o,b,b,o,x,o,x,b,b,x,o,o,x,x,b,o,x,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #25 time: 0.00068900 
+outcome: b,b,b,b,b,b,x,x,o,b,b,b,x,o,b,b,b,b,o,o,x,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,loss
+Game #26 time: 0.00170300 
+outcome: x,x,x,x,b,b,x,o,o,o,x,o,x,o,x,o,b,b,o,o,o,x,o,o,x,x,o,o,x,b,x,x,o,o,x,o,x,x,b,b,b,b,win
+Game #27 time: 0.00185500 
+outcome: x,x,x,o,o,x,o,x,x,x,b,b,x,o,o,o,x,o,x,o,x,x,x,o,o,o,o,x,o,o,x,x,o,o,b,b,x,o,o,x,x,o,loss
+Game #28 time: 0.00053600 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,x,o,x,b,b,b,o,o,o,o,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #29 time: 0.00044100 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #30 time: 0.00067300 
+outcome: x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+average time: 0.00086843 
+Greedy search using utilHWDots heuristic first-player win-rate: 3-27-0
+
+Testing for RandomPlayer vs. Greedy search using utilHWDots heuristic:
+Game #01 time: 0.00100300 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,o,x,o,b,b,b,x,x,o,o,b,b,b,b,b,b,b,b,x,x,x,x,b,b,o,b,b,b,b,b,win
+Game #02 time: 0.00050700 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #03 time: 0.00048200 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #04 time: 0.00176600 
+outcome: o,o,x,o,x,b,o,o,x,x,o,o,x,x,o,b,b,b,x,x,x,o,o,o,x,o,x,o,x,x,o,b,b,b,b,b,o,x,x,x,o,b,loss
+Game #05 time: 0.00038100 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,o,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #06 time: 0.00148900 
+outcome: o,o,o,x,b,b,x,x,x,o,x,o,x,x,x,o,x,o,x,x,x,b,b,b,o,b,b,b,b,b,o,o,o,x,o,o,o,o,x,x,x,b,win
+Game #07 time: 0.00037400 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #08 time: 0.00173800 
+outcome: x,x,b,b,b,b,o,x,o,x,x,x,o,x,x,o,x,o,x,x,x,b,b,b,o,o,x,o,x,o,o,o,o,x,o,x,o,o,x,o,b,b,win
+Game #09 time: 0.00072700 
+outcome: o,o,o,o,b,b,o,o,b,b,b,b,o,b,b,b,b,b,x,x,x,b,b,b,x,x,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #10 time: 0.00036800 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #11 time: 0.00155400 
+outcome: o,x,b,b,b,b,o,x,o,x,b,b,o,x,x,x,o,x,x,x,o,o,x,o,o,o,x,o,x,o,o,x,x,x,o,b,o,x,b,b,b,b,win
+Game #12 time: 0.00192700 
+outcome: o,x,x,x,o,x,o,x,x,o,o,x,o,o,x,b,b,b,x,x,x,o,x,o,o,x,o,o,o,x,x,o,o,x,o,x,x,o,x,o,o,x,win
+Game #13 time: 0.00036700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #14 time: 0.00179900 
+outcome: o,o,x,o,o,x,x,x,o,x,b,b,x,x,x,o,x,b,x,o,x,o,x,x,o,o,x,o,x,x,o,o,o,x,o,x,o,x,o,o,x,o,win
+Game #15 time: 0.00038700 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,win
+Game #16 time: 0.00036400 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #17 time: 0.00071100 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,x,o,x,b,b,b,x,x,x,b,b,b,x,o,x,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,loss
+Game #18 time: 0.00037900 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #19 time: 0.00045600 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,x,o,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #20 time: 0.00036700 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,win
+Game #21 time: 0.00049600 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,x,o,o,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #22 time: 0.00037000 
+outcome: x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #23 time: 0.00036500 
+outcome: o,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #24 time: 0.00037300 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #25 time: 0.00036300 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #26 time: 0.00037000 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #27 time: 0.00039100 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #28 time: 0.00156500 
+outcome: x,o,x,b,b,b,o,o,x,x,x,o,o,x,x,x,o,x,x,x,o,x,x,o,o,x,o,o,o,o,o,o,x,x,o,b,b,b,b,b,b,b,loss
+Game #29 time: 0.00188800 
+outcome: o,o,o,b,b,b,x,o,x,o,x,o,x,x,x,o,x,x,x,o,x,o,x,x,o,x,o,o,b,b,o,x,x,x,o,x,o,o,x,o,o,b,loss
+Game #30 time: 0.00127100 
+outcome: o,x,x,b,b,b,o,o,x,o,b,b,x,x,o,x,b,b,x,x,x,o,b,b,x,o,x,o,b,b,o,o,x,b,b,b,o,o,b,b,b,b,loss
+average time: 0.00081993 
+Greedy search using utilHWDots heuristic second-player win-rate: 6-24-0
+
+
+Testing for Greedy search using utilCowardLines heuristic vs. RandomPlayer:
+Game #01 time: 0.00047500 
+outcome: o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #02 time: 0.00045700 
+outcome: o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #03 time: 0.00194600 
+outcome: x,o,x,x,o,o,x,b,b,b,b,b,o,o,o,x,x,o,x,o,x,o,o,x,o,o,o,x,o,o,x,x,x,x,b,b,x,x,x,o,o,x,win
+Game #04 time: 0.00103200 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,x,x,o,b,b,o,x,x,o,x,b,o,o,o,x,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #05 time: 0.00046200 
+outcome: o,o,o,o,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #06 time: 0.00045000 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #07 time: 0.00056600 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #08 time: 0.00047500 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #09 time: 0.00045200 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #10 time: 0.00045000 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #11 time: 0.00046400 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #12 time: 0.00045200 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #13 time: 0.00176700 
+outcome: o,o,x,x,x,o,x,o,x,o,x,x,x,o,o,o,x,x,x,x,o,x,o,x,o,o,o,o,b,b,b,b,b,b,b,b,x,x,o,o,o,x,loss
+Game #14 time: 0.00057900 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,o,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #15 time: 0.00045300 
+outcome: o,o,o,o,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #16 time: 0.00058100 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #17 time: 0.00136100 
+outcome: o,o,b,b,b,b,x,b,b,b,b,b,o,x,x,o,o,x,o,x,x,o,o,b,o,o,o,x,b,b,x,b,b,b,b,b,x,x,x,o,x,x,win
+Game #18 time: 0.00044600 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #19 time: 0.00045000 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #20 time: 0.00048100 
+outcome: x,o,o,o,o,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #21 time: 0.00067700 
+outcome: o,o,o,o,b,b,x,x,x,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #22 time: 0.00143000 
+outcome: o,x,x,b,b,b,x,o,o,o,b,b,x,o,o,x,b,b,o,x,o,x,b,b,x,o,x,b,b,b,x,x,o,o,b,b,x,x,o,b,b,b,win
+Game #23 time: 0.00070000 
+outcome: o,x,o,o,o,o,x,x,b,b,b,b,o,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #24 time: 0.00045400 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #25 time: 0.00085900 
+outcome: o,o,x,x,b,b,x,x,b,b,b,b,o,o,o,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #26 time: 0.00184800 
+outcome: o,x,o,o,x,x,x,o,o,o,x,x,x,o,o,o,x,x,x,x,x,x,b,b,o,o,o,b,b,b,x,x,o,o,o,b,x,x,x,o,o,b,win
+Game #27 time: 0.00047000 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #28 time: 0.00144700 
+outcome: o,x,o,o,x,b,x,o,o,o,x,b,x,x,o,o,o,b,x,x,x,x,b,b,o,x,x,o,o,b,b,b,b,b,b,b,x,b,b,b,b,b,win
+Game #29 time: 0.00045400 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #30 time: 0.00057500 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,x,x,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+average time: 0.00075710 
+Greedy search using utilCowardLines heuristic first-player win-rate: 6-24-0
+
+Testing for RandomPlayer vs. Greedy search using utilCowardLines heuristic:
+Game #01 time: 0.00039900 
+outcome: x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #02 time: 0.00040800 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #03 time: 0.00041700 
+outcome: x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #04 time: 0.00055700 
+outcome: x,o,o,o,o,b,b,b,b,b,b,b,x,o,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #05 time: 0.00193200 
+outcome: x,o,o,o,x,x,x,x,x,o,x,o,o,x,o,o,x,b,x,o,x,x,b,b,x,x,x,o,b,b,o,x,o,x,b,b,o,o,o,x,o,o,win
+Game #06 time: 0.00181800 
+outcome: x,x,o,o,x,o,o,o,x,x,o,x,x,o,x,b,b,b,x,x,x,o,x,o,o,o,x,x,o,x,o,o,x,o,x,x,o,o,b,b,b,b,win
+Game #07 time: 0.00040000 
+outcome: x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #08 time: 0.00211200 
+outcome: x,o,o,o,x,o,o,x,x,x,x,b,x,o,o,x,o,o,x,o,x,x,x,o,x,x,x,o,x,o,o,o,x,o,o,x,o,x,b,b,b,b,win
+Game #09 time: 0.00040100 
+outcome: x,x,x,x,b,b,o,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #10 time: 0.00040400 
+outcome: x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #11 time: 0.00041300 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #12 time: 0.00039500 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #13 time: 0.00050700 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #14 time: 0.00068600 
+outcome: x,x,o,x,b,b,o,x,o,b,b,b,o,x,x,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #15 time: 0.00039400 
+outcome: x,x,x,x,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #16 time: 0.00041200 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #17 time: 0.00039200 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #18 time: 0.00050500 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #19 time: 0.00175100 
+outcome: x,x,o,x,b,b,o,o,x,b,b,b,o,x,o,x,x,o,o,x,x,x,o,o,x,x,x,o,b,b,o,o,o,b,b,b,o,o,x,o,x,x,loss
+Game #20 time: 0.00039300 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #21 time: 0.00161700 
+outcome: x,x,x,o,b,b,b,b,b,b,b,b,o,o,x,x,o,o,x,o,x,o,x,o,o,o,o,b,b,b,x,x,x,o,x,b,o,o,x,o,x,x,loss
+Game #22 time: 0.00041600 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #23 time: 0.00039700 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #24 time: 0.00039200 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #25 time: 0.00040300 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #26 time: 0.00040100 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #27 time: 0.00197100 
+outcome: x,o,o,o,b,b,x,x,x,o,o,x,o,x,x,o,x,x,x,x,x,o,o,o,o,o,b,b,b,b,o,o,x,x,x,o,o,o,o,x,x,x,loss
+Game #28 time: 0.00073500 
+outcome: x,x,x,o,b,b,o,x,b,b,b,b,o,x,o,b,b,b,x,x,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #29 time: 0.00052900 
+outcome: x,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,o,o,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #30 time: 0.00193600 
+outcome: x,o,o,x,x,x,x,x,x,o,o,b,o,o,x,o,x,o,x,x,x,o,x,x,o,o,o,b,b,b,o,o,o,x,x,o,o,o,x,x,b,b,loss
+average time: 0.00078310 
+Greedy search using utilCowardLines heuristic second-player win-rate: 6-24-0
+
+
+Testing for Greedy search using utilCowardDots heuristic vs. RandomPlayer:
+Game #01 time: 0.00054100 
+outcome: x,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #02 time: 0.00100700 
+outcome: x,x,b,b,b,b,x,b,b,b,b,b,o,o,o,b,b,b,x,o,o,o,x,b,x,o,x,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #03 time: 0.00052100 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,x,o,b,b,b,b,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,win
+Game #04 time: 0.00046200 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #05 time: 0.00045300 
+outcome: x,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #06 time: 0.00187800 
+outcome: b,b,b,b,b,b,x,x,x,o,x,o,o,x,o,x,x,b,o,o,x,o,x,o,x,o,o,o,x,o,x,o,x,x,o,o,x,x,x,o,o,x,win
+Game #07 time: 0.00045100 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #08 time: 0.00144500 
+outcome: o,o,o,x,x,b,x,o,x,o,b,b,o,x,o,b,b,b,o,o,x,o,x,x,b,b,b,b,b,b,x,o,x,o,b,b,x,x,b,b,b,b,loss
+Game #09 time: 0.00160000 
+outcome: x,o,x,o,o,b,b,b,b,b,b,b,x,o,o,o,x,b,o,o,x,o,x,b,x,o,x,o,o,x,x,x,x,x,b,b,x,x,o,o,b,b,win
+Game #10 time: 0.00117600 
+outcome: x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,b,b,b,o,o,o,x,b,b,o,x,x,x,o,b,x,x,x,o,b,b,x,x,x,o,b,b,win
+Game #11 time: 0.00190700 
+outcome: x,x,x,o,o,x,x,x,x,x,b,b,o,o,o,x,o,x,x,o,x,x,o,o,o,o,o,x,o,o,x,b,b,b,b,b,x,o,x,o,x,o,win
+Game #12 time: 0.00132300 
+outcome: x,x,x,x,b,b,o,o,x,b,b,b,x,o,x,o,b,b,o,o,o,x,b,b,x,b,b,b,b,b,o,o,o,b,b,b,x,x,x,o,b,b,win
+Game #13 time: 0.00039500 
+outcome: x,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #14 time: 0.00045300 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #15 time: 0.00205600 
+outcome: x,x,o,x,x,o,x,x,o,o,o,x,o,o,x,x,x,o,x,o,x,o,o,o,x,x,x,o,b,b,o,o,o,x,o,o,x,o,x,x,o,x,loss
+Game #16 time: 0.00190300 
+outcome: x,o,x,o,b,b,x,x,o,x,x,o,x,o,o,o,b,b,o,o,o,x,x,x,x,o,x,o,x,x,b,b,b,b,b,b,x,o,o,o,x,o,loss
+Game #17 time: 0.00183900 
+outcome: x,x,o,o,o,x,x,x,o,o,o,x,x,x,o,b,b,b,o,o,o,x,x,o,x,o,o,o,x,x,x,o,o,x,o,x,x,b,b,b,b,b,loss
+Game #18 time: 0.00167300 
+outcome: x,x,b,b,b,b,x,x,o,o,o,b,x,o,o,o,x,o,o,x,o,x,o,x,x,x,x,b,b,b,x,x,o,o,o,x,x,o,o,b,b,b,win
+Game #19 time: 0.00045600 
+outcome: b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,loss
+Game #20 time: 0.00185900 
+outcome: x,x,o,o,o,o,x,x,b,b,b,b,x,o,o,o,x,o,o,o,o,x,o,x,x,o,o,o,x,o,x,x,b,b,b,b,x,x,x,o,x,x,loss
+Game #21 time: 0.00206100 
+outcome: x,x,o,o,o,x,x,x,x,x,b,b,o,x,o,o,o,x,o,o,o,x,o,x,o,x,x,o,o,x,x,o,x,x,x,o,x,x,o,o,o,b,win
+Game #22 time: 0.00169500 
+outcome: o,o,o,x,o,o,x,o,x,x,x,o,b,b,b,b,b,b,o,o,x,o,x,x,x,o,b,b,b,b,x,o,x,x,x,o,x,o,o,o,x,x,loss
+Game #23 time: 0.00112700 
+outcome: b,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,x,o,x,x,x,x,o,o,o,b,b,b,x,o,b,b,b,b,x,x,x,o,o,b,win
+Game #24 time: 0.00046300 
+outcome: b,b,b,b,b,b,x,x,x,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #25 time: 0.00045400 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #26 time: 0.00207900 
+outcome: x,x,x,o,x,b,x,x,x,o,x,o,x,o,x,x,o,o,o,o,o,x,b,b,x,o,o,o,x,o,x,x,o,o,x,o,x,o,b,b,b,b,win
+Game #27 time: 0.00046900 
+outcome: x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #28 time: 0.00045300 
+outcome: x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,o,o,o,o,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #29 time: 0.00180600 
+outcome: x,o,x,o,x,x,o,x,o,b,b,b,x,o,x,x,o,o,o,o,o,b,b,b,x,o,x,b,b,b,x,x,o,o,x,o,x,x,o,b,b,b,loss
+Game #30 time: 0.00104700 
+outcome: x,x,b,b,b,b,x,o,o,o,b,b,o,o,o,x,b,b,x,o,x,x,b,b,o,x,o,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+average time: 0.00116840 
+Greedy search using utilCowardDots heuristic first-player win-rate: 12-18-0
+
+Testing for RandomPlayer vs. Greedy search using utilCowardDots heuristic:
+Game #01 time: 0.00152600 
+outcome: o,x,b,b,b,b,o,x,x,x,o,o,o,x,x,x,b,b,x,x,o,o,x,o,o,b,b,b,b,b,o,x,x,x,b,b,o,x,o,o,x,o,win
+Game #02 time: 0.00041300 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,o,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #03 time: 0.00185000 
+outcome: o,o,o,x,x,b,o,x,o,b,b,b,x,o,x,o,x,b,x,x,x,o,x,x,x,o,x,o,x,b,o,x,o,o,b,b,o,o,x,o,x,o,loss
+Game #04 time: 0.00178000 
+outcome: o,o,x,o,x,x,o,o,o,o,b,b,x,o,x,x,x,b,x,x,x,o,x,o,x,o,x,o,x,x,o,o,b,b,b,b,o,b,b,b,b,b,loss
+Game #05 time: 0.00184800 
+outcome: x,o,x,x,b,b,o,o,b,b,b,b,o,o,x,o,x,o,x,x,x,o,x,o,x,x,x,o,o,x,x,o,o,o,b,b,o,o,x,x,x,o,loss
+Game #06 time: 0.00187100 
+outcome: o,x,x,x,o,x,o,o,b,b,b,b,o,o,x,x,x,o,x,x,x,o,o,o,o,o,x,x,x,o,x,o,o,x,x,o,x,o,x,o,b,b,loss
+Game #07 time: 0.00180100 
+outcome: o,o,x,x,x,o,o,x,x,x,x,b,o,o,b,b,b,b,x,x,x,o,o,x,x,o,x,o,o,o,x,x,x,o,x,o,o,o,b,b,b,b,win
+Game #08 time: 0.00091400 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,o,x,x,o,b,b,x,x,x,o,b,b,o,x,x,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,loss
+Game #09 time: 0.00192100 
+outcome: o,x,x,o,x,b,x,x,o,x,o,x,x,o,x,o,x,o,x,x,o,x,o,o,o,x,b,b,b,b,o,x,o,x,o,x,o,o,o,x,x,o,win
+Game #10 time: 0.00041600 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #11 time: 0.00183600 
+outcome: o,o,o,x,x,x,o,o,x,b,b,b,o,x,x,x,o,o,x,x,x,b,b,b,o,x,x,x,o,o,o,b,b,b,b,b,o,x,x,x,o,o,win
+Game #12 time: 0.00062500 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,x,x,x,b,b,o,b,b,b,b,b,win
+Game #13 time: 0.00052600 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,o,o,x,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #14 time: 0.00074400 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,o,o,b,b,b,x,o,b,b,b,b,x,x,x,o,b,b,o,b,b,b,b,b,x,b,b,b,b,b,win
+Game #15 time: 0.00040300 
+outcome: b,b,b,b,b,b,o,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,win
+Game #16 time: 0.00176200 
+outcome: o,o,x,x,o,o,o,o,x,o,x,o,x,b,b,b,b,b,x,o,x,o,x,o,x,x,x,o,x,x,x,o,x,o,x,o,o,x,b,b,b,b,win
+Game #17 time: 0.00180600 
+outcome: o,o,o,x,x,o,o,o,o,b,b,b,o,x,o,o,x,x,x,x,x,x,b,b,x,x,x,o,o,x,x,o,b,b,b,b,o,x,x,o,x,o,win
+Game #18 time: 0.00143000 
+outcome: o,o,o,o,b,b,o,x,x,x,b,b,x,b,b,b,b,b,x,x,o,x,o,o,x,o,x,x,x,b,o,b,b,b,b,b,x,o,o,x,o,b,loss
+Game #19 time: 0.00210000 
+outcome: x,o,x,o,x,o,x,o,x,o,x,x,o,x,o,x,o,b,x,o,x,o,x,o,x,o,x,o,x,x,o,x,o,x,o,x,o,o,x,o,b,b,win
+Game #20 time: 0.00040000 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #21 time: 0.00043600 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,o,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #22 time: 0.00039900 
+outcome: x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #23 time: 0.00040700 
+outcome: b,b,b,b,b,b,o,o,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #24 time: 0.00144000 
+outcome: b,b,b,b,b,b,x,o,x,b,b,b,x,x,x,o,b,b,x,o,x,x,x,b,o,o,b,b,b,b,o,o,o,x,x,b,o,o,o,x,o,b,loss
+Game #25 time: 0.00201600 
+outcome: o,o,o,x,x,b,o,o,o,o,b,b,o,x,x,o,x,b,x,x,x,b,b,b,x,x,o,o,x,b,x,o,x,o,x,b,o,b,b,b,b,b,loss
+Game #26 time: 0.00050700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #27 time: 0.00155900 
+outcome: o,o,b,b,b,b,o,o,x,b,b,b,x,o,x,x,o,b,x,x,x,b,b,b,x,x,b,b,b,b,o,o,x,x,x,b,o,o,o,o,b,b,loss
+Game #28 time: 0.00040500 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #29 time: 0.00041000 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #30 time: 0.00203400 
+outcome: o,x,o,o,o,x,o,o,o,x,o,o,o,x,x,x,o,x,x,x,x,o,x,x,o,x,x,o,x,x,o,o,o,x,x,o,o,x,x,b,b,b,win
+average time: 0.00118617 
+Greedy search using utilCowardDots heuristic second-player win-rate: 9-21-0
+
+
+Testing for Depth-limited minimax search using utilLines heuristic vs. RandomPlayer:
+Game #01 time: 0.85877300 
+outcome: x,o,b,b,b,b,x,o,o,o,b,b,x,o,o,x,b,b,o,o,x,x,x,o,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #02 time: 0.60177800 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,o,x,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #03 time: 0.80035600 
+outcome: o,b,b,b,b,b,x,o,b,b,b,b,o,o,x,x,b,b,x,o,b,b,b,b,x,o,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #04 time: 0.69941400 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,o,b,b,b,x,x,o,x,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #05 time: 1.12987900 
+outcome: x,o,o,o,x,o,o,o,o,o,b,b,x,x,x,b,b,b,x,x,o,o,o,x,x,o,o,o,x,x,o,x,o,o,x,x,x,x,x,b,b,b,loss
+Game #06 time: 1.22333700 
+outcome: x,o,o,o,o,b,x,x,o,o,o,b,o,x,x,b,b,b,x,o,x,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,x,x,o,x,b,loss
+Game #07 time: 0.97019700 
+outcome: x,o,b,b,b,b,o,x,b,b,b,b,o,o,x,b,b,b,o,o,b,b,b,b,x,x,o,b,b,b,x,x,x,o,b,b,b,b,b,b,b,b,loss
+Game #08 time: 1.18300800 
+outcome: o,o,o,x,o,b,x,x,x,o,x,x,o,o,o,x,x,o,o,o,o,x,x,o,x,b,b,b,b,b,x,o,o,o,b,b,x,x,x,o,x,x,loss
+Game #09 time: 1.35284600 
+outcome: x,x,o,o,x,o,o,x,x,o,b,b,x,o,o,o,x,x,x,x,o,o,o,b,x,x,o,x,x,o,o,x,b,b,b,b,x,o,o,o,x,b,loss
+Game #10 time: 1.07622700 
+outcome: x,o,b,b,b,b,x,o,o,o,b,b,o,o,b,b,b,b,o,o,x,o,b,b,x,b,b,b,b,b,x,x,x,b,b,b,x,x,x,o,b,b,loss
+Game #11 time: 0.94963100 
+outcome: o,x,o,b,b,b,x,x,o,b,b,b,o,x,o,b,b,b,x,o,o,x,b,b,o,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #12 time: 1.28538600 
+outcome: x,x,x,o,o,o,x,x,x,o,b,b,x,o,o,o,x,b,o,o,x,o,x,b,x,o,o,b,b,b,x,x,o,x,o,b,x,o,b,b,b,b,loss
+Game #13 time: 0.79034000 
+outcome: o,o,b,b,b,b,o,o,o,b,b,b,x,o,x,b,b,b,x,o,x,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #14 time: 1.21535500 
+outcome: x,x,o,o,b,b,x,x,x,o,o,x,x,o,x,o,o,o,o,o,x,o,o,x,x,o,o,x,b,b,x,x,o,b,b,b,x,o,x,b,b,b,loss
+Game #15 time: 1.14035500 
+outcome: x,x,o,o,o,o,x,o,o,x,o,x,b,b,b,b,b,b,o,o,o,x,o,x,x,o,o,x,x,x,x,o,o,o,x,x,x,x,b,b,b,b,loss
+Game #16 time: 0.69801300 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,o,o,o,b,b,o,x,x,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #17 time: 1.32813600 
+outcome: x,x,o,o,o,o,x,x,b,b,b,b,x,o,b,b,b,b,o,x,o,o,x,b,x,o,o,o,x,b,o,o,x,x,b,b,x,x,b,b,b,b,loss
+Game #18 time: 1.31225500 
+outcome: x,x,x,o,o,o,o,o,x,o,o,o,x,o,b,b,b,b,o,o,o,x,o,x,x,o,x,x,x,o,x,o,x,x,b,b,x,x,b,b,b,b,loss
+Game #19 time: 1.10551100 
+outcome: o,b,b,b,b,b,x,o,o,x,b,b,o,o,o,x,b,b,o,x,x,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,x,x,o,b,b,loss
+Game #20 time: 1.00709200 
+outcome: x,o,o,x,o,o,x,x,b,b,b,b,x,o,b,b,b,b,o,o,x,x,b,b,x,o,x,x,b,b,o,o,b,b,b,b,b,b,b,b,b,b,loss
+Game #21 time: 1.18929100 
+outcome: x,o,o,o,o,b,x,x,x,b,b,b,o,o,x,b,b,b,o,o,b,b,b,b,x,o,o,o,b,b,x,x,x,b,b,b,x,x,b,b,b,b,loss
+Game #22 time: 1.18036000 
+outcome: o,o,b,b,b,b,o,x,b,b,b,b,o,o,o,x,b,b,x,o,x,o,x,x,o,o,o,b,b,b,x,x,x,x,b,b,x,x,b,b,b,b,win
+Game #23 time: 1.03042800 
+outcome: x,o,o,o,b,b,x,o,o,o,b,b,o,o,x,x,b,b,o,b,b,b,b,b,x,x,x,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #24 time: 0.83057400 
+outcome: o,o,o,o,b,b,x,o,x,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #25 time: 1.05075600 
+outcome: o,o,o,x,o,o,x,o,x,o,b,b,x,o,b,b,b,b,o,o,x,o,x,x,x,o,b,b,b,b,x,b,b,b,b,b,x,x,x,b,b,b,loss
+Game #26 time: 0.46144100 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #27 time: 0.44021500 
+outcome: o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #28 time: 1.03935500 
+outcome: x,x,x,o,o,o,o,o,o,o,b,b,o,x,o,o,x,x,o,o,x,o,o,o,x,o,x,o,x,x,x,x,b,b,b,b,x,x,x,o,x,x,loss
+Game #29 time: 0.84488700 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,o,o,b,b,b,b,o,o,x,x,x,b,x,x,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #30 time: 0.46629000 
+outcome: x,x,b,b,b,b,x,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,loss
+average time: 0.97538287 
+Depth-limited minimax search using utilLines heuristic first-player win-rate: 1-29-0
+
+Testing for RandomPlayer vs. Depth-limited minimax search using utilLines heuristic:
+Game #01 time: 1.14546200 
+outcome: o,o,o,x,o,x,o,o,x,x,b,b,x,x,x,b,b,b,o,x,o,x,o,o,x,x,x,o,x,o,o,o,x,b,b,b,o,x,x,b,b,b,win
+Game #02 time: 1.23510800 
+outcome: o,o,o,x,x,b,o,o,o,x,o,o,x,x,x,o,o,o,x,x,x,o,x,x,o,b,b,b,b,b,x,x,x,o,x,b,o,x,b,b,b,b,win
+Game #03 time: 0.96330500 
+outcome: x,x,b,b,b,b,o,x,o,b,b,b,x,x,o,o,o,x,o,x,x,o,x,o,x,o,x,x,o,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #04 time: 0.68850600 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,x,o,b,b,b,x,x,o,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #05 time: 0.42977200 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,o,b,b,b,win
+Game #06 time: 1.17042100 
+outcome: o,o,x,o,x,x,o,x,x,o,o,o,x,x,o,x,x,o,x,x,x,o,x,o,x,o,x,b,b,b,o,o,o,x,x,o,o,o,x,x,x,o,win
+Game #07 time: 1.23308200 
+outcome: o,x,b,b,b,b,o,x,x,x,o,x,x,x,x,o,x,o,o,x,x,o,x,o,o,o,o,x,o,b,o,o,x,o,b,b,x,o,x,x,b,b,win
+Game #08 time: 1.08303900 
+outcome: o,x,o,o,x,x,o,o,x,x,b,b,x,x,x,o,b,b,o,x,x,o,x,o,x,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #09 time: 1.15417100 
+outcome: o,o,o,x,o,x,o,o,o,x,x,x,x,o,x,b,b,b,x,x,x,b,b,b,x,x,x,o,o,o,o,x,b,b,b,b,o,b,b,b,b,b,win
+Game #10 time: 1.30905200 
+outcome: o,o,x,x,b,b,o,o,o,x,o,b,x,x,o,x,x,b,x,x,o,x,o,b,o,x,x,o,o,o,b,b,b,b,b,b,o,x,o,x,x,x,win
+Game #11 time: 0.94805300 
+outcome: o,x,o,x,b,b,o,o,x,o,x,b,x,o,o,x,o,o,o,x,x,x,o,x,x,x,o,x,x,o,o,o,b,b,b,b,x,x,b,b,b,b,win
+Game #12 time: 0.87004900 
+outcome: o,x,b,b,b,b,x,x,o,b,b,b,x,x,x,o,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,b,b,b,win
+Game #13 time: 1.23717000 
+outcome: o,x,b,b,b,b,o,x,x,o,x,b,x,x,o,x,b,b,x,x,x,o,o,b,o,o,x,x,x,o,o,o,x,b,b,b,o,o,b,b,b,b,win
+Game #14 time: 0.57814800 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,x,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #15 time: 1.20030900 
+outcome: o,o,x,x,b,b,o,o,x,b,b,b,x,x,o,x,x,o,x,x,o,x,b,b,o,x,x,x,o,o,o,o,b,b,b,b,o,x,o,x,b,b,win
+Game #16 time: 1.30315300 
+outcome: o,o,o,x,x,x,o,o,x,b,b,b,x,x,o,x,x,x,x,x,o,x,x,b,o,x,x,o,b,b,o,o,o,b,b,b,o,o,b,b,b,b,win
+Game #17 time: 0.58034700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,x,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #18 time: 1.19183800 
+outcome: o,x,x,x,x,b,x,o,x,o,o,b,x,o,x,x,x,o,b,b,b,b,b,b,x,o,o,b,b,b,o,o,o,x,x,b,o,b,b,b,b,b,win
+Game #19 time: 1.16234400 
+outcome: o,o,o,x,x,b,o,x,o,o,x,b,x,x,o,x,x,o,x,x,x,o,x,o,o,b,b,b,b,b,o,o,x,x,x,o,o,o,x,x,b,b,win
+Game #20 time: 1.45060200 
+outcome: o,o,o,x,o,x,o,o,x,x,x,x,x,x,x,o,x,b,o,x,o,x,o,o,o,x,x,x,o,b,o,o,b,b,b,b,x,o,x,b,b,b,win
+Game #21 time: 1.13389100 
+outcome: o,o,o,x,x,x,o,o,x,b,b,b,x,o,x,x,b,b,x,x,x,o,o,b,x,o,x,o,b,b,b,b,b,b,b,b,o,o,x,b,b,b,win
+Game #22 time: 0.82026300 
+outcome: o,x,x,x,b,b,x,b,b,b,b,b,x,o,x,o,o,b,x,o,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #23 time: 0.82781900 
+outcome: o,o,x,x,b,b,o,o,x,b,b,b,x,x,x,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #24 time: 0.44825000 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #25 time: 1.00021400 
+outcome: o,x,b,b,b,b,o,x,x,o,b,b,x,o,x,x,b,b,o,o,x,x,x,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #26 time: 1.51156500 
+outcome: o,o,o,x,o,x,o,o,x,o,x,x,x,o,x,o,x,x,x,x,x,o,x,b,x,o,o,x,o,b,o,x,x,x,o,b,o,o,b,b,b,b,win
+Game #27 time: 1.15853300 
+outcome: x,x,b,b,b,b,o,x,x,x,o,o,x,x,x,o,b,b,x,x,x,b,b,b,o,o,o,b,b,b,o,b,b,b,b,b,o,o,o,x,b,b,win
+Game #28 time: 1.63811800 
+outcome: o,o,x,x,x,x,o,x,o,o,b,b,x,x,o,x,b,b,x,x,o,x,x,b,o,o,x,x,b,b,o,x,o,o,b,b,o,o,b,b,b,b,win
+Game #29 time: 0.47326000 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,x,x,x,x,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #30 time: 1.22040000 
+outcome: o,o,x,x,o,x,o,x,b,b,b,b,x,x,x,o,o,b,o,x,x,x,b,b,o,x,o,b,b,b,o,o,b,b,b,b,x,b,b,b,b,b,win
+average time: 1.03887480 
+Depth-limited minimax search using utilLines heuristic second-player win-rate: 0-30-0
+
+
+Testing for Depth-limited minimax search using utilDots heuristic vs. RandomPlayer:
+Game #01 time: 0.56677500 
+outcome: x,x,o,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #02 time: 1.28975800 
+outcome: x,x,o,o,b,b,x,x,o,o,o,b,x,o,o,x,x,x,o,o,x,x,b,b,x,o,o,o,b,b,x,b,b,b,b,b,x,x,o,o,o,x,loss
+Game #03 time: 0.69339700 
+outcome: x,x,o,o,x,o,x,x,x,b,b,b,b,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,loss
+Game #04 time: 1.25069500 
+outcome: x,x,o,o,x,o,x,o,b,b,b,b,o,o,x,x,o,x,x,o,o,x,o,o,x,o,x,o,b,b,x,x,b,b,b,b,o,x,b,b,b,b,loss
+Game #05 time: 0.46620800 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,x,x,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #06 time: 0.85559900 
+outcome: b,b,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,x,x,o,o,o,o,x,o,x,x,b,b,o,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #07 time: 1.06749100 
+outcome: x,o,b,b,b,b,x,x,o,o,b,b,x,o,o,o,x,b,o,x,o,o,o,x,x,b,b,b,b,b,x,x,o,b,b,b,x,x,o,b,b,b,loss
+Game #08 time: 0.57190000 
+outcome: x,o,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #09 time: 1.27988400 
+outcome: o,x,o,b,b,b,x,x,o,b,b,b,o,x,o,x,b,b,o,o,o,x,x,b,x,o,x,o,b,b,o,o,x,x,b,b,x,b,b,b,b,b,loss
+Game #10 time: 0.47723000 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #11 time: 1.20910400 
+outcome: x,o,o,o,o,b,o,x,x,b,b,b,x,o,o,o,x,b,x,o,x,o,o,x,o,o,x,x,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #12 time: 0.48604300 
+outcome: x,x,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #13 time: 1.21417100 
+outcome: x,x,x,o,o,o,x,x,o,b,b,b,o,o,o,b,b,b,x,o,x,o,x,o,o,o,o,x,b,b,x,x,o,b,b,b,x,x,x,x,b,b,win
+Game #14 time: 0.74360500 
+outcome: x,x,o,o,o,o,x,x,b,b,b,b,b,b,b,b,b,b,o,x,b,b,b,b,o,x,x,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #15 time: 1.10581000 
+outcome: o,x,o,o,b,b,x,x,x,o,x,x,x,o,o,o,x,b,o,o,x,o,o,x,x,o,x,x,o,x,x,b,b,b,b,b,o,x,o,o,b,b,loss
+Game #16 time: 1.39353100 
+outcome: x,o,x,o,o,x,x,x,o,b,b,b,o,o,o,x,b,b,o,o,o,x,b,b,x,x,o,o,x,b,x,x,b,b,b,b,x,x,o,o,b,b,loss
+Game #17 time: 0.60850700 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,o,x,b,b,b,b,x,x,b,b,b,b,loss
+Game #18 time: 1.34424000 
+outcome: x,x,x,o,o,o,x,o,x,o,o,x,x,o,b,b,b,b,o,o,o,x,o,x,x,o,o,o,b,b,x,o,x,b,b,b,x,x,x,o,x,b,loss
+Game #19 time: 1.12799600 
+outcome: x,o,o,o,o,b,o,b,b,b,b,b,x,o,o,o,x,b,x,x,b,b,b,b,o,x,b,b,b,b,x,x,o,x,x,b,b,b,b,b,b,b,loss
+Game #20 time: 0.61325300 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,o,b,b,b,b,o,o,o,o,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #21 time: 1.30585000 
+outcome: x,o,x,o,x,o,x,x,o,b,b,b,x,o,o,x,b,b,o,o,o,x,x,o,x,x,o,o,x,b,x,b,b,b,b,b,x,x,o,o,o,b,loss
+Game #22 time: 0.61029900 
+outcome: x,b,b,b,b,b,b,b,b,b,b,b,x,o,x,b,b,b,o,o,o,o,b,b,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #23 time: 0.47069000 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #24 time: 0.59477900 
+outcome: x,o,b,b,b,b,x,o,x,b,b,b,x,o,b,b,b,b,o,o,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #25 time: 0.77659500 
+outcome: o,o,o,o,b,b,x,x,x,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,x,x,b,b,b,b,b,b,b,b,b,loss
+Game #26 time: 0.46820900 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #27 time: 1.24027000 
+outcome: x,o,o,x,o,x,x,x,o,b,b,b,x,o,o,o,x,b,o,o,x,o,o,x,x,o,b,b,b,b,x,x,o,x,o,o,x,o,x,x,b,b,loss
+Game #28 time: 0.60901100 
+outcome: x,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,x,x,o,b,b,b,b,b,b,b,b,b,loss
+Game #29 time: 1.19106300 
+outcome: x,x,o,x,x,o,x,x,x,o,x,o,x,o,o,o,x,x,o,o,o,x,o,o,x,o,o,o,x,x,x,o,b,b,b,b,x,x,o,o,x,o,loss
+Game #30 time: 1.16577400 
+outcome: x,x,o,o,o,o,x,o,b,b,b,b,x,x,o,x,x,b,o,o,o,b,b,b,x,o,o,x,x,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+average time: 0.89325790 
+Depth-limited minimax search using utilDots heuristic first-player win-rate: 1-29-0
+
+Testing for RandomPlayer vs. Depth-limited minimax search using utilDots heuristic:
+Game #01 time: 1.41666500 
+outcome: o,o,x,x,x,x,o,x,o,x,x,o,x,o,x,x,x,o,o,b,b,b,b,b,x,x,o,x,x,o,o,o,o,x,o,x,o,o,o,x,b,b,win
+Game #02 time: 1.03184000 
+outcome: x,b,b,b,b,b,x,o,x,x,o,x,x,x,x,o,o,b,x,o,x,o,b,b,o,o,b,b,b,b,o,x,x,b,b,b,o,o,b,b,b,b,win
+Game #03 time: 0.46547100 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #04 time: 1.06027000 
+outcome: o,x,b,b,b,b,o,o,o,x,b,b,x,x,x,b,b,b,x,x,o,b,b,b,x,x,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,win
+Game #05 time: 1.15436200 
+outcome: o,o,x,x,x,o,o,x,x,b,b,b,x,x,x,o,o,o,o,x,x,o,x,x,x,o,x,o,o,o,x,o,b,b,b,b,x,o,x,o,b,b,win
+Game #06 time: 0.72953600 
+outcome: o,b,b,b,b,b,o,o,b,b,b,b,x,x,o,b,b,b,b,b,b,b,b,b,o,x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #07 time: 0.60429800 
+outcome: b,b,b,b,b,b,o,x,b,b,b,b,x,x,o,b,b,b,o,x,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #08 time: 1.47641300 
+outcome: o,o,o,x,o,x,x,x,o,x,x,x,x,x,o,o,x,x,x,x,x,o,x,o,o,o,x,b,b,b,o,o,x,x,x,o,o,o,x,o,o,o,win
+Game #09 time: 0.47097000 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #10 time: 1.35966300 
+outcome: o,o,o,x,o,x,x,o,x,x,x,b,x,x,x,o,x,o,o,x,o,x,x,o,o,x,x,o,x,x,x,o,o,o,b,b,o,o,x,o,x,o,win
+Game #11 time: 1.19257100 
+outcome: o,x,x,x,o,o,o,x,x,o,x,o,x,o,x,x,x,o,o,x,o,x,o,x,o,o,x,b,b,b,o,x,o,x,o,x,x,o,o,x,x,o,win
+Game #12 time: 1.28407600 
+outcome: o,o,o,x,x,b,o,o,o,x,x,b,x,x,x,o,o,b,x,x,o,o,x,x,o,x,x,x,o,o,o,b,b,b,b,b,o,x,x,b,b,b,win
+Game #13 time: 1.28837800 
+outcome: x,x,o,x,x,o,o,x,b,b,b,b,x,o,x,o,x,x,o,x,o,x,o,x,o,x,x,x,o,o,x,b,b,b,b,b,o,o,o,x,o,o,win
+Game #14 time: 1.44851700 
+outcome: o,x,o,x,o,b,o,o,x,x,x,o,x,x,x,o,b,b,o,x,x,o,b,b,o,o,x,b,b,b,x,o,x,x,b,b,o,b,b,b,b,b,win
+Game #15 time: 1.14520600 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,x,o,x,o,o,b,x,x,o,b,b,b,x,x,o,b,b,b,o,o,b,b,b,b,o,o,o,x,b,b,win
+Game #16 time: 0.44700100 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #17 time: 1.34353600 
+outcome: x,x,o,x,o,x,o,o,o,x,o,x,x,x,x,x,b,b,o,o,b,b,b,b,o,x,x,x,o,o,x,x,o,x,x,o,o,o,o,x,o,b,win
+Game #18 time: 1.10617700 
+outcome: o,x,b,b,b,b,o,x,x,x,b,b,x,x,x,o,o,b,x,x,x,o,o,x,o,b,b,b,b,b,o,o,b,b,b,b,o,o,x,b,b,b,win
+Game #19 time: 1.01482400 
+outcome: o,o,x,x,o,o,o,x,x,b,b,b,x,x,x,o,x,b,x,o,x,x,o,x,x,x,b,b,b,b,o,o,b,b,b,b,o,o,o,x,o,b,win
+Game #20 time: 1.25703000 
+outcome: o,o,x,x,x,x,o,o,b,b,b,b,x,x,x,b,b,b,o,x,x,x,o,b,x,x,o,b,b,b,o,o,o,b,b,b,o,b,b,b,b,b,win
+Game #21 time: 1.09088300 
+outcome: o,x,x,o,x,o,x,x,b,b,b,b,x,x,o,o,o,x,x,x,o,o,b,b,o,x,x,x,b,b,o,o,b,b,b,b,o,b,b,b,b,b,win
+Game #22 time: 1.23211200 
+outcome: o,x,x,x,b,b,x,x,b,b,b,b,x,b,b,b,b,b,o,o,x,o,x,o,o,x,x,x,o,b,x,o,x,o,o,b,o,o,o,b,b,b,loss
+Game #23 time: 1.17808000 
+outcome: x,x,b,b,b,b,o,x,x,o,o,x,x,x,o,x,o,x,x,x,o,o,x,x,o,o,x,o,x,b,o,o,b,b,b,b,o,o,x,o,o,x,win
+Game #24 time: 1.41169600 
+outcome: o,o,o,x,o,x,x,o,o,x,o,x,x,x,x,o,x,x,x,x,x,o,x,x,o,o,x,o,x,b,o,o,o,b,b,b,o,x,o,b,b,b,win
+Game #25 time: 0.48031700 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #26 time: 1.29984100 
+outcome: o,x,x,b,b,b,o,o,x,o,o,o,x,x,x,o,o,b,x,x,x,b,b,b,o,b,b,b,b,b,o,x,x,x,o,b,o,o,x,x,b,b,win
+Game #27 time: 1.29690700 
+outcome: o,x,x,x,x,b,o,x,b,b,b,b,x,o,x,o,b,b,o,x,x,x,o,b,x,o,x,b,b,b,o,o,b,b,b,b,o,o,b,b,b,b,win
+Game #28 time: 0.73921600 
+outcome: b,b,b,b,b,b,o,x,x,x,x,b,x,x,o,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #29 time: 1.43127700 
+outcome: o,o,x,o,o,o,o,x,x,x,o,x,x,x,o,o,o,x,x,x,x,o,x,o,o,o,x,x,x,x,x,b,b,b,b,b,o,o,x,o,x,o,win
+Game #30 time: 1.07695400 
+outcome: o,o,x,b,b,b,x,o,x,b,b,b,x,x,x,o,b,b,x,x,x,o,o,b,o,x,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,win
+average time: 1.08446957 
+Depth-limited minimax search using utilDots heuristic second-player win-rate: 1-29-0
+
+
+Testing for Depth-limited minimax search using utilHeightLines heuristic vs. RandomPlayer:
+Game #01 time: 0.78812200 
+outcome: x,x,o,o,o,x,x,o,b,b,b,b,x,o,o,o,x,b,o,o,x,o,x,x,x,o,x,o,o,b,b,b,b,b,b,b,x,x,o,o,x,x,loss
+Game #02 time: 0.41583800 
+outcome: o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,x,o,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #03 time: 0.77047800 
+outcome: o,x,o,o,o,o,o,o,x,x,o,b,x,x,b,b,b,b,o,x,o,o,o,x,x,o,o,x,x,x,x,x,o,x,b,b,x,b,b,b,b,b,loss
+Game #04 time: 0.85937200 
+outcome: o,o,b,b,b,b,x,o,o,x,b,b,x,o,x,x,o,x,o,o,o,x,o,o,x,b,b,b,b,b,x,o,o,o,x,x,x,x,o,x,x,b,loss
+Game #05 time: 0.72885600 
+outcome: o,o,b,b,b,b,x,o,o,o,x,o,x,o,x,o,x,x,o,o,x,o,x,x,x,b,b,b,b,b,x,o,x,o,b,b,x,o,o,x,x,b,loss
+Game #06 time: 0.86530200 
+outcome: x,x,o,o,b,b,x,x,o,x,o,b,x,o,x,x,o,b,o,o,x,o,o,x,x,o,o,o,x,b,x,x,o,o,b,b,x,b,b,b,b,b,loss
+Game #07 time: 0.34277800 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #08 time: 0.34885600 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #09 time: 0.87349400 
+outcome: x,x,x,o,x,o,x,x,o,x,o,x,o,o,o,x,o,o,x,o,o,o,x,o,o,x,o,b,b,b,x,x,o,x,o,x,x,o,x,b,b,b,loss
+Game #10 time: 1.02221600 
+outcome: x,x,o,o,b,b,x,x,o,x,o,b,o,o,x,o,x,b,o,o,x,o,o,b,x,x,o,b,b,b,x,o,x,b,b,b,x,b,b,b,b,b,loss
+Game #11 time: 0.45424700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #12 time: 0.75768900 
+outcome: x,x,o,o,o,o,o,b,b,b,b,b,o,o,o,x,b,b,x,o,x,x,b,b,o,o,x,x,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #13 time: 0.94194800 
+outcome: x,x,o,x,o,o,o,o,x,o,x,x,x,x,b,b,b,b,x,x,o,o,o,x,x,o,o,o,x,x,o,x,o,o,o,b,x,x,b,b,b,b,win
+Game #14 time: 0.76634600 
+outcome: x,x,o,o,o,o,x,b,b,b,b,b,o,x,b,b,b,b,o,o,x,b,b,b,o,o,o,b,b,b,x,x,x,b,b,b,x,x,b,b,b,b,loss
+Game #15 time: 0.78130900 
+outcome: x,x,x,o,o,x,x,x,x,o,o,o,o,x,x,b,b,b,o,o,o,x,b,b,o,x,o,o,o,b,b,b,b,b,b,b,x,x,x,o,x,b,win
+Game #16 time: 0.83424300 
+outcome: x,x,x,o,x,o,x,x,o,o,b,b,o,x,o,o,o,b,x,o,o,o,x,o,x,x,x,o,o,b,o,x,x,b,b,b,x,b,b,b,b,b,loss
+Game #17 time: 0.58207100 
+outcome: x,o,o,o,o,b,b,b,b,b,b,b,x,o,x,x,x,b,o,o,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #18 time: 0.84881200 
+outcome: x,o,o,x,o,o,x,x,o,o,o,x,o,x,o,b,b,b,o,o,x,o,x,x,x,o,x,o,x,b,x,x,o,o,o,x,x,x,b,b,b,b,loss
+Game #19 time: 0.73973700 
+outcome: x,o,b,b,b,b,x,x,o,x,o,x,x,x,o,o,o,b,o,o,o,x,o,x,x,b,b,b,b,b,x,o,o,x,b,b,x,x,o,o,b,b,loss
+Game #20 time: 0.76938300 
+outcome: x,x,o,o,o,o,x,o,b,b,b,b,o,o,o,x,b,b,o,o,o,x,b,b,x,b,b,b,b,b,x,x,o,x,x,x,x,b,b,b,b,b,loss
+Game #21 time: 0.87951500 
+outcome: x,o,o,o,o,b,o,b,b,b,b,b,x,o,o,x,x,b,o,x,o,x,x,b,x,o,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #22 time: 0.92139200 
+outcome: x,o,o,o,o,b,x,b,b,b,b,b,x,x,o,o,x,x,o,x,o,o,o,x,x,o,o,o,x,b,x,o,x,x,x,o,x,b,b,b,b,b,loss
+Game #23 time: 0.33671200 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #24 time: 0.54927900 
+outcome: b,b,b,b,b,b,x,o,b,b,b,b,x,o,x,b,b,b,o,o,x,x,b,b,o,o,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #25 time: 0.84457600 
+outcome: x,x,o,x,o,o,x,x,o,o,b,b,x,o,x,o,o,x,o,o,x,o,x,x,x,o,o,o,x,b,x,x,o,b,b,b,o,x,b,b,b,b,loss
+Game #26 time: 0.69176600 
+outcome: o,o,o,o,b,b,o,x,b,b,b,b,o,o,o,b,b,b,x,o,x,x,x,b,x,o,x,x,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #27 time: 0.62070600 
+outcome: o,o,b,b,b,b,x,o,o,x,b,b,x,o,o,x,b,b,o,o,o,b,b,b,x,x,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #28 time: 0.94782700 
+outcome: x,x,x,o,o,b,x,o,x,o,x,b,x,o,o,o,b,b,o,o,o,x,o,b,x,x,o,o,o,b,x,x,x,b,b,b,x,x,o,b,b,b,loss
+Game #29 time: 0.85573700 
+outcome: x,x,o,o,b,b,o,o,o,b,b,b,x,o,x,o,x,b,o,o,x,x,b,b,b,b,b,b,b,b,x,x,o,x,b,b,x,o,b,b,b,b,loss
+Game #30 time: 0.54860100 
+outcome: x,o,o,o,o,b,x,b,b,b,b,b,x,o,x,o,x,x,o,o,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+average time: 0.72290693 
+Depth-limited minimax search using utilHeightLines heuristic first-player win-rate: 2-28-0
+
+Testing for RandomPlayer vs. Depth-limited minimax search using utilHeightLines heuristic:
+Game #01 time: 0.83907000 
+outcome: o,x,x,x,o,x,o,x,x,x,b,b,b,b,b,b,b,b,x,x,x,o,o,b,o,x,x,o,o,o,o,x,x,x,o,b,o,o,o,o,b,b,loss
+Game #02 time: 0.82955200 
+outcome: o,x,x,x,x,b,o,b,b,b,b,b,x,x,o,x,x,o,x,x,o,b,b,b,o,b,b,b,b,b,o,o,o,x,o,b,o,o,x,x,b,b,win
+Game #03 time: 0.51121500 
+outcome: o,x,x,x,x,b,b,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,win
+Game #04 time: 0.80640600 
+outcome: o,o,x,x,x,x,o,o,b,b,b,b,x,o,x,o,o,b,x,x,x,o,b,b,x,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,win
+Game #05 time: 0.44130300 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,x,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,win
+Game #06 time: 0.32789300 
+outcome: o,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #07 time: 0.80686300 
+outcome: x,o,o,x,b,b,o,o,x,o,o,o,o,x,o,x,x,b,x,x,x,b,b,b,o,x,x,b,b,b,o,o,b,b,b,b,o,x,x,x,b,b,win
+Game #08 time: 0.68308400 
+outcome: o,o,x,b,b,b,o,o,x,x,b,b,o,x,x,x,o,b,x,x,x,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,o,x,b,b,b,win
+Game #09 time: 0.31004500 
+outcome: x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #10 time: 0.59980900 
+outcome: o,o,o,x,x,x,o,o,x,b,b,b,x,x,o,o,b,b,x,x,o,b,b,b,x,x,x,b,b,b,b,b,b,b,b,b,o,o,o,x,b,b,win
+Game #11 time: 0.72863400 
+outcome: o,x,x,x,x,b,x,o,x,b,b,b,o,b,b,b,b,b,x,o,x,o,o,b,o,x,x,x,o,o,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #12 time: 0.68132400 
+outcome: o,x,x,x,x,b,b,b,b,b,b,b,x,x,b,b,b,b,x,x,o,o,b,b,o,b,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,win
+Game #13 time: 0.97810700 
+outcome: o,x,x,x,b,b,o,o,x,x,o,x,x,o,x,o,x,o,x,x,o,x,o,o,o,x,x,x,o,o,o,o,b,b,b,b,o,x,x,b,b,b,win
+Game #14 time: 0.66325500 
+outcome: x,x,b,b,b,b,o,o,b,b,b,b,x,o,b,b,b,b,x,x,x,o,b,b,x,x,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,loss
+Game #15 time: 0.34656600 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #16 time: 0.38790700 
+outcome: o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #17 time: 0.42820600 
+outcome: x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,o,x,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #18 time: 0.78109600 
+outcome: o,o,x,o,x,x,o,x,x,x,o,x,o,x,b,b,b,b,x,x,x,b,b,b,x,x,o,o,x,o,o,x,o,o,o,x,o,o,b,b,b,b,win
+Game #19 time: 0.47797900 
+outcome: o,x,x,x,o,x,x,b,b,b,b,b,x,b,b,b,b,b,x,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,win
+Game #20 time: 0.44697100 
+outcome: o,x,x,x,x,b,b,b,b,b,b,b,x,o,b,b,b,b,x,o,o,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #21 time: 0.78015700 
+outcome: x,o,x,b,b,b,o,o,x,o,b,b,o,x,x,x,b,b,x,o,x,x,x,b,o,o,b,b,b,b,o,o,x,b,b,b,b,b,b,b,b,b,win
+Game #22 time: 0.68453700 
+outcome: o,o,x,x,b,b,x,x,b,b,b,b,x,x,o,o,x,b,x,x,x,b,b,b,o,o,b,b,b,b,o,o,x,x,b,b,o,o,o,o,b,b,loss
+Game #23 time: 0.94382800 
+outcome: o,x,x,x,x,b,o,o,x,o,b,b,x,o,b,b,b,b,x,x,x,o,x,b,x,o,x,o,o,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #24 time: 0.87658200 
+outcome: o,o,x,o,x,o,o,x,x,o,x,o,o,x,x,b,b,b,x,o,x,o,o,x,x,x,x,o,x,o,x,o,b,b,b,b,o,x,x,o,b,b,win
+Game #25 time: 0.80609400 
+outcome: x,o,x,b,b,b,o,o,x,x,o,o,o,x,x,o,x,x,x,o,x,x,o,x,o,o,o,x,x,x,o,o,b,b,b,b,o,x,x,o,b,b,win
+Game #26 time: 0.32862000 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #27 time: 0.44608900 
+outcome: o,x,x,x,x,b,b,b,b,b,b,b,x,b,b,b,b,b,x,o,o,o,b,b,x,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #28 time: 0.44895100 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,x,o,o,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #29 time: 0.66136100 
+outcome: x,b,b,b,b,b,o,x,o,o,b,b,x,x,x,b,b,b,x,x,o,x,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #30 time: 0.86499900 
+outcome: o,x,x,x,o,x,o,x,b,b,b,b,o,x,x,o,x,o,x,x,o,x,o,x,o,x,x,o,o,o,o,o,x,x,b,b,o,b,b,b,b,b,win
+average time: 0.63055010 
+Depth-limited minimax search using utilHeightLines heuristic second-player win-rate: 3-27-0
+
+
+Testing for Depth-limited minimax search using utilHeightDots heuristic vs. RandomPlayer:
+Game #01 time: 0.83327900 
+outcome: x,o,o,b,b,b,x,x,o,x,o,o,x,o,o,o,x,b,o,o,o,x,b,b,x,x,b,b,b,b,o,x,b,b,b,b,x,x,b,b,b,b,loss
+Game #02 time: 0.29782200 
+outcome: b,b,b,b,b,b,x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #03 time: 0.53097500 
+outcome: x,o,o,o,o,b,x,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,x,x,x,b,b,b,loss
+Game #04 time: 0.48559500 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,x,o,b,b,b,b,x,o,x,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #05 time: 0.53212400 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,x,o,o,o,o,b,o,x,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #06 time: 0.72247600 
+outcome: x,x,x,o,b,b,x,o,o,b,b,b,o,o,b,b,b,b,o,o,x,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #07 time: 1.25440200 
+outcome: x,x,o,x,o,o,x,o,x,o,x,x,o,o,x,o,o,x,o,o,x,o,x,o,x,b,b,b,b,b,x,x,o,o,b,b,x,x,o,b,b,b,loss
+Game #08 time: 0.98504300 
+outcome: x,o,o,o,x,o,o,o,o,o,b,b,x,b,b,b,b,b,o,o,o,x,x,b,o,x,o,x,x,x,x,x,o,o,x,x,x,x,b,b,b,b,loss
+Game #09 time: 0.74203800 
+outcome: x,x,b,b,b,b,o,o,x,x,o,b,x,o,x,x,b,b,x,o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #10 time: 0.85154700 
+outcome: o,b,b,b,b,b,x,o,b,b,b,b,x,x,o,o,o,b,o,o,x,o,b,b,o,x,x,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #11 time: 1.03252900 
+outcome: x,x,o,o,b,b,x,o,o,x,x,o,x,o,x,o,x,o,o,o,o,x,o,o,x,b,b,b,b,b,x,o,o,x,o,b,x,x,x,o,x,x,loss
+Game #12 time: 1.05716900 
+outcome: x,x,x,o,o,o,x,o,o,b,b,b,o,x,o,x,o,x,o,o,o,b,b,b,o,x,o,o,x,x,x,o,b,b,b,b,x,x,o,x,x,x,loss
+Game #13 time: 0.99398200 
+outcome: x,o,o,o,o,b,x,o,x,x,b,b,o,b,b,b,b,b,o,o,o,x,b,b,x,o,o,x,b,b,x,x,o,x,b,b,x,x,b,b,b,b,loss
+Game #14 time: 0.61689900 
+outcome: o,o,b,b,b,b,o,o,o,b,b,b,x,o,x,x,b,b,x,o,x,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #15 time: 0.79515600 
+outcome: x,x,o,o,b,b,x,o,o,o,x,x,x,o,x,o,x,o,o,o,x,o,o,x,x,x,b,b,b,b,x,o,o,o,x,b,x,x,x,o,o,b,loss
+Game #16 time: 1.06675900 
+outcome: x,o,o,b,b,b,x,x,o,o,o,b,o,o,o,x,x,b,o,o,o,x,b,b,x,b,b,b,b,b,x,x,b,b,b,b,x,x,x,o,b,b,loss
+Game #17 time: 0.58290800 
+outcome: x,o,b,b,b,b,x,o,x,b,b,b,o,o,b,b,b,b,o,o,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #18 time: 0.85809500 
+outcome: x,x,x,o,o,o,x,o,b,b,b,b,o,o,x,o,b,b,o,o,b,b,b,b,x,o,o,o,b,b,x,x,x,b,b,b,x,x,x,b,b,b,loss
+Game #19 time: 0.50248100 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,o,x,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #20 time: 0.39985200 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #21 time: 0.94029600 
+outcome: o,o,o,o,b,b,o,o,x,b,b,b,o,o,x,b,b,b,x,x,o,x,b,b,x,o,o,x,x,x,o,x,o,o,x,b,x,x,x,b,b,b,loss
+Game #22 time: 0.86799700 
+outcome: x,x,o,o,o,x,o,x,o,o,o,b,o,x,b,b,b,b,o,o,x,x,b,b,b,b,b,b,b,b,x,o,b,b,b,b,x,x,x,x,b,b,win
+Game #23 time: 0.78637000 
+outcome: o,o,o,o,b,b,x,o,o,o,x,b,o,x,b,b,b,b,o,o,x,o,x,x,x,x,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #24 time: 0.68697600 
+outcome: x,o,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,o,o,x,x,b,b,o,o,o,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #25 time: 0.59505400 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,x,o,x,b,b,b,x,x,b,b,b,b,x,x,b,b,b,b,loss
+Game #26 time: 0.40617900 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,x,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #27 time: 0.45152500 
+outcome: x,o,b,b,b,b,x,o,b,b,b,b,o,o,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #28 time: 0.88225800 
+outcome: o,o,b,b,b,b,x,x,o,o,o,b,o,x,o,b,b,b,o,o,o,x,x,b,x,x,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,win
+Game #29 time: 0.41134800 
+outcome: x,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #30 time: 0.84640100 
+outcome: x,x,o,o,b,b,x,x,o,b,b,b,x,o,o,o,b,b,o,o,x,o,o,o,x,o,x,o,x,x,b,b,b,b,b,b,x,x,x,b,b,b,loss
+average time: 0.73385117 
+Depth-limited minimax search using utilHeightDots heuristic first-player win-rate: 4-26-0
+
+Testing for RandomPlayer vs. Depth-limited minimax search using utilHeightDots heuristic:
+Game #01 time: 0.79352800 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,o,o,b,b,b,b,x,x,o,o,o,x,o,x,o,x,b,b,o,x,x,x,b,b,o,o,b,b,b,b,win
+Game #02 time: 1.02363100 
+outcome: o,o,x,x,x,x,o,o,b,b,b,b,o,x,x,o,b,b,x,x,x,o,b,b,x,o,o,x,b,b,o,x,o,b,b,b,b,b,b,b,b,b,win
+Game #03 time: 0.87921700 
+outcome: o,o,x,o,x,o,o,x,x,o,o,o,o,x,o,x,x,x,x,x,x,o,x,o,o,o,x,x,x,o,o,o,x,b,b,b,o,x,x,x,o,x,win
+Game #04 time: 0.87816400 
+outcome: b,b,b,b,b,b,o,o,x,x,x,x,o,o,b,b,b,b,x,o,x,x,x,o,o,x,x,x,o,o,o,o,x,b,b,b,x,o,b,b,b,b,win
+Game #05 time: 0.39311000 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #06 time: 1.01416200 
+outcome: o,x,x,o,x,b,o,x,x,x,o,b,o,o,x,b,b,b,x,x,o,x,o,x,o,x,o,x,o,b,o,x,x,x,o,o,o,b,b,b,b,b,win
+Game #07 time: 1.01800800 
+outcome: o,x,o,x,x,x,o,x,o,x,o,x,x,o,o,o,x,x,x,x,x,o,o,b,x,o,x,o,x,o,o,o,o,b,b,b,o,o,x,x,x,o,loss
+Game #08 time: 0.61220700 
+outcome: x,x,o,x,x,x,o,o,o,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,o,b,b,b,x,b,b,b,b,b,win
+Game #09 time: 1.16278600 
+outcome: o,o,x,x,x,x,o,o,b,b,b,b,o,x,x,o,x,b,x,x,x,o,x,b,x,o,o,x,o,b,b,b,b,b,b,b,o,o,o,x,b,b,win
+Game #10 time: 0.81602700 
+outcome: o,x,x,x,x,b,o,o,b,b,b,b,x,o,b,b,b,b,x,x,x,o,o,b,x,x,b,b,b,b,b,b,b,b,b,b,o,o,o,b,b,b,win
+Game #11 time: 0.81657200 
+outcome: o,o,o,x,x,x,o,b,b,b,b,b,o,x,o,x,x,o,x,x,o,x,x,o,x,x,x,x,b,b,o,b,b,b,b,b,o,o,o,b,b,b,win
+Game #12 time: 0.60703200 
+outcome: o,x,x,x,x,b,b,b,b,b,b,b,x,o,o,b,b,b,x,x,x,b,b,b,x,o,b,b,b,b,o,o,b,b,b,b,o,o,b,b,b,b,win
+Game #13 time: 0.50128600 
+outcome: o,o,x,x,x,x,b,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #14 time: 0.90366100 
+outcome: x,x,b,b,b,b,o,o,x,o,x,b,o,o,x,x,x,b,x,x,x,o,x,b,o,b,b,b,b,b,o,o,x,b,b,b,o,o,b,b,b,b,win
+Game #15 time: 1.17557600 
+outcome: o,x,o,x,o,o,o,x,x,o,x,o,o,x,b,b,b,b,x,x,x,o,x,x,x,x,o,x,o,x,o,x,o,o,x,b,o,o,b,b,b,b,win
+Game #16 time: 1.17793300 
+outcome: o,o,x,o,x,x,o,x,x,o,x,b,x,o,o,x,o,b,x,x,x,o,x,o,o,x,x,x,b,b,o,b,b,b,b,b,o,o,x,x,o,o,win
+Game #17 time: 0.60044900 
+outcome: b,b,b,b,b,b,o,x,b,b,b,b,o,x,o,b,b,b,x,x,b,b,b,b,x,x,o,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #18 time: 1.17578700 
+outcome: o,x,o,o,x,b,o,o,x,x,x,b,x,x,x,b,b,b,x,x,x,o,x,x,o,o,o,x,o,b,o,o,x,o,b,b,x,o,o,b,b,b,win
+Game #19 time: 0.97648300 
+outcome: o,o,x,o,x,o,x,x,x,o,o,o,o,x,o,x,x,o,x,x,o,x,x,x,o,o,x,o,x,b,o,o,x,o,x,x,x,o,o,o,x,x,win
+Game #20 time: 0.52060600 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,x,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #21 time: 0.85892600 
+outcome: o,x,x,x,x,b,o,o,b,b,b,b,o,x,o,x,o,b,x,x,o,x,x,b,o,x,x,x,b,b,o,o,x,o,b,b,o,o,b,b,b,b,win
+Game #22 time: 0.96330800 
+outcome: o,o,x,o,x,b,o,o,o,x,x,o,x,x,o,x,x,o,x,x,o,x,x,o,o,x,x,b,b,b,b,b,b,b,b,b,o,o,x,o,x,b,win
+Game #23 time: 0.73320100 
+outcome: o,x,b,b,b,b,o,x,x,b,b,b,o,x,x,b,b,b,x,x,x,b,b,b,o,o,b,b,b,b,o,o,x,b,b,b,o,b,b,b,b,b,win
+Game #24 time: 0.85936900 
+outcome: o,o,o,x,x,x,b,b,b,b,b,b,x,x,o,x,o,x,x,x,x,o,o,o,o,x,x,b,b,b,o,o,o,x,b,b,b,b,b,b,b,b,win
+Game #25 time: 0.44461800 
+outcome: o,x,b,b,b,b,o,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #26 time: 0.35497400 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #27 time: 0.96740100 
+outcome: o,x,x,x,x,b,o,o,x,x,x,o,x,o,x,o,b,b,x,x,o,x,o,o,o,x,x,x,o,o,o,x,o,b,b,b,o,o,x,b,b,b,win
+Game #28 time: 0.94514700 
+outcome: o,o,x,x,x,o,o,o,x,b,b,b,o,x,x,b,b,b,x,o,x,x,x,o,x,o,x,x,o,b,o,o,b,b,b,b,o,x,b,b,b,b,win
+Game #29 time: 0.37820600 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #30 time: 0.94363100 
+outcome: o,x,o,x,o,x,o,x,b,b,b,b,o,x,o,x,x,x,x,x,x,o,x,x,o,x,x,x,o,o,o,o,o,x,o,x,o,o,o,x,o,b,win
+average time: 0.81650020 
+Depth-limited minimax search using utilHeightDots heuristic second-player win-rate: 1-29-0
+
+
+Testing for Depth-limited minimax search using utilWeightLines heuristic vs. RandomPlayer:
+Game #01 time: 0.46533100 
+outcome: o,o,b,b,b,b,x,o,b,b,b,b,o,o,x,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #02 time: 0.60359100 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,o,o,x,x,b,b,x,o,b,b,b,b,o,o,b,b,b,b,x,x,b,b,b,b,loss
+Game #03 time: 0.87500200 
+outcome: x,o,o,x,o,x,x,o,x,o,o,x,x,o,b,b,b,b,o,o,x,x,o,o,x,o,b,b,b,b,x,o,o,x,x,x,b,b,b,b,b,b,loss
+Game #04 time: 0.85626200 
+outcome: x,x,o,o,x,o,x,o,o,b,b,b,x,x,o,o,x,b,o,o,o,x,b,b,x,o,x,o,x,x,x,o,o,x,o,b,x,x,o,b,b,b,loss
+Game #05 time: 0.56108400 
+outcome: o,o,o,o,b,b,x,x,b,b,b,b,o,o,x,b,b,b,x,o,x,x,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #06 time: 0.92886200 
+outcome: x,x,o,x,o,x,x,o,b,b,b,b,o,o,o,x,x,o,x,o,o,o,x,o,o,o,x,x,o,o,x,x,o,x,x,b,x,x,o,b,b,b,loss
+Game #07 time: 0.33175000 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #08 time: 0.77559700 
+outcome: x,x,x,o,x,o,x,x,x,o,o,b,x,o,o,x,o,x,o,o,o,x,o,o,x,o,x,o,o,x,x,x,b,b,b,b,o,b,b,b,b,b,loss
+Game #09 time: 0.44105900 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,x,o,x,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,x,b,b,b,loss
+Game #10 time: 0.90277800 
+outcome: o,o,b,b,b,b,o,o,b,b,b,b,x,o,x,b,b,b,o,o,o,x,b,b,x,x,o,b,b,b,x,x,o,x,b,b,x,x,x,o,b,b,loss
+Game #11 time: 0.58694300 
+outcome: x,b,b,b,b,b,x,x,x,o,o,x,o,o,o,b,b,b,o,o,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #12 time: 0.82524500 
+outcome: x,x,o,o,x,o,x,o,b,b,b,b,o,o,o,x,b,b,o,o,x,x,x,b,o,o,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #13 time: 0.80812600 
+outcome: o,x,o,o,b,b,x,x,x,x,b,b,x,x,o,o,o,x,o,o,o,x,o,o,x,o,o,x,o,x,x,b,b,b,b,b,x,o,x,o,x,x,win
+Game #14 time: 0.60333400 
+outcome: x,o,b,b,b,b,o,o,x,b,b,b,x,o,b,b,b,b,o,o,o,x,x,b,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #15 time: 0.64290500 
+outcome: x,o,b,b,b,b,x,o,x,o,o,x,x,o,o,o,x,o,o,o,o,b,b,b,b,b,b,b,b,b,x,x,o,b,b,b,x,x,x,o,x,x,loss
+Game #16 time: 0.44491200 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,o,b,b,x,x,x,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #17 time: 0.82892400 
+outcome: x,x,x,o,x,x,x,x,o,o,o,x,x,x,o,o,b,b,o,o,x,o,o,o,x,o,o,o,x,o,x,o,x,o,b,b,x,x,b,b,b,b,loss
+Game #18 time: 0.74878200 
+outcome: x,x,o,o,x,o,x,x,o,b,b,b,x,o,o,o,b,b,o,o,o,x,x,x,x,o,o,o,x,b,x,x,b,b,b,b,x,x,o,x,o,o,loss
+Game #19 time: 0.55096100 
+outcome: x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,x,x,o,b,b,x,o,o,o,o,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #20 time: 0.81916700 
+outcome: x,x,o,x,x,o,o,x,x,o,x,b,x,o,x,o,o,b,x,o,o,o,x,o,o,o,x,b,b,b,b,b,b,b,b,b,x,x,o,b,b,b,loss
+Game #21 time: 0.94021800 
+outcome: x,x,x,o,x,x,o,x,o,b,b,b,o,x,o,o,x,b,o,o,o,b,b,b,x,x,o,o,o,b,x,b,b,b,b,b,x,x,x,o,o,b,loss
+Game #22 time: 0.52582000 
+outcome: x,o,b,b,b,b,x,o,b,b,b,b,o,o,b,b,b,b,o,o,x,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #23 time: 0.79602300 
+outcome: x,o,b,b,b,b,x,o,o,x,x,o,x,o,b,b,b,b,o,o,x,o,o,x,x,b,b,b,b,b,x,o,x,b,b,b,x,x,o,x,o,o,loss
+Game #24 time: 0.46262300 
+outcome: o,o,o,o,b,b,x,x,x,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,x,x,b,b,b,b,b,b,b,b,b,loss
+Game #25 time: 0.86790300 
+outcome: x,x,x,o,o,x,o,x,o,b,b,b,x,o,x,o,o,b,o,x,o,o,o,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #26 time: 0.90313500 
+outcome: x,o,x,x,o,o,x,o,o,b,b,b,o,x,o,x,o,b,x,x,o,o,x,b,x,o,o,x,x,b,o,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #27 time: 0.77291600 
+outcome: x,x,o,o,b,b,x,o,o,x,o,b,x,o,o,o,x,x,o,o,x,o,o,b,x,x,x,o,b,b,x,x,o,b,b,b,x,x,o,b,b,b,loss
+Game #28 time: 0.64489500 
+outcome: x,o,o,o,o,b,o,b,b,b,b,b,x,o,x,x,b,b,o,o,x,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #29 time: 0.44224200 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,x,b,b,b,b,x,o,o,o,o,b,x,x,x,b,b,b,b,b,b,b,b,b,loss
+Game #30 time: 0.99659200 
+outcome: x,x,o,o,o,o,x,x,b,b,b,b,x,x,b,b,b,b,o,o,o,x,o,b,x,o,o,x,b,b,o,x,o,o,x,b,x,x,b,b,b,b,loss
+average time: 0.69843273 
+Depth-limited minimax search using utilWeightLines heuristic first-player win-rate: 1-29-0
+
+Testing for RandomPlayer vs. Depth-limited minimax search using utilWeightLines heuristic:
+Game #01 time: 0.78419200 
+outcome: o,x,x,x,o,x,o,o,o,x,x,x,x,x,x,o,o,o,x,x,o,o,x,x,o,x,x,o,x,x,o,o,x,b,b,b,o,o,o,x,o,o,win
+Game #02 time: 0.49779300 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,x,o,b,b,x,o,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #03 time: 0.42211500 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,o,o,o,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #04 time: 0.71716000 
+outcome: o,x,x,x,x,b,o,b,b,b,b,b,x,x,o,o,b,b,x,x,x,b,b,b,o,x,x,b,b,b,o,o,o,b,b,b,o,o,b,b,b,b,win
+Game #05 time: 0.78965700 
+outcome: o,x,x,b,b,b,o,x,x,o,o,b,x,x,x,b,b,b,x,b,b,b,b,b,o,x,x,o,x,b,o,o,x,b,b,b,o,o,o,o,b,b,loss
+Game #06 time: 0.81795000 
+outcome: x,x,x,o,x,x,o,x,b,b,b,b,x,x,x,o,o,b,o,x,x,o,b,b,o,o,x,o,b,b,o,o,b,b,b,b,x,o,b,b,b,b,win
+Game #07 time: 0.93933900 
+outcome: o,o,x,b,b,b,o,o,x,b,b,b,x,o,x,x,x,o,o,x,x,x,o,x,x,o,o,o,x,b,o,o,x,x,x,b,o,x,o,b,b,b,win
+Game #08 time: 0.58311300 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,x,o,x,o,o,o,x,x,b,b,b,b,x,x,x,b,b,b,o,o,b,b,b,b,o,o,o,x,o,o,win
+Game #09 time: 0.84603600 
+outcome: o,o,x,o,o,x,o,x,x,x,x,b,x,x,o,x,x,b,o,x,o,x,x,o,o,o,x,o,b,b,x,o,o,o,x,b,o,o,x,x,b,b,win
+Game #10 time: 0.33566600 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #11 time: 0.89707900 
+outcome: o,o,o,x,b,b,o,o,x,b,b,b,x,x,b,b,b,b,x,x,o,x,b,b,x,o,x,x,x,b,o,o,b,b,b,b,o,o,o,x,x,b,win
+Game #12 time: 0.89671100 
+outcome: o,x,b,b,b,b,o,x,x,x,o,o,x,x,o,x,x,b,x,x,x,b,b,b,o,o,x,o,x,o,o,o,x,o,b,b,o,b,b,b,b,b,win
+Game #13 time: 0.80388800 
+outcome: o,x,o,x,x,x,o,o,b,b,b,b,x,o,x,x,x,b,o,x,x,x,b,b,x,o,x,o,x,o,o,o,o,b,b,b,o,o,x,o,b,b,loss
+Game #14 time: 0.40693000 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,x,b,b,b,x,o,o,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #15 time: 0.42101300 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #16 time: 0.80035600 
+outcome: o,x,x,x,x,b,o,o,x,o,b,b,x,o,x,o,x,o,x,x,b,b,b,b,x,x,o,x,o,o,o,o,x,o,x,x,o,o,b,b,b,b,win
+Game #17 time: 0.62653700 
+outcome: x,b,b,b,b,b,o,x,o,b,b,b,x,o,x,b,b,b,o,x,o,x,o,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #18 time: 0.94963000 
+outcome: o,o,o,x,o,x,o,o,x,b,b,b,x,x,x,o,x,o,x,x,x,b,b,b,o,o,x,x,x,o,o,x,o,o,b,b,o,x,x,x,o,b,win
+Game #19 time: 0.84809000 
+outcome: o,o,x,b,b,b,o,x,x,x,o,b,x,x,x,o,o,b,o,o,x,b,b,b,o,x,x,o,b,b,x,x,b,b,b,b,o,b,b,b,b,b,win
+Game #20 time: 0.85092900 
+outcome: o,o,x,b,b,b,b,b,b,b,b,b,x,x,x,o,x,b,x,o,x,x,o,b,o,o,x,x,x,b,o,o,b,b,b,b,o,o,b,b,b,b,loss
+Game #21 time: 0.90738500 
+outcome: o,o,x,x,o,x,o,o,x,x,x,x,x,x,x,o,o,b,o,x,o,x,x,o,o,x,o,x,o,b,x,o,x,x,b,b,o,o,o,b,b,b,win
+Game #22 time: 0.77365000 
+outcome: o,o,x,b,b,b,x,x,o,x,x,x,x,x,o,x,o,o,x,x,x,x,b,b,o,o,b,b,b,b,o,o,x,o,b,b,o,o,o,x,x,o,win
+Game #23 time: 0.78613900 
+outcome: o,x,x,x,x,b,o,b,b,b,b,b,x,x,o,x,b,b,o,x,x,o,b,b,o,x,b,b,b,b,b,b,b,b,b,b,o,o,o,b,b,b,win
+Game #24 time: 0.78470800 
+outcome: o,o,o,x,o,o,o,x,x,b,b,b,x,x,x,b,b,b,x,x,x,o,x,x,o,o,b,b,b,b,o,x,o,o,x,x,o,o,x,b,b,b,win
+Game #25 time: 0.56369400 
+outcome: x,x,b,b,b,b,o,x,o,b,b,b,x,x,x,o,b,b,o,x,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #26 time: 0.65502800 
+outcome: o,x,b,b,b,b,o,x,x,b,b,b,x,x,x,o,b,b,x,x,x,b,b,b,o,o,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,win
+Game #27 time: 0.30290500 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,win
+Game #28 time: 0.45700500 
+outcome: b,b,b,b,b,b,o,x,b,b,b,b,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,loss
+Game #29 time: 0.73379800 
+outcome: o,x,b,b,b,b,o,x,x,o,o,o,x,x,o,x,x,o,x,x,x,o,b,b,o,b,b,b,b,b,x,o,x,x,o,b,o,o,x,b,b,b,win
+Game #30 time: 0.44459800 
+outcome: b,b,b,b,b,b,o,x,b,b,b,b,x,x,o,b,b,b,o,x,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+average time: 0.68810313 
+Depth-limited minimax search using utilWeightLines heuristic second-player win-rate: 4-26-0
+
+
+Testing for Depth-limited minimax search using utilWeightDots heuristic vs. RandomPlayer:
+Game #01 time: 0.96527600 
+outcome: x,x,o,o,x,o,o,x,o,b,b,b,x,o,o,o,x,x,o,x,o,o,o,b,x,x,o,x,o,x,x,x,b,b,b,b,x,o,o,x,b,b,loss
+Game #02 time: 1.06608800 
+outcome: x,x,o,o,o,x,o,x,o,x,x,x,o,b,b,b,b,b,o,o,o,b,b,b,x,o,o,o,x,o,x,x,x,o,b,b,x,x,b,b,b,b,loss
+Game #03 time: 0.40579100 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,x,b,b,b,x,b,b,b,b,b,loss
+Game #04 time: 0.37354300 
+outcome: o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #05 time: 0.50691100 
+outcome: b,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,o,o,b,b,b,b,x,o,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #06 time: 0.62325400 
+outcome: x,o,b,b,b,b,o,o,b,b,b,b,x,o,b,b,b,b,o,o,x,x,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #07 time: 1.20116500 
+outcome: x,o,o,o,o,b,x,x,o,o,x,b,x,b,b,b,b,b,o,o,o,x,o,b,o,x,o,x,b,b,x,x,x,o,x,b,x,x,o,b,b,b,loss
+Game #08 time: 0.84006200 
+outcome: o,o,o,b,b,b,x,x,x,o,b,b,o,o,x,b,b,b,x,o,o,o,b,b,x,o,x,x,x,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #09 time: 0.39804000 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #10 time: 0.69731500 
+outcome: x,o,x,o,x,o,x,o,o,o,b,b,o,b,b,b,b,b,o,x,o,x,b,b,o,x,b,b,b,b,o,x,x,x,b,b,x,b,b,b,b,b,loss
+Game #11 time: 1.01561400 
+outcome: o,x,o,o,o,o,o,o,x,x,b,b,x,b,b,b,b,b,x,x,o,x,b,b,x,o,x,o,x,b,o,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #12 time: 0.50076200 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,o,x,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #13 time: 0.48879400 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,x,x,x,b,b,b,loss
+Game #14 time: 0.49311100 
+outcome: b,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,o,o,b,b,b,b,x,o,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #15 time: 0.94784700 
+outcome: x,o,x,x,o,b,x,x,o,o,x,x,x,x,o,x,o,b,o,o,o,x,o,o,x,b,b,b,b,b,x,o,x,o,o,x,x,o,o,b,b,b,loss
+Game #16 time: 0.38787400 
+outcome: x,x,x,x,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,win
+Game #17 time: 0.36456600 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #18 time: 1.06130200 
+outcome: x,x,x,o,o,o,x,x,o,b,b,b,o,x,o,o,o,b,x,o,o,x,x,b,o,x,o,o,b,b,x,b,b,b,b,b,x,x,o,x,b,b,loss
+Game #19 time: 0.61583000 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,o,x,b,b,b,x,o,b,b,b,b,o,o,b,b,b,b,x,x,b,b,b,b,loss
+Game #20 time: 0.86445900 
+outcome: o,o,o,o,b,b,x,x,o,b,b,b,x,x,x,o,x,x,o,o,x,b,b,b,x,o,o,o,x,x,x,o,o,b,b,b,x,b,b,b,b,b,loss
+Game #21 time: 1.01033000 
+outcome: x,o,x,o,o,o,x,x,o,b,b,b,o,o,o,x,o,x,x,o,o,o,x,x,o,x,o,o,x,b,x,x,b,b,b,b,x,x,x,o,o,x,loss
+Game #22 time: 1.04542400 
+outcome: o,o,o,o,b,b,x,x,x,o,b,b,o,x,o,x,x,b,o,o,o,b,b,b,x,o,o,o,x,b,x,b,b,b,b,b,x,x,x,o,x,x,loss
+Game #23 time: 0.50968700 
+outcome: b,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,o,x,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,loss
+Game #24 time: 0.74592000 
+outcome: x,x,b,b,b,b,o,b,b,b,b,b,x,x,o,b,b,b,o,o,o,o,b,b,x,o,x,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #25 time: 0.93928700 
+outcome: x,x,o,b,b,b,x,x,o,o,x,b,x,o,o,o,x,b,o,x,o,o,o,b,x,o,b,b,b,b,x,x,o,o,b,b,x,x,o,x,o,x,loss
+Game #26 time: 0.80376800 
+outcome: o,o,b,b,b,b,x,o,b,b,b,b,x,o,o,x,b,b,o,o,x,b,b,b,x,x,o,x,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #27 time: 0.75147100 
+outcome: o,b,b,b,b,b,x,o,b,b,b,b,o,x,o,b,b,b,x,o,x,o,x,b,o,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #28 time: 0.85460900 
+outcome: x,x,o,o,o,o,o,x,o,x,b,b,o,o,b,b,b,b,x,o,x,o,x,x,o,o,x,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #29 time: 0.70618900 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,o,o,b,b,b,b,o,o,x,x,b,b,o,o,b,b,b,b,x,o,b,b,b,b,x,x,b,b,b,b,loss
+Game #30 time: 0.79949300 
+outcome: x,x,o,b,b,b,x,o,o,x,o,o,x,o,o,o,x,b,o,o,o,x,b,b,x,x,x,o,b,b,x,o,b,b,b,b,x,x,x,o,b,b,loss
+average time: 0.73279273 
+Depth-limited minimax search using utilWeightDots heuristic first-player win-rate: 2-28-0
+
+Testing for RandomPlayer vs. Depth-limited minimax search using utilWeightDots heuristic:
+Game #01 time: 0.95433900 
+outcome: o,o,x,b,b,b,o,o,o,x,o,x,x,x,x,o,x,x,x,x,x,o,x,x,b,b,b,b,b,b,o,o,x,o,x,o,o,o,x,o,x,o,win
+Game #02 time: 0.92306100 
+outcome: o,o,x,x,x,o,x,b,b,b,b,b,o,x,x,x,o,b,x,x,x,o,o,b,o,o,x,x,o,o,x,b,b,b,b,b,o,o,x,x,o,b,win
+Game #03 time: 0.51086400 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,x,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #04 time: 0.57296800 
+outcome: o,o,x,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,x,o,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #05 time: 0.91743300 
+outcome: o,x,x,x,o,x,x,o,x,b,b,b,o,o,x,x,x,o,x,o,x,x,x,b,o,x,x,x,o,o,o,o,o,b,b,b,o,o,x,o,b,b,win
+Game #06 time: 0.68689600 
+outcome: o,x,b,b,b,b,x,x,x,b,b,b,x,x,x,b,b,b,x,x,x,o,b,b,o,b,b,b,b,b,o,o,o,x,o,o,o,o,b,b,b,b,win
+Game #07 time: 1.08631600 
+outcome: o,o,x,x,b,b,o,o,x,b,b,b,o,x,x,x,o,b,x,x,o,x,x,b,x,x,o,x,o,b,o,o,x,o,b,b,o,b,b,b,b,b,win
+Game #08 time: 0.92163900 
+outcome: o,x,x,o,x,o,x,o,o,x,b,b,o,o,x,x,b,b,x,o,x,x,b,b,o,x,x,x,o,o,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #09 time: 0.70483300 
+outcome: o,o,x,x,b,b,x,x,x,b,b,b,x,x,o,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #10 time: 0.91583300 
+outcome: o,o,x,x,x,b,o,o,o,x,b,b,o,x,x,x,b,b,x,x,x,o,o,o,o,x,x,o,b,b,o,o,b,b,b,b,o,x,x,x,b,b,win
+Game #11 time: 0.92424100 
+outcome: o,x,x,b,b,b,o,x,x,x,o,o,o,o,x,o,b,b,x,x,x,b,b,b,o,x,o,x,x,x,o,x,o,o,x,o,o,o,x,b,b,b,win
+Game #12 time: 0.89877400 
+outcome: x,x,b,b,b,b,o,x,x,x,o,b,o,x,x,o,x,o,x,x,x,o,o,o,o,o,o,x,o,x,o,x,x,b,b,b,o,x,x,o,o,b,win
+Game #13 time: 0.36584400 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #14 time: 0.95156100 
+outcome: x,o,x,x,o,x,o,x,o,x,x,o,x,x,x,x,b,b,x,x,o,b,b,b,o,o,b,b,b,b,o,o,o,x,b,b,o,o,b,b,b,b,win
+Game #15 time: 0.67651000 
+outcome: o,o,x,o,o,x,x,x,x,o,x,x,x,x,o,x,o,x,x,x,x,b,b,b,o,b,b,b,b,b,o,o,x,b,b,b,o,o,o,x,o,o,win
+Game #16 time: 0.48712000 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,x,o,o,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #17 time: 0.50676400 
+outcome: b,b,b,b,b,b,o,o,b,b,b,b,x,b,b,b,b,b,x,o,x,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,win
+Game #18 time: 0.35681100 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #19 time: 0.35091800 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,win
+Game #20 time: 0.86086100 
+outcome: x,x,x,x,b,b,o,o,x,o,x,b,o,x,o,x,x,o,x,x,o,x,o,o,o,x,x,x,b,b,o,o,x,o,o,o,x,o,b,b,b,b,win
+Game #21 time: 0.63633000 
+outcome: o,x,b,b,b,b,o,x,x,b,b,b,x,x,o,o,b,b,x,x,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #22 time: 0.51146700 
+outcome: o,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,x,o,x,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #23 time: 0.84983900 
+outcome: o,o,x,x,x,b,o,o,o,x,o,o,o,x,x,o,x,x,x,x,x,b,b,b,o,x,x,x,b,b,o,o,o,b,b,b,o,x,x,o,b,b,win
+Game #24 time: 1.03207900 
+outcome: o,o,o,x,x,x,o,b,b,b,b,b,x,x,o,o,x,x,x,x,o,x,x,x,o,x,x,o,o,b,o,o,o,x,b,b,o,b,b,b,b,b,win
+Game #25 time: 0.55269000 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,o,o,o,b,b,x,o,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,win
+Game #26 time: 0.47297000 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,x,o,o,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #27 time: 0.65474900 
+outcome: o,x,b,b,b,b,o,x,x,o,b,b,x,o,b,b,b,b,x,x,o,o,o,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #28 time: 0.84243100 
+outcome: x,o,x,x,b,b,o,o,x,o,o,o,x,x,b,b,b,b,x,x,x,b,b,b,o,x,x,x,o,b,o,o,x,o,b,b,o,b,b,b,b,b,win
+Game #29 time: 0.35166300 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,o,o,o,b,b,b,b,b,b,b,b,b,win
+Game #30 time: 1.13438700 
+outcome: x,o,x,x,b,b,o,o,x,o,o,b,x,x,b,b,b,b,x,x,o,x,x,b,o,b,b,b,b,b,o,x,o,x,x,o,o,o,o,x,x,o,win
+average time: 0.72040637 
+Depth-limited minimax search using utilWeightDots heuristic second-player win-rate: 0-30-0
+
+
+Testing for Depth-limited minimax search using utilHWLines heuristic vs. RandomPlayer:
+Game #01 time: 0.77726400 
+outcome: x,o,o,b,b,b,x,x,o,o,o,b,x,o,o,x,o,o,o,o,o,x,o,x,x,x,x,o,x,o,x,x,x,o,x,x,o,o,x,x,b,b,loss
+Game #02 time: 0.93186600 
+outcome: x,x,o,x,o,o,o,o,b,b,b,b,o,o,o,x,x,x,o,o,x,x,o,o,x,o,o,x,x,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #03 time: 0.79877700 
+outcome: o,o,x,o,o,o,x,o,o,x,o,x,x,x,o,b,b,b,o,o,x,o,b,b,x,b,b,b,b,b,x,x,x,o,x,x,b,b,b,b,b,b,loss
+Game #04 time: 0.62812500 
+outcome: o,o,o,o,b,b,b,b,b,b,b,b,o,o,x,b,b,b,o,o,x,x,x,b,x,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #05 time: 0.73705100 
+outcome: x,o,o,o,o,b,o,o,o,b,b,b,x,b,b,b,b,b,o,o,x,x,b,b,o,b,b,b,b,b,x,x,x,b,b,b,x,x,x,b,b,b,loss
+Game #06 time: 0.91626300 
+outcome: x,x,x,o,x,x,x,x,x,o,x,o,o,o,o,x,o,o,o,o,o,x,o,o,x,x,o,b,b,b,x,x,o,o,o,x,o,x,x,b,b,b,loss
+Game #07 time: 0.61697500 
+outcome: x,x,b,b,b,b,x,o,o,x,b,b,o,o,o,o,b,b,x,o,x,x,o,x,o,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #08 time: 0.87712900 
+outcome: x,o,o,b,b,b,x,o,o,x,b,b,o,x,o,x,x,x,x,o,o,o,x,o,o,x,b,b,b,b,o,o,o,b,b,b,x,x,x,o,x,x,loss
+Game #09 time: 0.82015100 
+outcome: x,o,o,o,o,b,x,o,o,b,b,b,o,x,b,b,b,b,x,o,x,x,x,b,o,o,o,b,b,b,x,x,x,b,b,b,x,b,b,b,b,b,loss
+Game #10 time: 0.55573800 
+outcome: o,x,o,b,b,b,x,x,x,b,b,b,x,b,b,b,b,b,o,o,x,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,loss
+Game #11 time: 0.61109100 
+outcome: x,o,b,b,b,b,x,x,o,b,b,b,o,o,x,b,b,b,o,o,x,x,b,b,o,x,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,win
+Game #12 time: 0.71509800 
+outcome: b,b,b,b,b,b,b,b,b,b,b,b,o,x,x,o,x,b,x,o,o,o,o,b,x,o,x,b,b,b,x,x,b,b,b,b,o,b,b,b,b,b,loss
+Game #13 time: 0.45001300 
+outcome: o,b,b,b,b,b,o,x,b,b,b,b,o,x,b,b,b,b,o,o,x,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #14 time: 0.57087400 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,x,o,x,x,b,b,x,o,x,b,b,b,o,o,b,b,b,b,x,x,b,b,b,b,loss
+Game #15 time: 0.46292600 
+outcome: b,b,b,b,b,b,x,x,b,b,b,b,o,o,o,o,b,b,b,b,b,b,b,b,x,o,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #16 time: 1.08379300 
+outcome: x,x,o,x,o,x,x,o,o,o,x,x,o,o,x,o,o,o,o,o,x,o,x,o,b,b,b,b,b,b,x,x,x,o,b,b,x,x,x,o,b,b,loss
+Game #17 time: 0.84982200 
+outcome: x,o,o,b,b,b,x,x,o,o,x,x,x,o,o,o,x,b,o,o,o,x,x,o,x,b,b,b,b,b,x,o,o,o,b,b,x,x,o,x,x,b,loss
+Game #18 time: 0.64625600 
+outcome: x,b,b,b,b,b,x,x,x,o,b,b,x,x,o,b,b,b,o,o,o,x,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #19 time: 0.74584100 
+outcome: o,b,b,b,b,b,o,x,x,b,b,b,o,x,o,o,o,x,o,o,x,b,b,b,x,o,o,o,x,x,x,b,b,b,b,b,x,x,x,o,x,o,loss
+Game #20 time: 0.98971600 
+outcome: x,x,x,o,x,o,x,o,o,b,b,b,o,o,o,x,o,x,o,o,o,b,b,b,o,x,b,b,b,b,x,x,o,o,x,b,x,x,x,o,x,b,loss
+Game #21 time: 0.76338800 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,x,o,b,b,b,b,o,o,x,o,x,b,x,o,x,x,x,o,x,o,o,x,o,b,b,b,b,b,b,b,loss
+Game #22 time: 0.85756800 
+outcome: x,x,o,o,o,o,x,o,o,x,b,b,b,b,b,b,b,b,o,o,x,x,x,b,o,o,x,x,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #23 time: 0.86948300 
+outcome: x,x,o,x,o,x,x,o,o,o,b,b,x,o,x,o,b,b,o,x,x,o,x,x,x,o,o,o,x,b,o,o,x,b,b,b,b,b,b,b,b,b,loss
+Game #24 time: 0.85739000 
+outcome: x,x,o,o,x,o,x,x,x,o,x,o,o,x,o,o,x,x,o,o,x,o,b,b,x,o,o,o,x,x,x,o,o,b,b,b,x,b,b,b,b,b,loss
+Game #25 time: 0.80374300 
+outcome: x,x,o,o,o,o,x,x,x,b,b,b,o,x,b,b,b,b,o,o,o,x,b,b,o,o,o,x,b,b,b,b,b,b,b,b,x,x,x,o,x,b,loss
+Game #26 time: 0.90606800 
+outcome: x,x,o,o,o,o,b,b,b,b,b,b,x,o,o,x,o,x,o,o,o,x,x,b,x,o,o,o,x,b,x,x,x,o,x,b,x,x,o,b,b,b,loss
+Game #27 time: 1.00809900 
+outcome: x,o,x,o,b,b,x,x,o,b,b,b,x,o,x,o,x,o,o,o,b,b,b,b,x,o,o,o,x,o,x,x,o,x,o,b,x,x,b,b,b,b,loss
+Game #28 time: 0.79262400 
+outcome: x,x,o,o,o,o,x,x,x,b,b,b,o,o,o,b,b,b,o,o,o,x,b,b,x,o,o,b,b,b,x,x,x,b,b,b,x,x,b,b,b,b,loss
+Game #29 time: 0.87588000 
+outcome: o,o,x,o,x,o,x,o,b,b,b,b,x,o,o,x,o,x,o,x,o,o,x,b,x,x,o,o,o,x,x,b,b,b,b,b,x,o,x,x,b,b,loss
+Game #30 time: 0.84796000 
+outcome: x,o,o,o,x,o,x,o,b,b,b,b,o,o,x,x,b,b,o,o,x,x,b,b,x,o,o,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+average time: 0.77889907 
+Depth-limited minimax search using utilHWLines heuristic first-player win-rate: 1-29-0
+
+Testing for RandomPlayer vs. Depth-limited minimax search using utilHWLines heuristic:
+Game #01 time: 0.34045000 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #02 time: 0.79667800 
+outcome: x,b,b,b,b,b,x,o,b,b,b,b,x,o,x,x,x,b,x,o,x,o,o,b,o,x,x,o,o,b,b,b,b,b,b,b,o,o,x,x,o,b,win
+Game #03 time: 0.78960000 
+outcome: o,o,o,x,b,b,x,o,b,b,b,b,x,x,o,x,x,b,x,x,x,o,b,b,o,x,o,o,b,b,o,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #04 time: 0.79497700 
+outcome: o,o,x,o,x,x,o,x,b,b,b,b,o,x,x,x,b,b,x,x,x,o,o,b,o,x,x,o,o,b,o,o,b,b,b,b,o,x,o,x,x,b,win
+Game #05 time: 0.48749100 
+outcome: o,x,x,x,x,b,o,o,b,b,b,b,b,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,win
+Game #06 time: 0.87854800 
+outcome: o,x,b,b,b,b,x,x,x,o,o,b,o,x,o,o,x,x,x,x,x,o,x,b,o,b,b,b,b,b,o,o,x,o,x,o,o,o,x,x,b,b,win
+Game #07 time: 0.91840800 
+outcome: o,o,x,x,x,o,o,x,x,b,b,b,x,x,x,b,b,b,x,x,o,b,b,b,o,o,b,b,b,b,o,x,b,b,b,b,o,o,b,b,b,b,win
+Game #08 time: 0.87426700 
+outcome: o,o,x,x,x,x,x,x,o,b,b,b,o,x,x,x,o,b,x,x,o,o,o,x,o,b,b,b,b,b,o,x,o,x,b,b,o,o,b,b,b,b,win
+Game #09 time: 0.59223200 
+outcome: o,o,o,x,x,x,o,b,b,b,b,b,x,o,o,b,b,b,x,x,x,x,b,b,x,o,x,o,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #10 time: 0.98727500 
+outcome: o,o,x,b,b,b,x,x,x,o,o,x,o,x,x,o,o,b,x,x,x,o,o,b,b,b,b,b,b,b,o,x,x,b,b,b,o,x,o,o,x,b,win
+Game #11 time: 0.31629200 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #12 time: 0.80174600 
+outcome: o,x,x,x,o,x,o,x,x,o,o,x,o,x,b,b,b,b,x,x,o,o,x,o,o,x,x,x,o,x,o,x,x,o,o,o,o,b,b,b,b,b,win
+Game #13 time: 0.44011700 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,x,o,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,win
+Game #14 time: 0.55471900 
+outcome: x,o,x,x,x,x,o,b,b,b,b,b,b,b,b,b,b,b,x,o,o,b,b,b,x,o,o,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,win
+Game #15 time: 0.79714500 
+outcome: x,x,x,x,b,b,o,o,b,b,b,b,o,b,b,b,b,b,x,x,o,x,o,b,o,x,x,x,b,b,o,x,x,x,o,o,o,o,o,b,b,b,win
+Game #16 time: 0.97585600 
+outcome: o,o,x,x,o,x,x,x,o,o,x,x,x,x,x,o,x,o,x,x,x,x,b,b,o,b,b,b,b,b,o,o,o,x,o,b,o,o,o,b,b,b,win
+Game #17 time: 0.31114700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,win
+Game #18 time: 0.89791900 
+outcome: o,x,x,x,x,b,o,b,b,b,b,b,o,x,x,x,o,b,x,x,x,o,b,b,o,x,x,x,o,o,o,o,o,x,b,b,o,o,x,o,b,b,win
+Game #19 time: 0.60991400 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,x,x,x,o,b,b,o,b,b,b,b,b,o,o,o,b,b,b,o,b,b,b,b,b,win
+Game #20 time: 0.82618000 
+outcome: o,x,x,x,x,b,o,o,x,o,b,b,o,b,b,b,b,b,x,x,o,b,b,b,x,x,x,o,o,b,o,x,b,b,b,b,o,b,b,b,b,b,win
+Game #21 time: 0.43408700 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,o,o,o,x,b,b,x,x,x,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #22 time: 0.90708800 
+outcome: o,o,x,o,o,x,o,x,b,b,b,b,o,x,x,o,x,b,x,x,o,x,x,o,o,x,x,x,o,b,o,o,x,x,b,b,o,b,b,b,b,b,win
+Game #23 time: 0.48015300 
+outcome: x,x,x,o,x,b,o,o,o,o,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,loss
+Game #24 time: 0.50997700 
+outcome: x,b,b,b,b,b,x,x,o,x,x,o,x,x,o,x,o,o,x,x,x,b,b,b,b,b,b,b,b,b,o,o,o,x,o,o,o,o,x,b,b,b,win
+Game #25 time: 0.76070500 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,x,x,x,o,o,b,x,x,x,b,b,b,o,o,b,b,b,b,o,o,o,b,b,b,o,b,b,b,b,b,win
+Game #26 time: 0.94121600 
+outcome: o,o,x,x,x,x,o,o,b,b,b,b,o,o,x,x,x,b,x,x,x,o,b,b,x,x,o,o,b,b,o,x,b,b,b,b,o,o,b,b,b,b,win
+Game #27 time: 0.36116400 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #28 time: 0.77693900 
+outcome: o,o,x,x,x,b,x,x,x,b,b,b,o,b,b,b,b,b,x,x,x,o,o,o,x,x,x,o,b,b,o,o,x,x,o,b,o,o,o,o,b,b,loss
+Game #29 time: 0.49842900 
+outcome: o,x,x,x,o,x,x,b,b,b,b,b,x,o,b,b,b,b,x,o,o,b,b,b,x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #30 time: 0.73131400 
+outcome: o,o,o,x,o,x,o,o,x,b,b,b,o,x,x,x,b,b,x,x,x,o,o,x,x,x,x,o,o,x,o,o,b,b,b,b,o,x,b,b,b,b,win
+average time: 0.67973443 
+Depth-limited minimax search using utilHWLines heuristic second-player win-rate: 3-27-0
+
+
+Testing for Depth-limited minimax search using utilHWDots heuristic vs. RandomPlayer:
+Game #01 time: 0.45081400 
+outcome: b,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,o,o,o,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #02 time: 1.25252700 
+outcome: x,x,o,x,o,o,o,o,x,x,o,b,x,o,x,o,b,b,o,o,o,x,x,o,x,b,b,b,b,b,x,o,x,o,o,b,x,x,x,o,x,b,loss
+Game #03 time: 0.85180800 
+outcome: x,b,b,b,b,b,x,x,o,b,b,b,o,o,o,o,b,b,o,o,x,b,b,b,x,o,x,b,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #04 time: 0.93137600 
+outcome: x,x,o,x,o,o,x,x,x,o,x,x,x,o,b,b,b,b,o,o,o,b,b,b,x,o,o,o,x,b,x,o,o,o,x,b,x,b,b,b,b,b,loss
+Game #05 time: 1.22213800 
+outcome: x,x,o,o,b,b,x,o,o,b,b,b,x,o,x,o,x,o,o,o,x,b,b,b,x,x,o,o,o,x,x,o,o,o,x,x,x,x,b,b,b,b,loss
+Game #06 time: 0.39747200 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #07 time: 0.39688200 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #08 time: 1.05928100 
+outcome: o,b,b,b,b,b,x,x,o,x,o,o,o,x,x,o,o,x,x,o,o,o,x,x,x,x,o,o,b,b,x,x,b,b,b,b,o,b,b,b,b,b,loss
+Game #09 time: 1.14111300 
+outcome: x,x,x,o,x,o,x,o,x,o,o,b,o,o,o,x,b,b,x,o,x,o,o,b,x,b,b,b,b,b,x,o,b,b,b,b,x,x,b,b,b,b,win
+Game #10 time: 1.00590800 
+outcome: x,x,o,x,o,b,x,o,o,o,b,b,x,o,o,o,x,x,o,o,x,x,o,o,x,x,b,b,b,b,x,o,o,o,x,b,x,x,o,x,b,b,loss
+Game #11 time: 0.92596700 
+outcome: o,x,o,b,b,b,x,b,b,b,b,b,o,x,b,b,b,b,x,o,x,b,b,b,x,o,o,o,x,b,o,o,x,x,b,b,x,o,b,b,b,b,loss
+Game #12 time: 1.03099200 
+outcome: x,o,b,b,b,b,x,x,o,o,x,o,x,o,o,o,x,b,o,o,o,x,o,x,x,x,x,o,b,b,x,o,o,b,b,b,x,x,o,x,b,b,loss
+Game #13 time: 0.97348700 
+outcome: o,o,o,o,b,b,x,b,b,b,b,b,x,x,o,b,b,b,x,o,o,x,b,b,o,x,o,x,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #14 time: 0.88334900 
+outcome: b,b,b,b,b,b,x,x,o,o,o,o,x,o,o,x,b,b,o,o,x,b,b,b,x,o,x,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #15 time: 0.64993100 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,o,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,x,x,x,o,b,b,loss
+Game #16 time: 1.14167400 
+outcome: o,o,b,b,b,b,o,o,x,x,o,b,x,o,x,o,b,b,x,o,o,x,x,b,x,x,b,b,b,b,o,x,o,x,o,b,x,b,b,b,b,b,loss
+Game #17 time: 0.93540500 
+outcome: x,o,b,b,b,b,x,o,b,b,b,b,x,o,o,o,b,b,o,o,x,o,x,b,o,x,b,b,b,b,x,x,x,o,x,b,b,b,b,b,b,b,loss
+Game #18 time: 1.01614600 
+outcome: o,o,x,o,b,b,x,x,o,x,b,b,x,o,o,b,b,b,o,o,x,b,b,b,o,o,x,b,b,b,x,b,b,b,b,b,x,x,x,o,b,b,loss
+Game #19 time: 0.94423700 
+outcome: x,x,x,o,x,o,x,b,b,b,b,b,o,o,x,o,o,x,o,o,x,o,x,o,x,o,o,o,o,b,x,b,b,b,b,b,x,x,x,o,x,b,loss
+Game #20 time: 0.42756000 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,b,b,b,b,b,x,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #21 time: 0.72247800 
+outcome: x,x,x,o,b,b,x,x,b,b,b,b,o,o,x,b,b,b,o,o,o,x,b,b,o,b,b,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,win
+Game #22 time: 1.16937200 
+outcome: x,x,x,o,x,x,x,x,o,o,x,o,o,x,x,o,b,b,x,o,o,o,x,o,x,o,o,o,b,b,o,x,x,b,b,b,x,o,x,o,o,b,loss
+Game #23 time: 0.95566500 
+outcome: x,x,o,x,o,b,x,x,x,o,b,b,x,o,o,b,b,b,o,o,b,b,b,b,o,o,x,b,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #24 time: 0.87990900 
+outcome: o,o,x,o,o,o,b,b,b,b,b,b,o,o,x,x,b,b,o,o,x,b,b,b,x,x,x,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,win
+Game #25 time: 0.67884100 
+outcome: x,o,b,b,b,b,x,o,b,b,b,b,o,o,b,b,b,b,o,o,x,x,b,b,b,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #26 time: 1.10298400 
+outcome: x,o,x,o,o,o,x,x,o,x,o,o,o,x,x,b,b,b,o,o,o,o,b,b,x,o,o,x,x,b,x,x,x,b,b,b,x,b,b,b,b,b,loss
+Game #27 time: 1.14285100 
+outcome: x,o,o,o,o,b,o,x,o,b,b,b,x,o,x,o,x,b,x,x,b,b,b,b,x,o,x,x,b,b,o,o,b,b,b,b,x,b,b,b,b,b,loss
+Game #28 time: 0.88844400 
+outcome: o,b,b,b,b,b,x,o,o,b,b,b,o,o,o,x,b,b,x,o,o,o,x,x,o,x,x,o,x,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #29 time: 0.88153100 
+outcome: o,o,o,o,b,b,o,o,o,b,b,b,x,o,x,x,x,b,x,x,b,b,b,b,x,o,x,x,b,b,o,x,b,b,b,b,b,b,b,b,b,b,loss
+Game #30 time: 0.98387800 
+outcome: o,o,x,o,o,o,x,o,b,b,b,b,x,x,o,o,x,b,x,o,x,x,o,x,o,o,x,o,x,x,x,x,b,b,b,b,b,b,b,b,b,b,win
+average time: 0.90146733 
+Depth-limited minimax search using utilHWDots heuristic first-player win-rate: 4-26-0
+
+Testing for RandomPlayer vs. Depth-limited minimax search using utilHWDots heuristic:
+Game #01 time: 0.37743800 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,o,b,b,b,win
+Game #02 time: 1.00006100 
+outcome: x,x,x,x,b,b,x,x,o,b,b,b,o,o,b,b,b,b,x,x,x,b,b,b,o,x,o,b,b,b,o,x,o,b,b,b,o,o,o,b,b,b,win
+Game #03 time: 0.45355500 
+outcome: o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,x,x,x,x,b,b,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #04 time: 0.63472200 
+outcome: x,x,x,x,b,b,o,o,o,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,win
+Game #05 time: 0.98452100 
+outcome: o,x,x,x,o,o,o,x,x,x,x,b,o,b,b,b,b,b,x,x,o,b,b,b,x,x,o,o,o,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #06 time: 1.18942500 
+outcome: o,x,x,x,x,b,x,b,b,b,b,b,o,o,b,b,b,b,x,o,x,o,b,b,o,x,x,x,b,b,x,o,o,o,b,b,o,b,b,b,b,b,win
+Game #07 time: 0.67542600 
+outcome: x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,x,o,o,b,o,x,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,win
+Game #08 time: 1.08173700 
+outcome: o,x,x,x,b,b,o,o,x,x,o,b,x,x,o,o,x,o,x,x,o,x,o,o,o,x,x,x,o,x,b,b,b,b,b,b,o,x,x,o,o,o,win
+Game #09 time: 0.56941900 
+outcome: b,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,x,o,x,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,win
+Game #10 time: 0.38612600 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #11 time: 1.05116600 
+outcome: o,b,b,b,b,b,o,x,o,x,b,b,o,o,x,o,x,b,x,x,x,x,b,b,o,x,o,x,b,b,x,x,o,b,b,b,o,o,b,b,b,b,win
+Game #12 time: 0.91848400 
+outcome: o,o,x,x,x,b,o,x,o,x,b,b,o,x,x,x,b,b,x,x,o,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,win
+Game #13 time: 0.53598100 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,x,o,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #14 time: 0.52736000 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,x,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #15 time: 0.85112300 
+outcome: o,x,o,x,x,o,o,o,x,b,b,b,x,x,o,x,x,o,x,x,b,b,b,b,o,x,x,x,o,x,o,b,b,b,b,b,o,o,o,x,o,b,win
+Game #16 time: 0.53175000 
+outcome: o,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,x,b,b,b,b,b,o,o,o,b,b,b,b,b,b,b,b,b,win
+Game #17 time: 0.83496600 
+outcome: o,o,x,x,b,b,o,o,x,b,b,b,o,x,b,b,b,b,x,x,b,b,b,b,x,x,o,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,win
+Game #18 time: 1.06381600 
+outcome: o,o,o,x,x,x,o,x,x,o,o,o,o,o,x,x,x,o,x,x,x,o,x,b,o,x,o,x,o,x,o,x,x,b,b,b,o,o,x,o,x,b,win
+Game #19 time: 1.08737100 
+outcome: o,o,o,x,x,x,o,x,b,b,b,b,x,x,x,o,b,b,x,x,o,x,o,b,o,x,x,x,o,o,o,b,b,b,b,b,o,o,o,x,x,b,win
+Game #20 time: 1.08160500 
+outcome: x,o,x,x,x,x,o,b,b,b,b,b,o,x,x,o,b,b,x,x,x,o,b,b,o,x,o,o,b,b,o,o,o,x,b,b,x,o,b,b,b,b,win
+Game #21 time: 1.10122100 
+outcome: o,x,o,x,x,x,o,o,x,b,b,b,o,x,x,x,b,b,x,x,x,o,x,b,x,x,x,b,b,b,o,o,o,x,o,o,o,o,o,x,o,o,win
+Game #22 time: 0.39130200 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,x,o,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #23 time: 1.11841200 
+outcome: o,o,x,x,x,x,o,b,b,b,b,b,o,x,x,x,b,b,x,o,x,x,o,b,o,x,x,x,o,b,o,o,b,b,b,b,o,o,b,b,b,b,win
+Game #24 time: 0.97081800 
+outcome: x,x,x,x,b,b,o,o,o,x,o,o,x,b,b,b,b,b,x,x,x,o,b,b,x,x,x,o,b,b,o,x,b,b,b,b,o,o,o,x,o,o,win
+Game #25 time: 0.94108000 
+outcome: o,o,x,o,x,b,x,x,o,x,x,x,o,x,o,o,x,o,x,x,x,o,x,b,o,o,b,b,b,b,o,o,o,x,x,o,x,b,b,b,b,b,win
+Game #26 time: 1.36311600 
+outcome: o,o,x,o,x,x,x,x,o,o,x,x,o,x,x,o,o,x,x,o,x,x,x,o,o,o,x,b,b,b,o,o,x,x,x,o,o,x,o,x,o,o,win
+Game #27 time: 0.75311700 
+outcome: o,x,o,x,b,b,x,o,x,x,x,o,x,x,x,o,x,b,x,o,x,x,x,o,b,b,b,b,b,b,o,o,b,b,b,b,o,o,o,x,o,o,win
+Game #28 time: 0.78148700 
+outcome: o,x,b,b,b,b,o,x,b,b,b,b,x,x,x,b,b,b,x,x,o,o,b,b,b,b,b,b,b,b,o,o,o,x,b,b,b,b,b,b,b,b,win
+Game #29 time: 0.53327800 
+outcome: x,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,o,x,b,b,b,b,b,b,b,b,b,o,o,b,b,b,b,b,b,b,b,b,b,win
+Game #30 time: 0.98153300 
+outcome: o,o,o,x,o,x,x,o,o,x,x,x,x,x,x,x,b,b,x,x,x,o,x,o,o,o,b,b,b,b,o,x,x,o,o,b,o,o,b,b,b,b,win
+average time: 0.82571387 
+Depth-limited minimax search using utilHWDots heuristic second-player win-rate: 0-30-0
+
+
+Testing for Depth-limited minimax search using utilCowardLines heuristic vs. RandomPlayer:
+Game #01 time: 1.31997300 
+outcome: x,x,x,o,o,b,x,x,o,b,b,b,x,o,o,x,b,b,o,o,o,x,b,b,x,o,x,o,b,b,x,x,b,b,b,b,o,o,b,b,b,b,loss
+Game #02 time: 0.48688700 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #03 time: 1.24598200 
+outcome: x,o,o,b,b,b,x,x,o,x,o,x,o,x,o,o,o,b,o,o,o,b,b,b,x,b,b,b,b,b,x,o,x,o,b,b,x,x,x,o,x,x,loss
+Game #04 time: 0.50089200 
+outcome: x,b,b,b,b,b,o,b,b,b,b,b,o,x,x,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #05 time: 1.26779100 
+outcome: x,o,o,o,b,b,x,x,o,x,o,o,o,o,o,x,x,b,o,o,x,o,x,o,x,o,x,x,o,o,x,b,b,b,b,b,x,x,x,o,x,x,loss
+Game #06 time: 0.92451500 
+outcome: o,o,o,o,b,b,o,x,o,x,x,b,b,b,b,b,b,b,o,x,b,b,b,b,x,o,x,x,b,b,b,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #07 time: 1.19325100 
+outcome: x,x,o,x,o,x,x,o,o,o,x,o,x,o,b,b,b,b,o,o,o,x,o,x,x,o,o,x,o,o,x,x,x,o,o,b,x,x,x,o,x,b,loss
+Game #08 time: 1.22030200 
+outcome: x,o,b,b,b,b,x,o,o,o,b,b,x,o,o,o,x,x,o,o,x,o,x,o,x,x,o,x,b,b,x,x,o,x,o,o,x,x,x,o,b,b,loss
+Game #09 time: 1.05396000 
+outcome: x,o,o,o,o,b,b,b,b,b,b,b,x,o,o,x,b,b,o,o,x,b,b,b,x,o,x,x,x,o,x,x,x,b,b,b,o,x,o,b,b,b,loss
+Game #10 time: 1.22968300 
+outcome: x,o,b,b,b,b,o,x,x,o,o,x,x,x,o,o,b,b,x,x,o,x,o,o,x,o,o,o,x,b,o,x,x,b,b,b,b,b,b,b,b,b,loss
+Game #11 time: 1.40499300 
+outcome: x,x,o,o,o,o,x,o,x,x,o,x,o,o,x,o,o,o,o,o,o,x,x,b,x,x,o,o,o,x,x,x,x,b,b,b,x,x,o,x,x,o,loss
+Game #12 time: 1.35635100 
+outcome: x,o,b,b,b,b,x,o,x,o,o,o,x,o,x,o,x,o,o,o,o,x,o,x,x,b,b,b,b,b,x,o,o,x,x,b,x,x,x,o,b,b,loss
+Game #13 time: 1.51425800 
+outcome: x,x,o,o,b,b,x,x,o,o,b,b,o,o,o,x,x,o,o,o,x,o,x,x,x,x,o,o,o,x,o,x,x,x,o,x,x,x,o,o,b,b,loss
+Game #14 time: 1.30837200 
+outcome: x,o,x,o,x,x,x,o,b,b,b,b,x,x,o,b,b,b,o,x,o,o,x,b,x,o,o,x,o,b,o,x,b,b,b,b,x,o,o,b,b,b,loss
+Game #15 time: 1.15329000 
+outcome: o,o,b,b,b,b,x,o,x,b,b,b,x,o,b,b,b,b,o,o,x,o,b,b,x,x,o,o,x,o,x,x,x,b,b,b,b,b,b,b,b,b,loss
+Game #16 time: 1.35851000 
+outcome: x,o,o,x,o,x,o,o,x,x,o,o,x,o,o,o,x,b,x,b,b,b,b,b,x,x,x,o,o,x,o,o,x,b,b,b,x,o,x,x,b,b,win
+Game #17 time: 0.67684500 
+outcome: o,b,b,b,b,b,o,b,b,b,b,b,o,x,b,b,b,b,o,o,x,b,b,b,b,b,b,b,b,b,x,x,o,x,b,b,x,b,b,b,b,b,loss
+Game #18 time: 1.11896200 
+outcome: x,o,x,o,x,x,x,x,x,o,o,o,x,b,b,b,b,b,o,o,x,o,x,x,o,x,o,o,o,o,x,o,x,o,b,b,x,b,b,b,b,b,loss
+Game #19 time: 1.32169100 
+outcome: x,x,o,o,o,b,x,x,x,o,x,b,x,o,o,o,b,b,o,o,o,b,b,b,x,o,x,o,b,b,x,x,b,b,b,b,x,b,b,b,b,b,loss
+Game #20 time: 1.19406900 
+outcome: x,x,o,b,b,b,o,o,o,b,b,b,o,x,o,o,b,b,o,x,o,x,x,o,x,x,x,o,b,b,x,o,o,b,b,b,x,x,o,x,x,b,loss
+Game #21 time: 0.87184900 
+outcome: x,o,b,b,b,b,o,o,o,b,b,b,o,o,x,x,x,x,b,b,b,b,b,b,x,o,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,win
+Game #22 time: 1.23199200 
+outcome: x,o,o,o,x,o,o,x,b,b,b,b,x,o,x,b,b,b,x,o,o,x,x,b,o,o,o,b,b,b,x,x,o,b,b,b,x,x,x,b,b,b,win
+Game #23 time: 1.04657000 
+outcome: x,o,o,o,b,b,b,b,b,b,b,b,o,o,x,o,b,b,x,o,x,o,x,o,x,x,x,x,b,b,x,b,b,b,b,b,o,x,x,o,x,o,win
+Game #24 time: 1.30404800 
+outcome: o,o,o,o,b,b,o,b,b,b,b,b,x,o,x,x,b,b,o,o,x,b,b,b,x,o,o,o,x,x,x,x,o,x,x,b,x,x,o,b,b,b,loss
+Game #25 time: 1.52642200 
+outcome: x,x,o,o,b,b,x,x,o,x,x,x,x,o,o,o,x,o,o,o,x,o,o,x,x,x,o,x,x,b,o,o,x,o,o,b,x,o,b,b,b,b,loss
+Game #26 time: 1.12781100 
+outcome: x,x,o,x,o,x,x,o,b,b,b,b,x,o,o,b,b,b,o,o,x,o,x,o,x,o,o,x,x,x,o,b,b,b,b,b,x,o,o,x,o,x,loss
+Game #27 time: 1.22140500 
+outcome: o,o,o,o,b,b,x,x,o,x,b,b,x,x,b,b,b,b,o,o,x,x,o,x,x,o,o,o,b,b,x,x,b,b,b,b,x,o,x,o,b,b,loss
+Game #28 time: 1.21843200 
+outcome: x,o,o,x,x,o,o,b,b,b,b,b,x,o,b,b,b,b,o,x,o,o,x,o,x,o,x,o,o,b,x,x,b,b,b,b,x,x,b,b,b,b,loss
+Game #29 time: 1.40331900 
+outcome: x,x,o,o,b,b,x,o,o,b,b,b,o,o,x,o,x,b,o,o,o,x,x,o,x,x,o,b,b,b,x,x,b,b,b,b,x,x,o,b,b,b,loss
+Game #30 time: 1.25396300 
+outcome: x,o,o,o,o,b,x,x,b,b,b,b,o,o,b,b,b,b,o,o,o,x,b,b,o,x,x,x,b,b,x,b,b,b,b,b,x,x,b,b,b,b,loss
+average time: 1.16854627 
+Depth-limited minimax search using utilCowardLines heuristic first-player win-rate: 4-26-0
+
+Testing for RandomPlayer vs. Depth-limited minimax search using utilCowardLines heuristic:
+Game #01 time: 1.32355900 
+outcome: o,o,x,x,o,o,o,x,o,o,o,x,o,x,o,x,o,x,x,x,x,o,x,o,o,x,b,b,b,b,x,x,x,o,b,b,o,x,o,x,x,b,win
+Game #02 time: 1.28840300 
+outcome: o,o,x,x,o,x,o,o,o,x,o,x,o,o,x,b,b,b,x,x,x,b,b,b,x,x,x,b,b,b,o,x,o,b,b,b,o,b,b,b,b,b,win
+Game #03 time: 1.17746300 
+outcome: o,o,o,x,x,x,o,o,x,b,b,b,o,x,x,x,o,b,x,x,x,b,b,b,o,x,o,o,o,x,o,b,b,b,b,b,x,x,o,x,o,b,win
+Game #04 time: 1.26348900 
+outcome: o,x,o,x,x,b,x,o,x,x,b,b,o,o,x,o,o,x,x,x,o,x,x,o,o,x,x,o,o,o,b,b,b,b,b,b,o,x,x,o,b,b,win
+Game #05 time: 1.15457500 
+outcome: o,x,o,x,o,o,o,o,x,b,b,b,o,x,x,x,o,x,x,x,o,x,x,x,b,b,b,b,b,b,o,o,x,o,b,b,b,b,b,b,b,b,win
+Game #06 time: 0.48089200 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #07 time: 1.34683600 
+outcome: o,o,x,o,x,x,x,o,x,x,x,b,o,o,b,b,b,b,x,o,x,o,b,b,o,x,x,x,o,o,o,o,x,b,b,b,b,b,b,b,b,b,loss
+Game #08 time: 1.47000900 
+outcome: o,o,x,x,x,o,o,x,o,o,x,x,o,x,o,x,o,x,x,x,x,o,o,o,x,x,b,b,b,b,o,o,x,x,o,b,x,x,o,o,x,o,win
+Game #09 time: 1.15112400 
+outcome: o,o,x,o,x,x,o,b,b,b,b,b,o,x,x,o,x,o,x,x,x,o,o,x,o,o,x,x,x,x,o,x,o,x,b,b,o,o,b,b,b,b,win
+Game #10 time: 1.33638000 
+outcome: o,o,x,o,o,o,x,x,x,x,b,b,o,b,b,b,b,b,x,x,x,o,x,b,o,x,x,x,o,o,o,o,x,x,b,b,o,b,b,b,b,b,win
+Game #11 time: 1.08644500 
+outcome: b,b,b,b,b,b,o,x,b,b,b,b,b,b,b,b,b,b,x,x,o,x,x,b,x,x,o,b,b,b,o,o,x,b,b,b,o,o,o,x,b,b,win
+Game #12 time: 1.25374400 
+outcome: o,o,x,x,b,b,o,x,x,o,b,b,o,x,o,o,x,x,x,o,o,b,b,b,x,o,x,x,o,o,x,x,b,b,b,b,b,b,b,b,b,b,win
+Game #13 time: 1.28133000 
+outcome: o,x,x,x,o,x,o,o,x,b,b,b,x,x,o,o,x,o,x,o,x,x,x,o,b,b,b,b,b,b,x,o,o,x,x,b,o,o,x,o,o,b,win
+Game #14 time: 1.16293100 
+outcome: o,x,b,b,b,b,o,o,b,b,b,b,o,x,o,x,b,b,x,x,x,x,b,b,o,x,x,o,b,b,o,o,x,b,b,b,b,b,b,b,b,b,win
+Game #15 time: 1.12530900 
+outcome: o,o,x,x,o,x,o,o,o,x,o,x,o,x,x,o,o,x,x,x,x,o,x,o,o,o,x,b,b,b,o,x,x,x,o,x,x,o,b,b,b,b,win
+Game #16 time: 1.25205000 
+outcome: o,x,o,x,o,x,x,b,b,b,b,b,o,o,x,o,x,x,x,x,o,o,x,x,o,x,x,x,o,o,x,o,x,o,b,b,o,o,x,o,b,b,win
+Game #17 time: 1.25087400 
+outcome: o,o,x,o,x,x,o,o,o,x,b,b,x,x,x,b,b,b,x,x,o,o,x,b,x,x,x,o,o,b,o,b,b,b,b,b,o,b,b,b,b,b,win
+Game #18 time: 1.51158600 
+outcome: x,o,x,x,x,x,o,x,o,o,b,b,x,x,o,x,x,o,x,x,x,o,b,b,o,o,x,o,x,o,o,x,b,b,b,b,o,o,x,o,o,b,win
+Game #19 time: 1.31215200 
+outcome: o,o,o,x,x,b,o,x,o,x,x,o,o,x,x,x,b,b,x,x,x,b,b,b,o,o,b,b,b,b,o,x,o,x,x,b,o,o,x,o,b,b,win
+Game #20 time: 1.26434100 
+outcome: o,x,x,o,x,b,o,o,x,b,b,b,o,x,x,x,x,b,x,x,o,x,o,x,o,x,x,o,o,o,o,o,x,o,b,b,o,x,x,o,b,b,win
+Game #21 time: 1.61287700 
+outcome: o,x,o,x,x,o,o,x,o,x,o,x,x,x,b,b,b,b,x,x,o,x,x,o,x,x,o,o,b,b,o,o,o,x,o,b,o,o,x,x,o,x,win
+Game #22 time: 1.12042100 
+outcome: o,x,x,x,x,b,o,b,b,b,b,b,b,b,b,b,b,b,x,x,o,b,b,b,x,x,o,o,b,b,o,x,b,b,b,b,o,o,b,b,b,b,win
+Game #23 time: 1.18265600 
+outcome: o,o,o,x,o,x,o,x,b,b,b,b,o,x,x,x,o,b,x,x,x,b,b,b,o,x,o,x,b,b,o,b,b,b,b,b,o,x,b,b,b,b,win
+Game #24 time: 1.28255800 
+outcome: o,o,o,x,o,x,o,o,o,x,o,o,o,x,x,x,o,x,x,x,x,o,x,x,o,x,x,x,o,x,o,o,x,b,b,b,o,x,o,x,o,x,win
+Game #25 time: 1.34030900 
+outcome: o,o,x,x,x,o,x,o,x,b,b,b,o,x,o,o,x,o,x,x,o,x,b,b,x,x,o,o,x,b,b,b,b,b,b,b,o,x,o,b,b,b,win
+Game #26 time: 1.40141000 
+outcome: o,x,x,x,o,x,o,o,x,x,x,b,b,b,b,b,b,b,x,x,x,o,o,b,x,o,o,b,b,b,o,x,x,b,b,b,o,o,o,o,b,b,loss
+Game #27 time: 1.36747400 
+outcome: o,o,x,o,x,x,x,x,o,o,x,x,x,x,x,o,o,x,x,o,x,x,x,o,o,o,x,o,x,b,o,o,o,x,o,o,o,x,o,x,o,x,win
+Game #28 time: 1.38846300 
+outcome: o,x,o,o,o,x,o,o,x,o,x,x,o,x,x,o,o,x,x,x,o,x,o,x,o,o,x,o,b,b,x,x,x,o,x,x,o,o,x,b,b,b,win
+Game #29 time: 0.47825700 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,o,b,b,b,b,b,win
+Game #30 time: 1.33094200 
+outcome: o,x,b,b,b,b,o,x,o,x,x,o,o,x,x,x,o,x,x,x,x,o,o,x,o,o,x,x,x,o,o,b,b,b,b,b,o,o,x,o,o,x,win
+average time: 1.23329530 
+Depth-limited minimax search using utilCowardLines heuristic second-player win-rate: 2-28-0
+
+
+Testing for Depth-limited minimax search using utilCowardDots heuristic vs. RandomPlayer:
+Game #01 time: 1.13673200 
+outcome: x,o,o,b,b,b,x,x,o,x,b,b,x,o,o,x,x,b,o,o,o,b,b,b,x,o,x,o,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #02 time: 1.22535200 
+outcome: o,o,o,o,b,b,x,x,o,x,o,o,b,b,b,b,b,b,o,x,o,x,b,b,x,o,o,x,x,b,x,o,o,x,x,b,x,x,b,b,b,b,loss
+Game #03 time: 1.32034100 
+outcome: x,x,o,o,x,o,x,o,b,b,b,b,x,o,o,x,x,b,o,x,o,o,o,b,x,x,o,o,o,x,x,o,x,o,x,b,x,x,o,x,o,b,loss
+Game #04 time: 1.60344700 
+outcome: x,x,o,o,o,o,x,x,x,b,b,b,o,x,o,o,x,x,o,o,o,x,x,b,x,o,x,o,o,b,x,o,o,o,b,b,x,x,o,x,x,b,loss
+Game #05 time: 1.45037200 
+outcome: x,o,x,o,o,b,x,x,o,o,x,x,o,x,o,x,o,x,o,o,o,x,x,o,x,o,x,o,x,b,o,o,x,x,o,b,x,x,x,o,o,b,loss
+Game #06 time: 1.18003900 
+outcome: x,o,o,o,o,b,b,b,b,b,b,b,o,o,x,x,b,b,o,o,o,x,x,b,x,x,x,o,b,b,b,b,b,b,b,b,x,x,b,b,b,b,loss
+Game #07 time: 1.13715000 
+outcome: x,x,o,b,b,b,x,x,o,x,b,b,x,o,o,o,b,b,o,o,o,b,b,b,x,x,b,b,b,b,x,x,o,b,b,b,o,b,b,b,b,b,loss
+Game #08 time: 1.06004000 
+outcome: x,x,o,x,o,o,o,o,x,x,o,b,x,o,x,o,x,x,o,o,o,x,x,o,x,x,b,b,b,b,o,b,b,b,b,b,x,o,o,x,b,b,loss
+Game #09 time: 1.26420900 
+outcome: x,x,o,o,o,o,x,o,x,o,o,x,x,b,b,b,b,b,o,o,o,x,o,x,x,o,x,o,x,x,x,o,x,o,x,b,o,x,b,b,b,b,loss
+Game #10 time: 1.34827700 
+outcome: x,x,o,x,o,o,o,o,x,x,x,o,o,o,b,b,b,b,x,o,x,o,x,b,o,o,x,o,x,b,x,o,o,x,x,b,x,b,b,b,b,b,loss
+Game #11 time: 1.64645200 
+outcome: x,x,o,x,o,b,x,x,o,o,o,o,o,o,x,o,x,b,x,o,x,o,o,x,o,o,o,x,o,x,x,x,o,x,b,b,x,x,x,o,b,b,loss
+Game #12 time: 1.39804000 
+outcome: x,o,b,b,b,b,x,o,x,x,o,o,x,o,x,o,b,b,o,o,o,x,b,b,x,x,o,x,b,b,x,x,o,o,x,o,x,o,x,o,b,b,loss
+Game #13 time: 0.64490000 
+outcome: x,x,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,o,o,b,b,b,b,o,x,x,b,b,b,x,b,b,b,b,b,b,b,b,b,b,b,loss
+Game #14 time: 1.02474200 
+outcome: o,o,o,o,b,b,x,x,b,b,b,b,x,x,o,o,x,b,x,o,o,o,x,x,o,x,o,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #15 time: 1.31347400 
+outcome: o,x,o,x,o,o,x,x,o,x,x,o,o,o,o,x,o,x,o,o,x,o,o,o,x,o,x,x,o,x,x,x,o,o,b,b,x,x,o,x,x,x,loss
+Game #16 time: 1.15495200 
+outcome: o,o,o,o,b,b,x,x,b,b,b,b,x,o,o,x,o,x,o,o,o,x,x,x,x,o,o,x,b,b,x,b,b,b,b,b,x,b,b,b,b,b,loss
+Game #17 time: 1.31995600 
+outcome: x,o,o,x,o,o,x,x,x,o,o,b,x,o,x,o,o,x,o,x,o,o,x,x,x,b,b,b,b,b,x,o,o,x,b,b,o,x,o,x,o,x,loss
+Game #18 time: 1.27513100 
+outcome: x,x,x,o,o,o,o,x,o,x,o,x,o,x,x,o,x,o,x,o,o,o,x,o,x,x,o,x,o,x,o,x,b,b,b,b,o,x,x,o,b,b,loss
+Game #19 time: 1.09348000 
+outcome: x,o,b,b,b,b,x,o,x,b,b,b,o,o,b,b,b,b,x,o,o,o,x,x,o,x,o,b,b,b,x,x,o,x,o,b,x,b,b,b,b,b,loss
+Game #20 time: 1.28003500 
+outcome: x,o,o,o,x,o,x,o,b,b,b,b,o,o,x,b,b,b,o,o,x,b,b,b,o,x,x,o,x,b,x,x,o,b,b,b,x,x,b,b,b,b,loss
+Game #21 time: 1.35621000 
+outcome: x,x,o,o,o,o,o,o,o,x,o,b,b,b,b,b,b,b,o,x,o,x,o,x,x,b,b,b,b,b,x,o,o,x,x,o,x,x,x,o,x,x,loss
+Game #22 time: 1.18836000 
+outcome: x,x,x,o,x,x,x,x,o,o,b,b,o,x,o,b,b,b,o,o,x,o,x,o,o,o,x,b,b,b,x,o,x,o,o,x,b,b,b,b,b,b,loss
+Game #23 time: 1.13641400 
+outcome: x,b,b,b,b,b,o,o,x,o,o,b,x,o,x,o,o,o,o,x,o,o,x,x,x,o,x,x,o,b,x,x,o,o,b,b,x,x,o,x,x,b,loss
+Game #24 time: 1.46584200 
+outcome: x,x,o,o,b,b,o,x,x,o,b,b,x,o,x,o,x,o,x,x,o,o,o,b,o,o,x,b,b,b,b,b,b,b,b,b,x,x,o,x,b,b,loss
+Game #25 time: 1.38514100 
+outcome: x,o,o,x,o,o,o,x,o,b,b,b,o,x,x,o,b,b,x,o,x,o,o,x,o,x,o,o,x,x,x,b,b,b,b,b,x,x,x,o,o,x,loss
+Game #26 time: 1.36143500 
+outcome: x,x,o,o,x,o,x,o,b,b,b,b,x,o,x,x,o,o,o,o,x,b,b,b,o,o,o,x,o,x,x,x,x,o,x,o,x,x,o,b,b,b,loss
+Game #27 time: 1.16465500 
+outcome: x,o,o,o,o,b,x,b,b,b,b,b,x,o,x,o,o,x,o,o,o,x,b,b,x,o,o,o,x,b,x,x,x,b,b,b,x,x,b,b,b,b,loss
+Game #28 time: 1.47157800 
+outcome: x,x,x,o,o,o,x,x,x,o,o,x,o,o,x,o,b,b,x,o,o,o,x,x,o,x,o,o,o,x,x,o,b,b,b,b,x,x,o,o,x,x,loss
+Game #29 time: 1.15000200 
+outcome: x,x,o,o,x,x,x,o,o,b,b,b,x,o,o,o,b,b,o,x,o,o,x,x,x,o,o,b,b,b,x,x,b,b,b,b,o,x,b,b,b,b,loss
+Game #30 time: 1.14610500 
+outcome: x,x,o,x,x,o,x,o,b,b,b,b,x,o,o,o,x,b,o,o,o,b,b,b,x,o,x,o,o,x,x,b,b,b,b,b,x,x,o,b,b,b,loss
+average time: 1.25676210 
+Depth-limited minimax search using utilCowardDots heuristic first-player win-rate: 0-30-0
+
+Testing for RandomPlayer vs. Depth-limited minimax search using utilCowardDots heuristic:
+Game #01 time: 1.48500800 
+outcome: o,o,x,o,x,x,o,o,x,o,o,o,o,x,o,x,o,o,x,x,o,x,x,x,o,o,x,b,b,b,o,x,x,x,o,x,x,x,o,x,o,x,win
+Game #02 time: 1.28037900 
+outcome: o,o,x,o,x,x,o,x,x,x,x,b,o,o,b,b,b,b,x,o,x,x,o,b,x,x,x,o,o,o,x,o,b,b,b,b,o,o,x,b,b,b,win
+Game #03 time: 1.33740300 
+outcome: o,x,o,o,x,o,x,o,b,b,b,b,o,x,x,o,o,o,x,x,o,x,x,x,x,x,o,b,b,b,o,o,x,x,x,o,x,o,o,x,b,b,win
+Game #04 time: 1.18380400 
+outcome: x,b,b,b,b,b,o,x,o,x,x,b,o,x,x,x,o,o,x,o,x,x,b,b,o,b,b,b,b,b,o,o,x,o,b,b,b,b,b,b,b,b,win
+Game #05 time: 1.26692700 
+outcome: o,x,x,x,x,b,b,b,b,b,b,b,o,x,o,b,b,b,x,o,x,o,o,b,o,x,x,o,b,b,x,o,b,b,b,b,b,b,b,b,b,b,win
+Game #06 time: 1.43052700 
+outcome: x,o,x,o,o,x,o,x,o,x,x,x,o,x,b,b,b,b,x,x,x,b,b,b,o,x,x,x,o,o,o,o,o,x,b,b,o,o,x,o,b,b,win
+Game #07 time: 1.31335400 
+outcome: x,o,x,b,b,b,o,o,x,o,o,x,o,x,x,b,b,b,x,x,x,o,x,x,o,x,o,x,o,x,o,o,o,b,b,b,x,o,x,o,b,b,win
+Game #08 time: 0.49545800 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,b,b,b,b,b,x,o,b,b,b,b,o,b,b,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #09 time: 1.10269300 
+outcome: o,o,x,o,x,o,o,x,x,b,b,b,x,o,x,x,o,x,x,x,x,b,b,b,o,o,x,x,x,o,o,o,b,b,b,b,o,o,x,b,b,b,win
+Game #10 time: 0.89289000 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,o,o,b,b,b,x,x,o,o,b,b,o,x,x,b,b,b,o,b,b,b,b,b,b,b,b,b,b,b,win
+Game #11 time: 1.50125200 
+outcome: o,o,x,o,x,x,o,o,x,x,b,b,o,x,x,x,b,b,x,x,o,o,x,o,x,b,b,b,b,b,x,o,x,o,o,b,o,x,o,x,o,b,win
+Game #12 time: 1.17844200 
+outcome: o,x,x,x,o,x,o,o,x,b,b,b,o,o,x,x,x,o,x,o,x,x,o,o,o,x,x,o,x,b,o,o,b,b,b,b,o,x,x,b,b,b,win
+Game #13 time: 1.07003300 
+outcome: o,x,o,x,x,x,o,o,o,x,b,b,o,x,x,x,o,b,x,x,o,x,o,o,b,b,b,b,b,b,o,x,x,b,b,b,o,b,b,b,b,b,win
+Game #14 time: 1.48628600 
+outcome: o,o,x,o,x,o,o,x,o,x,x,x,x,x,o,x,x,b,x,x,o,x,o,x,o,o,x,o,o,x,o,o,x,o,b,b,o,x,x,o,x,o,win
+Game #15 time: 1.50087700 
+outcome: o,o,x,x,x,x,o,x,o,b,b,b,o,x,x,x,o,b,x,x,o,x,x,o,x,o,x,o,o,o,o,b,b,b,b,b,x,o,x,o,b,b,win
+Game #16 time: 1.30649700 
+outcome: x,x,x,x,b,b,o,b,b,b,b,b,x,x,o,o,b,b,x,x,x,b,b,b,o,o,x,x,o,b,o,o,x,o,o,b,o,b,b,b,b,b,win
+Game #17 time: 1.53736600 
+outcome: o,o,x,x,b,b,x,o,o,x,o,x,o,x,o,x,o,b,x,o,x,x,o,x,o,o,b,b,b,b,x,x,o,o,x,b,o,x,x,b,b,b,win
+Game #18 time: 1.22389800 
+outcome: x,o,x,x,b,b,o,o,x,x,b,b,o,x,b,b,b,b,x,o,x,x,o,o,x,x,x,o,o,b,x,o,o,o,x,b,o,b,b,b,b,b,win
+Game #19 time: 0.72313800 
+outcome: x,b,b,b,b,b,x,b,b,b,b,b,x,x,b,b,b,b,x,o,o,b,b,b,b,b,b,b,b,b,o,o,o,x,b,b,b,b,b,b,b,b,win
+Game #20 time: 1.02351000 
+outcome: o,o,x,o,x,x,o,o,x,b,b,b,o,x,x,x,b,b,x,o,x,x,x,b,o,x,o,x,o,o,o,b,b,b,b,b,o,x,b,b,b,b,win
+Game #21 time: 1.09947700 
+outcome: o,x,x,o,x,x,o,o,o,x,o,x,o,x,o,x,x,x,x,x,o,x,x,o,o,x,x,o,x,o,o,o,b,b,b,b,o,x,o,b,b,b,win
+Game #22 time: 1.13495400 
+outcome: o,x,x,o,o,x,o,o,o,x,o,x,x,o,x,o,o,x,x,x,x,o,x,o,o,o,o,x,x,x,x,x,o,x,o,x,o,o,o,x,x,o,draw
+Game #23 time: 1.33156800 
+outcome: o,o,x,o,o,x,x,x,o,x,x,x,x,x,o,x,o,x,x,o,x,o,b,b,o,o,x,b,b,b,o,o,o,x,x,o,b,b,b,b,b,b,win
+Game #24 time: 1.22569200 
+outcome: x,b,b,b,b,b,o,o,o,x,x,o,o,o,x,b,b,b,x,x,o,x,b,b,x,x,b,b,b,b,o,x,o,x,b,b,o,b,b,b,b,b,win
+Game #25 time: 1.35990800 
+outcome: o,o,x,x,x,x,o,o,x,x,o,b,o,b,b,b,b,b,x,x,x,o,b,b,x,x,o,o,b,b,o,b,b,b,b,b,o,x,b,b,b,b,win
+Game #26 time: 1.37490500 
+outcome: o,o,x,x,o,x,o,x,o,x,b,b,o,x,x,x,o,x,x,x,x,o,x,b,x,o,b,b,b,b,o,o,b,b,b,b,o,o,x,o,b,b,win
+Game #27 time: 1.31455300 
+outcome: o,x,o,x,o,x,o,x,b,b,b,b,x,x,x,o,x,b,x,x,o,x,x,o,o,x,o,b,b,b,o,o,x,o,x,o,o,x,o,b,b,b,win
+Game #28 time: 1.37937700 
+outcome: o,o,x,o,o,x,o,o,x,o,o,o,x,x,o,x,o,o,x,x,o,x,x,o,x,x,x,x,b,b,b,b,b,b,b,b,o,x,x,b,b,b,win
+Game #29 time: 1.37252100 
+outcome: o,x,x,x,o,x,o,x,o,x,o,x,o,o,x,o,x,b,x,o,x,x,x,o,o,x,x,o,o,b,x,x,o,x,o,o,o,x,o,b,b,b,win
+Game #30 time: 1.69226400 
+outcome: o,x,x,x,b,b,o,o,x,o,b,b,x,x,x,o,o,x,x,x,o,x,b,b,o,x,x,o,x,o,o,o,x,o,x,o,o,x,o,b,b,b,win
+average time: 1.25416537 
+Depth-limited minimax search using utilCowardDots heuristic second-player win-rate: 0-29-1
+
+

@@ -1,0 +1,170 @@
+evaluation function: utilSortTromp
+blank value: None
+a  1  value: 50.
+b 10k value: 50.
+c 30k value: 0.
+d 50k value: 50.
+e 65k value: -50.
+
+
+evaluation function: utilLines
+blank value: 10.
+a  1  value: 19.5
+b 10k value: 10.
+c 30k value: -8.5
+d 50k value: 77.
+e 65k value: -30.
+
+
+evaluation function: utilDots
+blank value: 10.
+a  1  value: 20.
+b 10k value: 13.
+c 30k value: -7.5
+d 50k value: 68.5
+e 65k value: -23.
+
+
+evaluation function: utilHeightLines
+blank value: 10.
+a  1  value: 20.1785714286
+b 10k value: 7.96875
+c 30k value: -5.88392857143
+d 50k value: 74.4285714286
+e 65k value: -25.8214285714
+
+
+evaluation function: utilHeightDots
+blank value: 10.
+a  1  value: 20.6768984488
+b 10k value: 9.38020833333
+c 30k value: -5.49692460317
+d 50k value: 67.071875
+e 65k value: -19.4138392857
+
+
+evaluation function: utilWeightLines
+blank value: 10.
+a  1  value: 18.625
+b 10k value: 10.75
+c 30k value: -6.125
+d 50k value: 73.75
+e 65k value: -21.375
+
+
+evaluation function: utilWeightDots
+blank value: 10.
+a  1  value: 18.95
+b 10k value: 12.375
+c 30k value: -5.7125
+d 50k value: 65.9125
+e 65k value: -15.5
+
+
+evaluation function: utilHWLines
+blank value: 10.
+a  1  value: 21.7053571429
+b 10k value: 8.6953125
+c 30k value: -7.34709821429
+d 50k value: 81.1482142857
+e 65k value: -21.3946428571
+
+
+evaluation function: utilHWDots
+blank value: 10.
+a  1  value: 22.2523633658
+b 10k value: 10.2274131944
+c 30k value: -7.05196676587
+d 50k value: 72.6101736111
+e 65k value: -15.1589012897
+
+
+evaluation function: utilCowardLines
+blank value: 0.
+a  1  value: 9.5
+b 10k value: -9.25
+c 30k value: -32.25
+d 50k value: 67.
+e 65k value: -69.
+
+
+evaluation function: utilCowardDots
+blank value: 0.
+a  1  value: 8.25
+b 10k value: -7.75
+c 30k value: -32.5
+d 50k value: 55.75
+e 65k value: -60.5
+
+
+Testing for Depth-limited Alphabeta search using utilLines heuristic vs. Depth-limited Alphabeta search using utilLines heuristic:
+average time: 0.18581160 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilLines heuristic win-rate: 0-30-0
+average time: 0.18334700 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilLines heuristic win-rate: 30-0-0
+
+
+Testing for Depth-limited Alphabeta search using utilLines heuristic vs. Depth-limited Alphabeta search using utilDots heuristic:
+average time: 0.20216617 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilDots heuristic win-rate: 0-30-0
+average time: 0.18355087 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilDots heuristic win-rate: 30-0-0
+
+
+Testing for Depth-limited Alphabeta search using utilLines heuristic vs. Depth-limited Alphabeta search using utilHeightLines heuristic:
+average time: 0.15666620 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilHeightLines heuristic win-rate: 0-30-0
+average time: 0.18401440 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilHeightLines heuristic win-rate: 30-0-0
+
+
+Testing for Depth-limited Alphabeta search using utilLines heuristic vs. Depth-limited Alphabeta search using utilHeightDots heuristic:
+average time: 0.18299403 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilHeightDots heuristic win-rate: 0-30-0
+average time: 0.21924623 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilHeightDots heuristic win-rate: 30-0-0
+
+
+Testing for Depth-limited Alphabeta search using utilLines heuristic vs. Depth-limited Alphabeta search using utilWeightLines heuristic:
+average time: 0.20147317 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilWeightLines heuristic win-rate: 0-30-0
+average time: 0.22752783 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilWeightLines heuristic win-rate: 30-0-0
+
+
+Testing for Depth-limited Alphabeta search using utilLines heuristic vs. Depth-limited Alphabeta search using utilWeightDots heuristic:
+average time: 0.22109330 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilWeightDots heuristic win-rate: 0-30-0
+average time: 0.22529563 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilWeightDots heuristic win-rate: 30-0-0
+
+
+Testing for Depth-limited Alphabeta search using utilLines heuristic vs. Depth-limited Alphabeta search using utilHWLines heuristic:
+average time: 0.18169030 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilHWLines heuristic win-rate: 0-30-0
+average time: 0.22228117 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilHWLines heuristic win-rate: 30-0-0
+
+
+Testing for Depth-limited Alphabeta search using utilLines heuristic vs. Depth-limited Alphabeta search using utilHWDots heuristic:
+average time: 0.21889887 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilHWDots heuristic win-rate: 30-0-0
+average time: 0.22344847 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilHWDots heuristic win-rate: 30-0-0
+
+
+Testing for Depth-limited Alphabeta search using utilLines heuristic vs. Depth-limited Alphabeta search using utilCowardLines heuristic:
+average time: 0.52882563 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilCowardLines heuristic win-rate: 0-30-0
+average time: 0.22347613 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilCowardLines heuristic win-rate: 30-0-0
+
+
+Testing for Depth-limited Alphabeta search using utilLines heuristic vs. Depth-limited Alphabeta search using utilCowardDots heuristic:
+average time: 0.23940640 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilCowardDots heuristic win-rate: 30-0-0
+average time: 0.22296160 
+Depth-limited Alphabeta search using utilLines heuristic-Depth-limited Alphabeta search using utilCowardDots heuristic win-rate: 30-0-0
+
+
+Testing for Depth-limited Alphabeta search using utilDots heuristic vs. Depth-limited Alphabeta search using utilDots heuristic:

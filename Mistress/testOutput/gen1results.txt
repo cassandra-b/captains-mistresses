@@ -1,0 +1,471 @@
+evaluation function: utilSortTromp
+blank value: None
+a  1  value: 50.
+b 10k value: 50.
+c 30k value: 0.
+d 50k value: 50.
+e 65k value: -50.
+
+
+evaluation function: utilLines
+blank value: 10.
+a  1  value: 19.5
+b 10k value: 10.
+c 30k value: -8.5
+d 50k value: 77.
+e 65k value: -30.
+
+
+evaluation function: utilDots
+blank value: 10.
+a  1  value: 20.
+b 10k value: 13.
+c 30k value: -7.5
+d 50k value: 68.5
+e 65k value: -23.
+
+
+evaluation function: utilHeightLines
+blank value: 10.
+a  1  value: 20.1785714286
+b 10k value: 7.96875
+c 30k value: -5.88392857143
+d 50k value: 74.4285714286
+e 65k value: -25.8214285714
+
+
+evaluation function: utilHeightDots
+blank value: 10.
+a  1  value: 20.6768984488
+b 10k value: 9.38020833333
+c 30k value: -5.49692460317
+d 50k value: 67.071875
+e 65k value: -19.4138392857
+
+
+evaluation function: utilWeightLines
+blank value: 10.
+a  1  value: 18.625
+b 10k value: 10.75
+c 30k value: -6.125
+d 50k value: 73.75
+e 65k value: -21.375
+
+
+evaluation function: utilWeightDots
+blank value: 10.
+a  1  value: 18.95
+b 10k value: 12.375
+c 30k value: -5.7125
+d 50k value: 65.9125
+e 65k value: -15.5
+
+
+evaluation function: utilHWLines
+blank value: 10.
+a  1  value: 21.7053571429
+b 10k value: 8.6953125
+c 30k value: -7.34709821429
+d 50k value: 81.1482142857
+e 65k value: -21.3946428571
+
+
+evaluation function: utilHWDots
+blank value: 10.
+a  1  value: 22.2523633658
+b 10k value: 10.2274131944
+c 30k value: -7.05196676587
+d 50k value: 72.6101736111
+e 65k value: -15.1589012897
+
+
+evaluation function: utilCowardLines
+blank value: 0.
+a  1  value: 9.5
+b 10k value: -9.25
+c 30k value: -32.25
+d 50k value: 67.
+e 65k value: -69.
+
+
+evaluation function: utilCowardDots
+blank value: 0.
+a  1  value: 8.25
+b 10k value: -7.75
+c 30k value: -32.5
+d 50k value: 55.75
+e 65k value: -60.5
+
+
+results1:
+
+average time: 0.00101350 
+Greedy search using utilLines heuristic first-player win-rate: 26-4-0
+--
+average time: 0.00058847 
+Greedy search using utilLines heuristic second-player win-rate: 28-2-0
+--
+average time: 0.00080820 
+Greedy search using utilDots heuristic first-player win-rate: 26-4-0
+--
+average time: 0.00091843 
+Greedy search using utilDots heuristic second-player win-rate: 25-5-0
+--
+average time: 0.00099537 
+Greedy search using utilHeightLines heuristic first-player win-rate: 23-7-0
+--
+average time: 0.00060573 
+Greedy search using utilHeightLines heuristic second-player win-rate: 27-3-0
+--
+average time: 0.00077257 
+Greedy search using utilHeightDots heuristic first-player win-rate: 24-6-0
+--
+average time: 0.00085077 
+Greedy search using utilHeightDots heuristic second-player win-rate: 24-6-0
+--
+average time: 0.00081530 
+Greedy search using utilWeightLines heuristic first-player win-rate: 26-3-1
+--
+average time: 0.00053150 
+Greedy search using utilWeightLines heuristic second-player win-rate: 27-3-0
+--
+average time: 0.00089077 
+Greedy search using utilWeightDots heuristic first-player win-rate: 25-5-0
+--
+average time: 0.00055193 
+Greedy search using utilWeightDots heuristic second-player win-rate: 29-1-0
+--
+average time: 0.00115320 
+Greedy search using utilHWLines heuristic first-player win-rate: 25-5-0
+--
+average time: 0.00094233 
+Greedy search using utilHWLines heuristic second-player win-rate: 29-1-0
+--
+average time: 0.00082917 
+Greedy search using utilHWDots heuristic first-player win-rate: 26-4-0
+--
+average time: 0.00096267 
+Greedy search using utilHWDots heuristic second-player win-rate: 26-4-0
+--
+average time: 0.00094173 
+Greedy search using utilCowardLines heuristic first-player win-rate: 27-3-0
+--
+average time: 0.00084720 
+Greedy search using utilCowardLines heuristic second-player win-rate: 27-3-0
+--
+average time: 0.00147783 
+Greedy search using utilCowardDots heuristic first-player win-rate: 20-10-0
+--
+average time: 0.00143183 
+Greedy search using utilCowardDots heuristic second-player win-rate: 20-10-0
+--
+average time: 0.94081453 
+Depth-limited minimax search using utilLines heuristic first-player win-rate: 27-3-0
+--
+average time: 1.11489217 
+Depth-limited minimax search using utilLines heuristic second-player win-rate: 29-1-0
+--
+average time: 1.03464960 
+Depth-limited minimax search using utilDots heuristic first-player win-rate: 26-4-0
+--
+average time: 0.95359913 
+Depth-limited minimax search using utilDots heuristic second-player win-rate: 28-2-0
+--
+average time: 0.71327020 
+Depth-limited minimax search using utilHeightLines heuristic first-player win-rate: 27-3-0
+--
+average time: 0.72600267 
+Depth-limited minimax search using utilHeightLines heuristic second-player win-rate: 28-2-0
+--
+average time: 0.79516053 
+Depth-limited minimax search using utilHeightDots heuristic first-player win-rate: 25-5-0
+--
+average time: 0.78661140 
+Depth-limited minimax search using utilHeightDots heuristic second-player win-rate: 30-0-0
+--
+average time: 0.80369433 
+Depth-limited minimax search using utilWeightLines heuristic first-player win-rate: 28-2-0
+--
+average time: 0.70405647 
+Depth-limited minimax search using utilWeightLines heuristic second-player win-rate: 28-2-0
+--
+average time: 0.80304090 
+Depth-limited minimax search using utilWeightDots heuristic first-player win-rate: 27-3-0
+--
+average time: 0.81211053 
+Depth-limited minimax search using utilWeightDots heuristic second-player win-rate: 29-1-0
+--
+average time: 0.76388417 
+Depth-limited minimax search using utilHWLines heuristic first-player win-rate: 30-0-0
+--
+average time: 0.76811993 
+Depth-limited minimax search using utilHWLines heuristic second-player win-rate: 28-2-0
+--
+average time: 0.93303973 
+Depth-limited minimax search using utilHWDots heuristic first-player win-rate: 27-3-0
+--
+average time: 0.84423593 
+Depth-limited minimax search using utilHWDots heuristic second-player win-rate: 30-0-0
+--
+average time: 1.33523933 
+Depth-limited minimax search using utilCowardLines heuristic first-player win-rate: 28-2-0
+--
+average time: 1.23720590 
+Depth-limited minimax search using utilCowardLines heuristic second-player win-rate: 30-0-0
+--
+average time: 1.21165197 
+Depth-limited minimax search using utilCowardDots heuristic first-player win-rate: 28-2-0
+--
+average time: 1.38305693 
+Depth-limited minimax search using utilCowardDots heuristic second-player win-rate: 28-2-0
+
+
+
+
+
+results2:
+
+average time: 0.00090297 
+Greedy search using utilLines heuristic first-player win-rate: 29-1-0
+--
+average time: 0.00097890 
+Greedy search using utilLines heuristic second-player win-rate: 28-2-0
+--
+average time: 0.00115107 
+Greedy search using utilDots heuristic first-player win-rate: 24-6-0
+--
+average time: 0.00112970 
+Greedy search using utilDots heuristic second-player win-rate: 24-5-1
+--
+average time: 0.00093513 
+Greedy search using utilHeightLines heuristic first-player win-rate: 26-4-0
+--
+average time: 0.00080987 
+Greedy search using utilHeightLines heuristic second-player win-rate: 27-3-0
+--
+average time: 0.00108967 
+Greedy search using utilHeightDots heuristic first-player win-rate: 25-5-0
+--
+average time: 0.00107043 
+Greedy search using utilHeightDots heuristic second-player win-rate: 22-8-0
+--
+average time: 0.00124143 
+Greedy search using utilWeightLines heuristic first-player win-rate: 24-6-0
+--
+average time: 0.00076240 
+Greedy search using utilWeightLines heuristic second-player win-rate: 26-4-0
+--
+average time: 0.00103867 
+Greedy search using utilWeightDots heuristic first-player win-rate: 23-7-0
+--
+average time: 0.00064153 
+Greedy search using utilWeightDots heuristic second-player win-rate: 28-2-0
+--
+average time: 0.00124900 
+Greedy search using utilHWLines heuristic first-player win-rate: 26-4-0
+--
+average time: 0.00108690 
+Greedy search using utilHWLines heuristic second-player win-rate: 29-1-0
+--
+average time: 0.00113583 
+Greedy search using utilHWDots heuristic first-player win-rate: 26-4-0
+--
+average time: 0.00106843 
+Greedy search using utilHWDots heuristic second-player win-rate: 22-8-0
+--
+average time: 0.00123077 
+Greedy search using utilCowardLines heuristic first-player win-rate: 23-7-0
+--
+average time: 0.00118720 
+Greedy search using utilCowardLines heuristic second-player win-rate: 23-6-1
+--
+average time: 0.00181503 
+Greedy search using utilCowardDots heuristic first-player win-rate: 17-13-0
+--
+average time: 0.00141717 
+Greedy search using utilCowardDots heuristic second-player win-rate: 17-13-0
+--
+average time: 1.04437157 
+Depth-limited minimax search using utilLines heuristic first-player win-rate: 24-6-0
+--
+average time: 1.24263250 
+Depth-limited minimax search using utilLines heuristic second-player win-rate: 27-3-0
+--
+average time: 1.02326090 
+Depth-limited minimax search using utilDots heuristic first-player win-rate: 26-4-0
+--
+average time: 1.01748770 
+Depth-limited minimax search using utilDots heuristic second-player win-rate: 28-2-0
+--
+average time: 0.66940693 
+Depth-limited minimax search using utilHeightLines heuristic first-player win-rate: 29-1-0
+--
+average time: 0.65526103 
+Depth-limited minimax search using utilHeightLines heuristic second-player win-rate: 25-5-0
+--
+average time: 0.77871440 
+Depth-limited minimax search using utilHeightDots heuristic first-player win-rate: 29-1-0
+--
+average time: 0.69714900 
+Depth-limited minimax search using utilHeightDots heuristic second-player win-rate: 26-4-0
+--
+average time: 0.73510067 
+Depth-limited minimax search using utilWeightLines heuristic first-player win-rate: 26-4-0
+--
+average time: 0.67292117 
+Depth-limited minimax search using utilWeightLines heuristic second-player win-rate: 27-3-0
+--
+average time: 0.73365330 
+Depth-limited minimax search using utilWeightDots heuristic first-player win-rate: 30-0-0
+--
+average time: 0.61174533 
+Depth-limited minimax search using utilWeightDots heuristic second-player win-rate: 29-1-0
+--
+average time: 0.69834143 
+Depth-limited minimax search using utilHWLines heuristic first-player win-rate: 28-2-0
+--
+average time: 0.68047460 
+Depth-limited minimax search using utilHWLines heuristic second-player win-rate: 28-2-0
+--
+average time: 0.89543683 
+Depth-limited minimax search using utilHWDots heuristic first-player win-rate: 28-2-0
+--
+average time: 0.86062430 
+Depth-limited minimax search using utilHWDots heuristic second-player win-rate: 30-0-0
+--
+average time: 1.16445177 
+Depth-limited minimax search using utilCowardLines heuristic first-player win-rate: 30-0-0
+--
+average time: 1.30465653 
+Depth-limited minimax search using utilCowardLines heuristic second-player win-rate: 26-4-0
+--
+average time: 1.23433520 
+Depth-limited minimax search using utilCowardDots heuristic first-player win-rate: 27-2-1
+--
+average time: 1.24407167 
+Depth-limited minimax search using utilCowardDots heuristic second-player win-rate: 29-1-0
+
+
+
+
+results3:
+
+average time: 0.00169927 
+Greedy search using utilLines heuristic first-player win-rate: 28-2-0
+--
+average time: 0.00073827 
+Greedy search using utilLines heuristic second-player win-rate: 29-1-0
+--
+average time: 0.00104610 
+Greedy search using utilDots heuristic first-player win-rate: 24-6-0
+--
+average time: 0.00073940 
+Greedy search using utilDots heuristic second-player win-rate: 28-2-0
+--
+average time: 0.00069127 
+Greedy search using utilHeightLines heuristic first-player win-rate: 30-0-0
+--
+average time: 0.00056367 
+Greedy search using utilHeightLines heuristic second-player win-rate: 28-2-0
+--
+average time: 0.00063290 
+Greedy search using utilHeightDots heuristic first-player win-rate: 28-2-0
+--
+average time: 0.00069243 
+Greedy search using utilHeightDots heuristic second-player win-rate: 25-5-0
+--
+average time: 0.00100207 
+Greedy search using utilWeightLines heuristic first-player win-rate: 24-6-0
+--
+average time: 0.00054273 
+Greedy search using utilWeightLines heuristic second-player win-rate: 27-3-0
+--
+average time: 0.00072940 
+Greedy search using utilWeightDots heuristic first-player win-rate: 27-3-0
+--
+average time: 0.00044330 
+Greedy search using utilWeightDots heuristic second-player win-rate: 29-1-0
+--
+average time: 0.00085767 
+Greedy search using utilHWLines heuristic first-player win-rate: 28-2-0
+--
+average time: 0.00061040 
+Greedy search using utilHWLines heuristic second-player win-rate: 25-5-0
+--
+average time: 0.00086843 
+Greedy search using utilHWDots heuristic first-player win-rate: 27-3-0
+--
+average time: 0.00081993 
+Greedy search using utilHWDots heuristic second-player win-rate: 24-6-0
+--
+average time: 0.00075710 
+Greedy search using utilCowardLines heuristic first-player win-rate: 24-6-0
+--
+average time: 0.00078310 
+Greedy search using utilCowardLines heuristic second-player win-rate: 24-6-0
+--
+average time: 0.00116840 
+Greedy search using utilCowardDots heuristic first-player win-rate: 18-12-0
+--
+average time: 0.00118617 
+Greedy search using utilCowardDots heuristic second-player win-rate: 21-9-0
+--
+average time: 0.97538287 
+Depth-limited minimax search using utilLines heuristic first-player win-rate: 29-1-0
+--
+average time: 1.03887480 
+Depth-limited minimax search using utilLines heuristic second-player win-rate: 30-0-0
+--
+average time: 0.89325790 
+Depth-limited minimax search using utilDots heuristic first-player win-rate: 29-1-0
+--
+average time: 1.08446957 
+Depth-limited minimax search using utilDots heuristic second-player win-rate: 29-1-0
+--
+average time: 0.72290693 
+Depth-limited minimax search using utilHeightLines heuristic first-player win-rate: 28-2-0
+--
+average time: 0.63055010 
+Depth-limited minimax search using utilHeightLines heuristic second-player win-rate: 27-3-0
+--
+average time: 0.73385117 
+Depth-limited minimax search using utilHeightDots heuristic first-player win-rate: 26-4-0
+--
+average time: 0.81650020 
+Depth-limited minimax search using utilHeightDots heuristic second-player win-rate: 29-1-0
+--
+average time: 0.69843273 
+Depth-limited minimax search using utilWeightLines heuristic first-player win-rate: 29-1-0
+--
+average time: 0.68810313 
+Depth-limited minimax search using utilWeightLines heuristic second-player win-rate: 26-4-0
+--
+average time: 0.73279273 
+Depth-limited minimax search using utilWeightDots heuristic first-player win-rate: 28-2-0
+--
+average time: 0.72040637 
+Depth-limited minimax search using utilWeightDots heuristic second-player win-rate: 30-0-0
+--
+average time: 0.77889907 
+Depth-limited minimax search using utilHWLines heuristic first-player win-rate: 29-1-0
+--
+average time: 0.67973443 
+Depth-limited minimax search using utilHWLines heuristic second-player win-rate: 27-3-0
+--
+average time: 0.90146733 
+Depth-limited minimax search using utilHWDots heuristic first-player win-rate: 26-4-0
+--
+average time: 0.82571387 
+Depth-limited minimax search using utilHWDots heuristic second-player win-rate: 30-0-0
+--
+average time: 1.16854627 
+Depth-limited minimax search using utilCowardLines heuristic first-player win-rate: 26-4-0
+--
+average time: 1.23329530 
+Depth-limited minimax search using utilCowardLines heuristic second-player win-rate: 28-2-0
+--
+average time: 1.25676210 
+Depth-limited minimax search using utilCowardDots heuristic first-player win-rate: 30-0-0
+--
+average time: 1.25416537 
+Depth-limited minimax search using utilCowardDots heuristic second-player win-rate: 29-0-1
